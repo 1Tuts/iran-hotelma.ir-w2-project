@@ -9,54 +9,72 @@ div {
 	outline:1px solid #FC3;
 }
 body {
-/*	background-color:#003366;*/
+	background-color:#003;
 }
 div.container {
-	background-image:url(images/backimage.jpg);
-	width:1143px;
-	height:1320px;
+	/*background-image:url(images/hoteliran.jpg);*/
+	background-repeat:no-repeat;
+	width:1024px;
+	height:1250px;
 	margin:0 auto;
-
 }
-
-
-
 /*-------------header--------------------------*/
 div.header {
 	width:auto;
-	height:80px;
+	height:75px;
 }
-div.headertop{
+div.headertop {
 	width:auto;
-	height:30px;}
-div.headerdown{
+	height:30px;
+}
+div.headerdown {
 	width:auto;
-	height:auto;}
-	div.logoimage{}
-	div.menu{}
+	height:auto;
+}
+div.logoimage {
+}
+div.menu {
+}
 /*-------------banner--------------------------*/
 div.banner {
+	background-image:url(../images/banner.jpg);
 	width:auto;
-	height:380px;
+	height:360px;
 }
 /*-------------content--------------------------*/
 div.content {
+	background-image:url(../images/backcontentmaster.jpg);
+	background-repeat:repeat;
 	width:auto;
-	height:800px;
-	padding:0 50px;
+	height:750px;
+	padding:0 px;
 	outline:1px solid #F9C;
 }
-
-div.contentmaster{
-		outline:1px solid #F9C;
+div.contentmaster {
+	outline:1px solid #F9C;
 	width:auto;
-	height:440px;}
-div.content2{
-			outline:1px solid #F9C;
+	height:410px;
+	padding:0 50px;
+}
+div.content2 {
+	background-image:url(../images/backcontent2%20copy.jpg);
+	background-repeat:repeat;
+	outline:1px solid #F9C;
 	width:auto;
-	height:360px}
+	height:340px
+}
 /*-------------footer-------------------------*/
 div.footer {
 	width:auto;
-	height:100px;
+	height:65px;
+}
+div.footerleft {
+	width:500px;
+	height:inherit;
+	float:left;
+}
+div.footerright {
+	width:auto;
+	margin-left:500px;
+	height:inherit;
 }
