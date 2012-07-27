@@ -5,8 +5,12 @@
 	padding:0;
 	margin:0;
 }
+clear{
+	width:0;
+	height:0;
+	clear:both;}
 div {
-	/*outline:1px solid #FC3;*/
+/*outline:1px solid #FC3;*/
 }
 body {
 	direction:rtl;
@@ -22,8 +26,7 @@ div.container {
 /*-------------header--------------------------*/
 div.header {
 	width:auto;
-	height:75px;
-	/*outline:1px solid #F00;*/
+	height:75px;/*outline:1px solid #F00;*/
 }
 /*-------------header top------------------------*/
 div.headertop {
@@ -33,7 +36,7 @@ div.headertop {
 	padding:5px 30px 0 30px;
 	background-color:#434d56;
 }
-div.headertop a{
+div.headertop a {
 	color:#CCC;
 	float:right;
 	text-decoration:none;
@@ -41,7 +44,7 @@ div.headertop a{
 	font-size:12px;
 	text-shadow:1px 1px 5px #FFFFFF;
 }
-div.headertop a:hover{
+div.headertop a:hover {
 	color:#FFF;
 }
 /*------------- header down ---------------------*/
@@ -57,22 +60,21 @@ div.menu {
 	/*outline:1px solid #F00;*/
 	float:right;
 	margin:0 auto;
-	
 }
-div.menu > ul{
+div.menu > ul {
 	list-style-type:none;
 	width:480px;
 	margin:0 auto;
-	}
-div.menu li{
+}
+div.menu li {
 	float:right;
 	border-right:2px solid #000;
 	position: relative;
-	}
-div.menu li:last-child{
+}
+div.menu li:last-child {
 	border-left:2px solid #000;
-	}
-div.menu a{
+}
+div.menu a {
 	text-decoration:none;
 	color:#FFF;
 	font-size:14px;
@@ -80,44 +82,43 @@ div.menu a{
 	text-shadow:1px 1px 3px #000000;
 	padding:14px 18px;
 	display:block;
-	}
-div.menu a:hover{
+}
+div.menu a:hover {
 	color:#000000;
 	background-color:#C90;
-	}
-div.menu a:hover,div.headertop a:hover,div.logoimage img:hover{
-	-webkit-transition:all .3s linear ;
-	-ms-transition:all .3s linear ;
-	-o-transition:all .3s linear ;
-	-moz-transition:all .3s linear ;
-	}
-div.menu li ul{
+}
+div.menu a:hover, div.headertop a:hover, div.logoimage img:hover {
+	-webkit-transition:all .3s linear;
+	-ms-transition:all .3s linear;
+	-o-transition:all .3s linear;
+	-moz-transition:all .3s linear;
+}
+div.menu li ul {
 	list-style-type:none;
 	position: absolute;
 	display:none;
 	right:-2px;
-	}
-div.menu li:hover ul{
+}
+div.menu li:hover ul {
 	min-width:100%;
 	display:inline;
-	}
-div.menu li li{
+}
+div.menu li li {
 	float: none;
 	background-color:#dbb051;
 	border:0 none;
-	
-	}
-div.menu li li a{
+}
+div.menu li li a {
 	white-space: nowrap;
 	padding:7px 8px;
 	color:#000;
 }
-div.menu li li a:hover{
+div.menu li li a:hover {
 	color:#FFF;
-	}
-div.menu li li:last-child{
+}
+div.menu li li:last-child {
 	border-left:0px;
-	}
+}
 div.logoimage {
 	width:190px;
 	height:110px;
@@ -125,12 +126,12 @@ div.logoimage {
 	float:left;
 	position:absolute;
 	left:50px;
-	top:-20px; 
+	top:-20px;
 	background-color:#999;
 }
-div.logoimage img:hover{
+div.logoimage img:hover {
 	background-color:#666;
-	}
+}
 /*-------------banner--------------------------*/
 div.banner {
 	background-image:url(../images/banner.jpg);
@@ -139,9 +140,8 @@ div.banner {
 }
 /*-------------content--------------------------*/
 div.content {
+	background-image:url(../images/content.jpg);
 	
-
-	background-repeat:repeat;
 	width:auto;
 	height:750px;
 	padding:0 px;
@@ -153,14 +153,30 @@ div.contentmaster {
 	width:auto;
 	height:410px;
 	padding:0 px;
+	background-image:
 }
-div.content top{
-	width:200px;;
-	height:250px;
+div.contenttop {
+	width:auto;
 	
-
-	}
-	
+	outline:1px solid #F9C;
+	height:120px;
+}
+div.contentdown{
+	padding-left:50px;
+	padding-right:50px;
+	outline:1px solid #903;
+	height:290px;
+	width:auto;}
+div.contentleft{
+	outline:1px solid #903;
+	float:left;
+	width:300px;
+	height:inherit;}
+div.contentright{
+	width:auto;
+	height:inherit;
+	margin-left:300px;}
+	/*-------------content2--------------------------*/
 div.content2 {
 	background-image:url(../images/backcontent2%20copy.jpg);
 	background-repeat:repeat;
@@ -168,6 +184,34 @@ div.content2 {
 	width:auto;
 	height:340px
 }
+div.contentleft2{
+	padding:0px 20px;
+		outline:1px solid #F9C;
+	width:310px;
+	height:inherit;
+	float:left;}
+	div.contentleft2 li{
+		list-style-type:none;}
+h4{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding:30px;
+	list-style-type:none;
+}
+div.contentright2{
+		outline:1px solid #F9C;
+	width:350px;
+	height:inherit;
+	float:right;}
+div.contentcenter2{
+		outline:1px solid #F9C;
+	width:auto;
+	height:inherit;
+	margin:0 350px;
+	}
+
 /*-------------footer-------------------------*/
 div.footer {
 	width:auto;
