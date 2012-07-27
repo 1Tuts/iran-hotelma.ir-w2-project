@@ -43,19 +43,28 @@ div.banner {
 }
 /*-------------content--------------------------*/
 div.content {
-	background-image:url(../images/backcontentmaster.jpg);
+	
+
 	background-repeat:repeat;
 	width:auto;
 	height:750px;
 	padding:0 px;
 	outline:1px solid #F9C;
 }
+/*----------------------contentmaster-*/
 div.contentmaster {
 	outline:1px solid #F9C;
 	width:auto;
 	height:410px;
-	padding:0 50px;
+	padding:0 px;
 }
+div.content top{
+	width:200px;;
+	height:250px;
+	
+
+	}
+	
 div.content2 {
 	background-image:url(../images/backcontent2%20copy.jpg);
 	background-repeat:repeat;
