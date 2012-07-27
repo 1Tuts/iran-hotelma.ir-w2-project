@@ -6,13 +6,14 @@
 	margin:0;
 }
 div {
-	outline:1px solid #FC3;
+	/*outline:1px solid #FC3;*/
 }
 body {
+	direction:rtl;
 	background-color:#003;
 }
 div.container {
-	/*background-image:url(images/hoteliran.jpg);*/
+	/*background-image:url(../images/hoteliran.jpg);*/
 	background-repeat:no-repeat;
 	width:1024px;
 	height:1250px;
@@ -22,19 +23,114 @@ div.container {
 div.header {
 	width:auto;
 	height:75px;
+	/*outline:1px solid #F00;*/
 }
+/*-------------header top------------------------*/
 div.headertop {
 	width:auto;
-	height:30px;
+	height:25px;
+	/*outline:1px solid #FFF;*/
+	padding:5px 30px 0 30px;
+	background-color:#434d56;
 }
+div.headertop a{
+	color:#CCC;
+	float:right;
+	text-decoration:none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	text-shadow:1px 1px 5px #FFFFFF;
+}
+div.headertop a:hover{
+	color:#FFF;
+}
+/*------------- header down ---------------------*/
 div.headerdown {
 	width:auto;
-	height:auto;
-}
-div.logoimage {
+	height:45px;
+	position:relative;
+	background-color:#e3c064;
 }
 div.menu {
+	width:760px;
+	height:45px;
+	/*outline:1px solid #F00;*/
+	float:right;
+	margin:0 auto;
+	
 }
+div.menu > ul{
+	list-style-type:none;
+	width:480px;
+	margin:0 auto;
+	}
+div.menu li{
+	float:right;
+	border-right:2px solid #000;
+	position: relative;
+	}
+div.menu li:last-child{
+	border-left:2px solid #000;
+	}
+div.menu a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:14px;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-shadow:1px 1px 3px #000000;
+	padding:14px 18px;
+	display:block;
+	}
+div.menu a:hover{
+	color:#000000;
+	background-color:#C90;
+	}
+div.menu a:hover,div.headertop a:hover,div.logoimage img:hover{
+	-webkit-transition:all .3s linear ;
+	-ms-transition:all .3s linear ;
+	-o-transition:all .3s linear ;
+	-moz-transition:all .3s linear ;
+	}
+div.menu li ul{
+	list-style-type:none;
+	position: absolute;
+	display:none;
+	right:-2px;
+	}
+div.menu li:hover ul{
+	min-width:100%;
+	display:inline;
+	}
+div.menu li li{
+	float: none;
+	background-color:#dbb051;
+	border:0 none;
+	
+	}
+div.menu li li a{
+	white-space: nowrap;
+	padding:7px 8px;
+	color:#000;
+}
+div.menu li li a:hover{
+	color:#FFF;
+	}
+div.menu li li:last-child{
+	border-left:0px;
+	}
+div.logoimage {
+	width:190px;
+	height:110px;
+	/*outline:1px solid #FF6;*/
+	float:left;
+	position:absolute;
+	left:50px;
+	top:-20px; 
+	background-color:#999;
+}
+div.logoimage img:hover{
+	background-color:#666;
+	}
 /*-------------banner--------------------------*/
 div.banner {
 	background-image:url(../images/banner.jpg);

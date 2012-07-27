@@ -9,6 +9,20 @@ entekhabe in design be dalile tarahi ziba va motefavet nesbat be design haye ira
 
  address domain proje:
    www.iran-hotelma.ir
+   
+   Buliding Technologies
+
+    HTML5
+    CSS3
+
+   
+   The Team
+
+    asal haghpanah /manager
+    mahnaz matini
+    elham zare
+    sahar khodayr
+
 
 
 
