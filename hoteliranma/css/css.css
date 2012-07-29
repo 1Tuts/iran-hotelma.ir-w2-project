@@ -312,7 +312,18 @@ div.chaharroom{
 	outline:1px solid #FF9;
 	margin-left:auto;
 	float:right;}	
-
+	
+/*-------------containerroom1-------------------------*/
+div.containerroom1{
+	width:900px;
+	height:650px;}
+div.contentroomleft{
+	width:450px;
+	float:left;
+	background-color:#0000CC;
+	height:500px;}	
+div.contentroomright
+t{}
 
 	
 	
