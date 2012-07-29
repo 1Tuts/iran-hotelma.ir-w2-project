@@ -217,8 +217,102 @@ div.contentrooms{
 	outline:1px solid #CC0;
 	width:auto;
 	height:1110px;:}
-div.contentroomt{}
-div.contentroomd{}
+div.contentroomt{
+	width:auto;
+	height:900px;
+	outline:1px solid #FF9;}
+	
+h1#rooms{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#FFCC00;
+	text-align:right;
+	direction:rtl;
+	display:block;
+	
+	padding:30px 30px;}
+		
+div.menuroom{
+	width:auto;
+	outline:1px solid #FF9;
+	height:150px;}
+	div.roommenu{
+		padding:10px 30px;
+		height:10px;
+		}	
+		div.roommenu ul{
+			list-style-type:none;
+			width:650px;
+			}
+		div.roommenu li{
+			float:right;
+			height:40px;
+			width:140px;
+			
+			position:relative;
+			background-image:url(../images/li.gif);}
+		div.roommenu a{
+			padding:5px 20px;
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size:13px;
+			color:#000;
+			text-align:right;
+			text-shadow:2px 2px #999999;
+			dir;ection:rtl;
+			text-decoration:none;
+			display:block;
+			-webkit-transition:all 0.5 infinitie;
+			-moz-transition:all 0.5 infinitie;
+			}
+		div.roommenu li:hover{
+			background-image:url(../images/hover.gif);}
+		div.roommenu a:hover{
+			color:#FFFFFF;
+			font-size:14px;
+			font-weight:bold;
+			position:left 20px;
+			width:170px;
+			
+			}
+		
+div.frameroom{
+	width:auto;
+	outline:1px solid #FF9;
+	height:700px;
+	}	
+	
+div.contentroomd{
+	width:auto;
+	height:210px;
+	outline:1px solid #FF9;}
+div.yekroom{
+	
+	width:245px;
+	height:200px;
+	outline:1px solid #FF9;
+	float:left;
+	}	
+div.doroom{
+	
+	
+	width:255px;
+	height:200px;
+	outline:1px solid #FF9;
+	float:left;}	
+div.seroom{
+	width:245px;
+	height:200px;
+	outline:1px solid #FF9;
+	float:left;}	
+div.chaharroom{
+	width:245px;
+
+	height:200px;
+	outline:1px solid #FF9;
+	margin-left:auto;
+	float:right;}	
+
 
 	
 	
