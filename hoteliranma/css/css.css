@@ -349,8 +349,12 @@ div.contentdown-aboutus-up {
 	background-color:#000;
 	position:relative;
 	margin-bottom:30px;
+	-moz-box-shadow:inset 0px 0px 40px 0px #FFF;
+	-ms-box-shadow:inset 0px 0px 40px 0px #FFF;
+	-o-box-shadow:inset 0px 0px 40px 0px #FFF;
+	-webkit-box-shadow:inset 0px 0px 40px 0px #FFF;
 }
-img {
+div.contentdown-aboutus-up img,div.contentdown-aboutus-down img {
 	position:absolute;
 	border:6px solid #666;
 	-moz-border-radius:20px;
@@ -427,8 +431,13 @@ div.contentdown-aboutus-middle {
 	width:auto;
 	min-height:375px;
 	margin-bottom:30px;
-	background-color:#000;
+	background-color:#aaa;
+		-moz-box-shadow:inset 0px 0px 400px 100px #000;
+	-ms-box-shadow:inset 0px 0px 400px 100px #000;
+	-o-box-shadow:inset 0px 0px 400px 100px #000;
+	-webkit-box-shadow:inset 0px 0px 400px 100px #000;
 	padding:10px;
+
 }
 div.contentdown-aboutus-middle h1 {
 	color:#000;
@@ -447,6 +456,10 @@ div.contentdown-aboutus-down {
 	height:134px;
 	position:relative;
 	background-color:#000;
+	-moz-box-shadow:inset 0px 0px 40px 0px #FFF;
+	-ms-box-shadow:inset 0px 0px 40px 0px #FFF;
+	-o-box-shadow:inset 0px 0px 40px 0px #FFF;
+	-webkit-box-shadow:inset 0px 0px 40px 0px #FFF;
 }
 #six {
 	bottom:14px;
