@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+* {
+	padding:0;
+	margin:0;
+}
+/*div {
+	outline:1px solid #FC3;
+}*/
+div.clear{
+	width:0;
+	height:0;
+	clear:both;
+}
+
+body {direction:rtl;
+/*	background-color:#003366;*/
+}
+div.container {
+	/*background-image:url(temple/reserv.jpg);*/
+	width:1240px;
+	height:1450px;
+	margin:0 auto;}
+/*-------------header--------------------------*/
+div.header {
+	width:auto;
+	height:80px;
+}
+div.headertop{
+	width:auto;
+	height:30px;
+	background-image:url(file:///C|/Documents%20and%20Settings/ASUS/Desktop/hoteljoon/images/FireShot_02.gif);}
+div.headerdown{
+	width:auto;
+	height:50px;
+	background-image:url(file:///C|/Documents%20and%20Settings/ASUS/Desktop/hoteljoon/images/FireShot_03.gif);
+	background-repeat:no-repeat;
+}
+div.logoima{		
+}
+div.menu{}
+
+div.content{
+	width:auto;
+	height:1350px;
+	border:1px dashed red;
+}
+div.content-left{
+	width:710px;
+	height:1350px;
+	border:1px dashed #00C;
+	float:left;
+	
+}
+div.rules{
+	width:710px;
+	height:1020px;
+	background-color:gray;
+	border:1px dashed #009;
+
+	}
+div.rules ol{
+	float:right;
+	padding:35px;
+}
+div.rules ol li{
+	color:#aaa;
+	font-size:22px;
+	font-family:Tahoma, Geneva, sans-serif;
+	direction:rtl;
+	margin-right:8px;
+    
+}
+div.rules h3{
+	color:#ccc;
+	float:right;
+	font-size:26px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:20px;
+}
+
+div.phones{
+	width:710px;
+	height:320px;
+	background-color:#CCC;
+	border:1px dashed red;
+
+}
+
+div.content-right{
+	width:auto;
+	height:1350px;
+	margin-left:740px;
+	border:1px dashed yellow;
+
+}
+div.reserv-date{
+	width:450px;
+	height:350px;
+	border:1px dashed #60C;
+	margin:15px 15px 35px;
+
+}
+div.contact-info{
+	width:450px;
+	height:450px;
+	margin:15px 15px 35px;
+	border:1px dashed red;
+
+	}
+div.contact-info h2{
+color:#999;
+font-family:Tahoma, Geneva, sans-serif;	
+}
+
+div.contact-info p{
+	display:inline;
+	font-size:30px;
+	color:#888;
+}
+div.contact-info form{
+	display:inline;
+}
+div.contact-info input{
+	height:25px;
+	border:1px solid #Cb0;
+	font-size:22px;
+}
+
+div.add-service{
+	width:450px;
+	height:250px;
+	border:1px dashed black;
+	margin:15px 15px 30px;
+
+	}
+	
+div.key-send{
+	width:450px;
+	height:130px;
+	border:3px dashed green;
+	margin:40px 15px 35px;
+
+	}
+		
+div.footer {
+	width:auto;
+	height:70px;
+	background-color:black;
+	border:1px dashed white;
+}
