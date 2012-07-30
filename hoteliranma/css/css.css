@@ -43,6 +43,7 @@ div.headertop a {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	text-shadow:1px 1px 5px #FFFFFF;
+ 	font-weight:bold;
 }
 div.headertop a:hover {
 	color:#FFF;
@@ -77,19 +78,20 @@ div.menu li:last-child {
 div.menu a {
 	text-decoration:none;
 	color:#FFF;
-	font-size:14px;
+	font-size:12px;
 	font-family:Tahoma, Geneva, sans-serif;
 	text-shadow:1px 1px 3px #000000;
-	padding:14px 18px;
+	padding:16px 18px;
 	display:block;
+	font-weight:bold;
 }
 div.menu a:hover {
 	color:#000000;
 	background-color:#C90;
 }
-div.menu a:hover, div.headertop a:hover, div.logoimage img:hover {
-	-webkit-transition:all .3s linear;
-	-ms-transition:all .3s linear;
+div.menu a:hover, div.headertop a:hover, div.logoimage img:hover{
+	-webkit-transition:all .3s  linear;
+	-ms-transition:all .3s  linear;
 	-o-transition:all .3s linear;
 	-moz-transition:all .3s linear;
 }
@@ -225,7 +227,7 @@ h1#rooms{
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:18px;
 	font-weight:bold;
-	color:#FFCC00;
+	color:#FFFFFF;
 	text-align:right;
 	direction:rtl;
 	display:block;
@@ -237,8 +239,8 @@ div.menuroom{
 	outline:1px solid #FF9;
 	height:150px;}
 	div.roommenu{
-		padding:10px 30px;
-		height:10px;
+		padding:25px 30px;
+		height:20px;
 		}	
 		div.roommenu ul{
 			list-style-type:none;
@@ -248,31 +250,32 @@ div.menuroom{
 			float:right;
 			height:40px;
 			width:140px;
-			
 			position:relative;
-			background-image:url(../images/li.gif);}
+			background-image:url(../images/li.gif);
+			}
 		div.roommenu a{
-			padding:5px 20px;
+			padding:10px 15px;
 			font-family:Tahoma, Geneva, sans-serif;
 			font-size:13px;
 			color:#000;
 			text-align:right;
+<<<<<<< HEAD
+			text-shadow:1px 1px #999999;
+=======
 			text-shadow:2px 2px #999999;
+>>>>>>> origin/master
 			direction:rtl;
 			text-decoration:none;
 			display:block;
-			-webkit-transition:all 0.5 infinitie;
-			-moz-transition:all 0.5 infinitie;
-			}
-		div.roommenu li:hover{
-			background-image:url(../images/hover.gif);}
-		div.roommenu a:hover{
-			color:#FFFFFF;
-			font-size:14px;
 			font-weight:bold;
-			position:left 20px;
-			width:170px;
-			
+			}
+		div.roommenu a:hover{
+			color:#FFF;
+			background-image:url(../images/hover.gif);
+			-moz-transition:all .4s linear;
+			-webkit-transition:all .4s linear;
+			-ms-transition:all .4s linear;
+			-o-transition:all .4s linear;
 			}
 		
 div.frameroom{
@@ -305,7 +308,7 @@ div.seroom{
 	outline:1px solid #FF9;
 	float:left;}	
 div.chaharroom{
-	width:245px;
+	width:278px;
 
 	height:200px;
 	outline:1px solid #FF9;
