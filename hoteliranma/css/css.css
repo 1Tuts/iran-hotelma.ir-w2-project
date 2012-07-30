@@ -144,7 +144,6 @@ div.content {
 	
 	width:auto;
 	height:750px;
-	padding:0 px;
 	outline:1px solid #F9C;
 }
 /*----------------------contentmaster-*/
@@ -152,7 +151,6 @@ div.contentmaster {
 	outline:1px solid #F9C;
 	width:auto;
 	height:410px;
-	padding:0 px;
 	
 }
 div.contenttop {
@@ -216,7 +214,8 @@ div.contentrooms{
 	background-image:url(../images/backcontentmaster.jpg);
 	outline:1px solid #CC0;
 	width:auto;
-	height:1110px;:}
+	height:1110px;
+}
 div.contentroomt{
 	width:auto;
 	height:900px;
@@ -259,7 +258,7 @@ div.menuroom{
 			color:#000;
 			text-align:right;
 			text-shadow:2px 2px #999999;
-			dir;ection:rtl;
+			direction:rtl;
 			text-decoration:none;
 			display:block;
 			-webkit-transition:all 0.5 infinitie;
