@@ -325,6 +325,165 @@ div.contentroomleft{
 div.contentroomright
 t{}
 
+/*-------------content-aboutus-------------------------*/
+div.content-aboutus {
+	background-image:url(../images/backcontentmaster.jpg);
+	background-repeat:repeat;
+	width:auto;
+	min-height:1110px;
+}
+div.contentup-aboutus {
+	width:auto;
+	min-height:321px;
+	background-image:url(../images/labi%20hotel.JPG);
+}
+div.contentdown-aboutus {
+	width:auto;
+	min-height:649px;
+	padding:60px 80px;
+}
+div.contentdown-aboutus-up {
+	/*outline:1px solid #F9C;*/
+	width:auto;
+	height:200px;
+	background-color:#000;
+	position:relative;
+	margin-bottom:30px;
+}
+img {
+	position:absolute;
+	border:6px solid #666;
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	-o-border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-transition: height 5s;
+	-ms-transition:height 5s;
+	-o-transition:height 5s;
+	-webkit-transition: height 5s;
+}
+#one {
+	top:60px;
+	right:130px;
+	z-index:3;
+	-moz-transform:rotate(20deg);
+	-ms-transform:rotate(20deg);
+	-o-transform:rotate(20deg);
+	-webkit-transform:rotate(20deg);
+}
+img#one:hover {
+	height:110px;
+}
+#two {
+	top:32px;
+	right:240px;
+	z-index:2;
+	-moz-transform:rotate(10deg);
+	-ms-transform:rotate(10deg);
+	-o-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+}
+img#two:hover {
+	height:110px;
+	z-index:3;
+}
+#three {
+	top:20px;
+	right:350px;
+	z-index:1;
+}
+img#three:hover {
+	height:110px;
+	z-index:3;
+}
+#four {
+	top:32px;
+	right:460px;
+	z-index:2;
+	-moz-transform:rotate(-10deg);
+	-ms-transform:rotate(-10deg);
+	-o-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+}
+img#four:hover {
+	height:110px;
+	z-index:3;  /*.....?......*/
+}
+#five {
+	top:60px;
+	right:570px;
+	z-index:3;
+	-moz-transform:rotate(-20deg);
+	-ms-transform:rotate(-20deg);
+	-o-transform:rotate(-20deg);
+	-webkit-transform:rotate(-20deg);
+}
+img#five:hover {
+	height:110px;
+	z-index:3;
+}
+div.contentdown-aboutus-middle {
+	/*outline:1px solid #F9C;*/
+	width:auto;
+	min-height:375px;
+	margin-bottom:30px;
+	background-color:#000;
+	padding:10px;
+}
+div.contentdown-aboutus-middle h1 {
+	color:#000;
+	text-shadow:3px 3px #333;
+	color:#FFF;
+}
+div.contentdown-aboutus-middle p {
+	color:#CCC;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	text-height:max-size;
+}
+div.contentdown-aboutus-down {
+	/*outline:1px solid #F9C;*/
+	width:auto;
+	height:134px;
+	position:relative;
+	background-color:#000;
+}
+#six {
+	bottom:14px;
+	right:240px;
+	z-index:2;
+	-moz-transform:rotate(-7deg);
+	-ms-transform:rotate(-7deg);
+	-o-transform:rotate(-7deg);
+	-webkit-transform:rotate(-7deg);
+}
+img#six:hover {
+	height:94px;
+	z-index:3;
+}
+#seven {
+	bottom:5px;
+	right:350px;
+	z-index:1;
+}
+img#seven:hover {
+	height:94px;
+	z-index:3;
+}
+#eight {
+	bottom:14px;
+	right:460px;
+	z-index:2;
+	-moz-transform:rotate(7deg);
+	-ms-transform:rotate(7deg);
+	-o-transform:rotate(7deg);
+	-webkit-transform:rotate(7deg);
+}
+img#eight:hover {
+	height:94px;
+	z-index:3;
+}
+
 	
 	
 
