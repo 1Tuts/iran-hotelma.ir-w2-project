@@ -14,7 +14,7 @@ div {
 }
 body {
 	direction:rtl;
-	background-color:#003;
+	background-color:#000;
 }
 div.container {
 	background-image:url(../images/hoteliran.jpg);
@@ -34,7 +34,7 @@ div.headertop {
 	height:25px;
 	/*outline:1px solid #FFF;*/
 	padding:5px 30px 0 30px;
-	background-color:#434d56;
+	background-color:#840000;
 }
 div.headertop a {
 	color:#CCC;
@@ -142,7 +142,7 @@ div.banner {
 }
 /*-------------content--------------------------*/
 div.content {
-	background-image:url(../images/backcontentmaster.jpg);
+	background-image:url(../images/backcontentmaster.gif);
 	
 	width:auto;
 	height:750px;
@@ -178,7 +178,7 @@ div.contentright{
 	margin-left:300px;}
 	/*-------------content2--------------------------*/
 div.content2 {
-	background-image:url(../images/backcontent2%20copy.jpg);
+	background-image:url(../images/backcontent2.jpg);
 	background-repeat:repeat;
 	outline:1px solid #F9C;
 	width:auto;
