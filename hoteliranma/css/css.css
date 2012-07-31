@@ -356,7 +356,7 @@ div.contentdown-aboutus-up {
 	-o-box-shadow:inset 0px 0px 40px 0px #FFF;
 	-webkit-box-shadow:inset 0px 0px 40px 0px #FFF;
 }
-div.contentdown-aboutus-up img,div.contentdown-aboutus-down img {
+div.contentdown-aboutus-up img, div.contentdown-aboutus-down img {
 	position:absolute;
 	border:6px solid #666;
 	-moz-border-radius:20px;
@@ -377,8 +377,9 @@ div.contentdown-aboutus-up img,div.contentdown-aboutus-down img {
 	-o-transform:rotate(20deg);
 	-webkit-transform:rotate(20deg);
 }
-img#one:hover {
+img#one:hover, img#two:hover, img#three:hover, img#four:hover, img#five:hover {
 	height:110px;
+	z-index:3;
 }
 #two {
 	top:32px;
@@ -389,18 +390,10 @@ img#one:hover {
 	-o-transform:rotate(10deg);
 	-webkit-transform:rotate(10deg);
 }
-img#two:hover {
-	height:110px;
-	z-index:3;
-}
 #three {
 	top:20px;
 	right:350px;
 	z-index:1;
-}
-img#three:hover {
-	height:110px;
-	z-index:3;
 }
 #four {
 	top:32px;
@@ -411,10 +404,6 @@ img#three:hover {
 	-o-transform:rotate(-10deg);
 	-webkit-transform:rotate(-10deg);
 }
-img#four:hover {
-	height:110px;
-	z-index:3;  /*.....?......*/
-}
 #five {
 	top:60px;
 	right:570px;
@@ -424,22 +413,17 @@ img#four:hover {
 	-o-transform:rotate(-20deg);
 	-webkit-transform:rotate(-20deg);
 }
-img#five:hover {
-	height:110px;
-	z-index:3;
-}
 div.contentdown-aboutus-middle {
 	/*outline:1px solid #F9C;*/
 	width:auto;
 	min-height:375px;
 	margin-bottom:30px;
 	background-color:#aaa;
-		-moz-box-shadow:inset 0px 0px 400px 100px #000;
+	-moz-box-shadow:inset 0px 0px 400px 100px #000;
 	-ms-box-shadow:inset 0px 0px 400px 100px #000;
 	-o-box-shadow:inset 0px 0px 400px 100px #000;
 	-webkit-box-shadow:inset 0px 0px 400px 100px #000;
 	padding:10px;
-
 }
 div.contentdown-aboutus-middle h1 {
 	color:#000;
@@ -472,7 +456,7 @@ div.contentdown-aboutus-down {
 	-o-transform:rotate(-7deg);
 	-webkit-transform:rotate(-7deg);
 }
-img#six:hover {
+img#six:hover, img#seven:hover, img#eight:hover {
 	height:94px;
 	z-index:3;
 }
@@ -480,10 +464,6 @@ img#six:hover {
 	bottom:5px;
 	right:350px;
 	z-index:1;
-}
-img#seven:hover {
-	height:94px;
-	z-index:3;
 }
 #eight {
 	bottom:14px;
@@ -493,10 +473,6 @@ img#seven:hover {
 	-ms-transform:rotate(7deg);
 	-o-transform:rotate(7deg);
 	-webkit-transform:rotate(7deg);
-}
-img#eight:hover {
-	height:94px;
-	z-index:3;
 }
 
 	
