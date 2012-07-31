@@ -144,7 +144,6 @@ div.content {
 	
 	width:auto;
 	height:750px;
-	padding:0 px;
 	outline:1px solid #F9C;
 }
 /*----------------------contentmaster-*/
@@ -152,7 +151,6 @@ div.contentmaster {
 	outline:1px solid #F9C;
 	width:auto;
 	height:410px;
-	padding:0 px;
 	
 }
 div.contenttop {
@@ -216,9 +214,274 @@ div.contentrooms{
 	background-image:url(../images/backcontentmaster.jpg);
 	outline:1px solid #CC0;
 	width:auto;
-	height:1110px;:}
-div.contentroomt{}
-div.contentroomd{}
+	height:1110px;
+}
+div.contentroomt{
+	width:auto;
+	height:900px;
+	outline:1px solid #FF9;}
+	
+h1#rooms{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#FFCC00;
+	text-align:right;
+	direction:rtl;
+	display:block;
+	
+	padding:30px 30px;}
+		
+div.menuroom{
+	width:auto;
+	outline:1px solid #FF9;
+	height:150px;}
+	div.roommenu{
+		padding:10px 30px;
+		height:10px;
+		}	
+		div.roommenu ul{
+			list-style-type:none;
+			width:650px;
+			}
+		div.roommenu li{
+			float:right;
+			height:40px;
+			width:140px;
+			
+			position:relative;
+			background-image:url(../images/li.gif);}
+		div.roommenu a{
+			padding:5px 20px;
+			font-family:Tahoma, Geneva, sans-serif;
+			font-size:13px;
+			color:#000;
+			text-align:right;
+			text-shadow:2px 2px #999999;
+			direction:rtl;
+			text-decoration:none;
+			display:block;
+			-webkit-transition:all 0.5 infinitie;
+			-moz-transition:all 0.5 infinitie;
+			}
+		div.roommenu li:hover{
+			background-image:url(../images/hover.gif);}
+		div.roommenu a:hover{
+			color:#FFFFFF;
+			font-size:14px;
+			font-weight:bold;
+			position:left 20px;
+			width:170px;
+			
+			}
+		
+div.frameroom{
+	width:auto;
+	outline:1px solid #FF9;
+	height:700px;
+	}	
+	
+div.contentroomd{
+	width:auto;
+	height:210px;
+	outline:1px solid #FF9;}
+div.yekroom{
+	
+	width:245px;
+	height:200px;
+	outline:1px solid #FF9;
+	float:left;
+	}	
+div.doroom{
+	
+	
+	width:255px;
+	height:200px;
+	outline:1px solid #FF9;
+	float:left;}	
+div.seroom{
+	width:245px;
+	height:200px;
+	outline:1px solid #FF9;
+	float:left;}	
+div.chaharroom{
+	width:245px;
+
+	height:200px;
+	outline:1px solid #FF9;
+	margin-left:auto;
+	float:right;}	
+	
+/*-------------containerroom1-------------------------*/
+div.containerroom1{
+	width:900px;
+	height:650px;}
+div.contentroomleft{
+	width:450px;
+	float:left;
+	background-color:#0000CC;
+	height:500px;}	
+div.contentroomright
+t{}
+
+/*-------------content-aboutus-------------------------*/
+div.content-aboutus {
+	background-image:url(../images/backcontentmaster.jpg);
+	background-repeat:repeat;
+	width:auto;
+	min-height:1110px;
+}
+div.contentup-aboutus {
+	width:auto;
+	min-height:321px;
+	background-image:url(../images/labi%20hotel.JPG);
+}
+div.contentdown-aboutus {
+	width:auto;
+	min-height:649px;
+	padding:60px 80px;
+}
+div.contentdown-aboutus-up {
+	/*outline:1px solid #F9C;*/
+	width:auto;
+	height:200px;
+	background-color:#000;
+	position:relative;
+	margin-bottom:30px;
+}
+img {
+	position:absolute;
+	border:6px solid #666;
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	-o-border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-transition: height 5s;
+	-ms-transition:height 5s;
+	-o-transition:height 5s;
+	-webkit-transition: height 5s;
+}
+#one {
+	top:60px;
+	right:130px;
+	z-index:3;
+	-moz-transform:rotate(20deg);
+	-ms-transform:rotate(20deg);
+	-o-transform:rotate(20deg);
+	-webkit-transform:rotate(20deg);
+}
+img#one:hover {
+	height:110px;
+}
+#two {
+	top:32px;
+	right:240px;
+	z-index:2;
+	-moz-transform:rotate(10deg);
+	-ms-transform:rotate(10deg);
+	-o-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+}
+img#two:hover {
+	height:110px;
+	z-index:3;
+}
+#three {
+	top:20px;
+	right:350px;
+	z-index:1;
+}
+img#three:hover {
+	height:110px;
+	z-index:3;
+}
+#four {
+	top:32px;
+	right:460px;
+	z-index:2;
+	-moz-transform:rotate(-10deg);
+	-ms-transform:rotate(-10deg);
+	-o-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+}
+img#four:hover {
+	height:110px;
+	z-index:3;  /*.....?......*/
+}
+#five {
+	top:60px;
+	right:570px;
+	z-index:3;
+	-moz-transform:rotate(-20deg);
+	-ms-transform:rotate(-20deg);
+	-o-transform:rotate(-20deg);
+	-webkit-transform:rotate(-20deg);
+}
+img#five:hover {
+	height:110px;
+	z-index:3;
+}
+div.contentdown-aboutus-middle {
+	/*outline:1px solid #F9C;*/
+	width:auto;
+	min-height:375px;
+	margin-bottom:30px;
+	background-color:#000;
+	padding:10px;
+}
+div.contentdown-aboutus-middle h1 {
+	color:#000;
+	text-shadow:3px 3px #333;
+	color:#FFF;
+}
+div.contentdown-aboutus-middle p {
+	color:#CCC;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	text-height:max-size;
+}
+div.contentdown-aboutus-down {
+	/*outline:1px solid #F9C;*/
+	width:auto;
+	height:134px;
+	position:relative;
+	background-color:#000;
+}
+#six {
+	bottom:14px;
+	right:240px;
+	z-index:2;
+	-moz-transform:rotate(-7deg);
+	-ms-transform:rotate(-7deg);
+	-o-transform:rotate(-7deg);
+	-webkit-transform:rotate(-7deg);
+}
+img#six:hover {
+	height:94px;
+	z-index:3;
+}
+#seven {
+	bottom:5px;
+	right:350px;
+	z-index:1;
+}
+img#seven:hover {
+	height:94px;
+	z-index:3;
+}
+#eight {
+	bottom:14px;
+	right:460px;
+	z-index:2;
+	-moz-transform:rotate(7deg);
+	-ms-transform:rotate(7deg);
+	-o-transform:rotate(7deg);
+	-webkit-transform:rotate(7deg);
+}
+img#eight:hover {
+	height:94px;
+	z-index:3;
+}
 
 	
 	
