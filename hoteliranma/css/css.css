@@ -259,11 +259,7 @@ div.menuroom{
 			font-size:13px;
 			color:#000;
 			text-align:right;
-<<<<<<< HEAD
 			text-shadow:1px 1px #999999;
-=======
-			text-shadow:2px 2px #999999;
->>>>>>> origin/master
 			direction:rtl;
 			text-decoration:none;
 			display:block;
@@ -474,10 +470,60 @@ img#six:hover, img#seven:hover, img#eight:hover {
 	-o-transform:rotate(7deg);
 	-webkit-transform:rotate(7deg);
 }
-
+/* ------ contact us ---------  */
 	
+div.contact-us{
+	width:auto;
+	height:1020px;
+	outline:1px solid #FFF;
+	padding-top:90px;
+	background-color:#666;
+	}	
+div.googlemap{
+	width:500px;
+	height:inherit;
+	float:left;
+	outline:1px solid #FFF;
 	
-
+	}
+div.message{
+	width:440px;
+	float:right;
+	height:inherit;
+	outline:1px solid #FFF;
+	padding-right:60px;
+	
+	}
+#contact{
+	padding-right:0px;
+	color:#e3c064;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	margin-bottom:30px;
+	}
+p{
+	color:#FFF;
+	font-size:15px;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-bottom:3px;
+	
+	}
+input{
+	border-radius:7px;
+	background-color:#f5eee4;
+	margin-bottom:15px;
+	display:block;
+	border-color:#999;	
+	}
+textarea{
+	border-radius:7px;
+	background-color:#f5eee4;
+	border-color:#000;
+	}
+span{
+	color:#C00;
+	}
 /*-------------footer-------------------------*/
 div.footer {
 	outline:1px solid #FFF;
