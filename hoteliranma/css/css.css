@@ -475,16 +475,32 @@ img#six:hover, img#seven:hover, img#eight:hover {
 div.contact-us{
 	width:auto;
 	height:1020px;
-	outline:1px solid #FFF;
+	/*outline:1px solid #FFF;*/
 	padding-top:90px;
-	background-color:#666;
+	background-image:url(../images/backcontentmaster.jpg)
+	
 	}	
 div.googlemap{
-	width:500px;
+	width:420px;
 	height:inherit;
 	float:left;
+	outline:1px solid #FFF
+	position:relative; 
+	padding-left:80px;
+	 }
+div.googlemap-pic{
 	outline:1px solid #FFF;
-	
+	width:450px;
+	height:240px;
+	background-image:url(../images/Untitledfcc-2.jpg);
+	background-repeat:no-repeat;
+	margin-bottom:60px;
+	}
+div.googlemap-detail{
+	outline:1px solid #FFF;
+	width:370px;
+	height:320px;
+	padding-right:80px;
 	}
 div.message{
 	width:440px;
@@ -520,9 +536,28 @@ textarea{
 	border-radius:7px;
 	background-color:#f5eee4;
 	border-color:#000;
+	margin-bottom:15px;
 	}
 span{
 	color:#C00;
+	}
+p.addres{
+	padding-bottom:10px;
+	text-align:center;
+	background-color:#666;
+	}
+p.email{
+	color:#FFF;
+	text-decoration:none;
+	font-size:15px;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-align:center;
+	background-color:#666;
+	}
+p.tell{
+	padding-bottom:10px;
+	text-align:center;
+	background-color:#999;
 	}
 /*-------------footer-------------------------*/
 div.footer {
