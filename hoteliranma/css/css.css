@@ -178,6 +178,7 @@ div.cocenter {
 	position:relative;
 	top:-30px;
 }
+
 #conr {
 	position:relative;
 	top:-30px;
@@ -200,11 +201,18 @@ div.contentdown {
 	height:290px;
 	width:auto;
 }
+/*--------------form reserve-----------------------*/
 div.contentleft {
 	float:left;
 	width:300px;
 	height:inherit;
 }
+.checkreserve{
+	background:#CC6633;
+	}
+ul.formreserve li{
+	list-style-type:none;
+	}	
 div.contentright {
 	outline:1px solid #FFF;
 	width:auto;
@@ -242,9 +250,8 @@ h2.text {
 ul.well li {
 	list-style-type:none;
 }
-#zang {
-	width:200px;
-	height:80px;
+.zang1 {
+	
 	padding-top:150px;
 	padding-right:50px;
 	-webkit-transition:all 0.5s linear 1s;
