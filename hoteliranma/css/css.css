@@ -139,7 +139,7 @@ div.logoimage img:hover {
 }
 /*-------------banner--------------------------*/
 div.banner {
-	background-image:url(../images/banner.jpg);
+
 	width:auto;
 	height:360px;
 }
@@ -164,23 +164,23 @@ div.contenttop {
 }
 div.coleft {
 	z-index:2;
-	outline:1px solid #F6C;
-	padding:0px 20px;
+	
 	outline:1px solid #F9C;
-	width:320px;
+	width:360px;
 	height:inherit;
 	float:left;
 }
 #conl {
-	float:right;
+	
 	position:relative;
 	top:-30px;
-	left:20px;
+
 }
 #conr {
-	float:left;
-	position:relative;
+		position:relative;
 	top:-30px;
+	right:50px;
+	left:0;
 }
 #conc {
 	background-color:#06C;
@@ -189,7 +189,7 @@ div.coleft {
 }
 div.coright {
 	outline:1px solid #F9C;
-	width:365px;
+	width:340px;
 	height:inherit;
 	float:right;
 	background-color:#993333;
@@ -199,7 +199,7 @@ div.cocenter {
 	outline:1px solid #F9C;
 	width:auto;
 	height:inherit;
-	margin:0 300px;
+	margin:0 340px;
 }
 /*--------------contentdown-----------------------*/
 div.contentdown {
