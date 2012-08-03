@@ -139,7 +139,6 @@ div.logoimage img:hover {
 }
 /*-------------banner--------------------------*/
 div.banner {
-
 	width:auto;
 	height:360px;
 }
@@ -159,46 +158,35 @@ div.contentmaster {
 }
 div.contenttop {
 	width:auto;
-	
 	height:120px;
 }
 div.coleft {
 	z-index:2;
-	
-
 	width:360px;
 	height:inherit;
 	float:left;
 }
-
 div.coright {
-	
 	width:360px;
 	height:inherit;
 	float:right;
-
 }
 div.cocenter {
-	
-		width:auto;
+	width:auto;
 	height:inherit;
 	margin:0 360px;
 }
 #conl {
-	
 	position:relative;
 	top:-30px;
-
 }
 #conr {
-	
-		position:relative;
+	position:relative;
 	top:-30px;
 	right:70px;
 	left:0;
 }
 #conc {
-	
 	position:relative;
 	top:-30px;
 	left:10px;
