@@ -489,20 +489,20 @@ div.googlemap{
 	width:420px;
 	height:inherit;
 	float:left;
-	outline:1px solid #FFF
+	/*outline:1px solid #FFF;*/
 	position:relative; 
 	padding-left:80px;
 	 }
 div.googlemap-pic{
-	outline:1px solid #FFF;
+	/*outline:1px solid #FFF;*/
 	width:450px;
 	height:240px;
 	background-image:url(../images/Untitledfcc-2.jpg);
 	background-repeat:no-repeat;
-	margin-bottom:60px;
+	margin-bottom:70px;
 	}
 div.googlemap-detail{
-	outline:1px solid #FFF;
+	/*outline:1px solid #FFF;*/
 	width:370px;
 	height:320px;
 	padding-right:80px;
@@ -511,7 +511,7 @@ div.message{
 	width:440px;
 	float:right;
 	height:inherit;
-	outline:1px solid #FFF;
+	/*outline:1px solid #FFF;*/
 	padding-right:60px;
 	
 	}
@@ -536,7 +536,7 @@ input{
 	margin-bottom:15px;
 	display:block;
 	border-color:#999;	
-	}
+	height:20px;}
 textarea{
 	border-radius:7px;
 	background-color:#f5eee4;
@@ -563,6 +563,16 @@ p.tell{
 	padding-bottom:10px;
 	text-align:center;
 	background-color:#999;
+	}
+input.send{
+	font-size:15px;
+	font-family:Tahoma, Geneva, sans-serif;
+	width:50px;
+	height:24px;
+	}
+input:hover{
+	background-color:#FFF;
+	
 	}
 /*-------------footer-------------------------*/
 div.footer {
