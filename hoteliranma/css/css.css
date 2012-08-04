@@ -122,6 +122,16 @@ div.menu li li a:hover {
 div.menu li li:last-child {
 	border-left:0px;
 }
+div.menu li ul li ul a{
+	display:none;
+		}
+div.menu li ul li:hover ul a{
+	display:block;
+	}
+div.menu li li ul{
+	right:120px;
+	top:-3px;
+	}
 div.logoimage {
 	width:190px;
 	height:110px;
