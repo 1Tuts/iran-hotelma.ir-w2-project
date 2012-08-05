@@ -582,18 +582,18 @@ div.contact-us {
 	background-image:url(../images/backcontentmaster.jpg)
 }
 div.googlemap {
-	width:420px;
+	width:500px;
 	height:inherit;
 	float:left;
 	/*outline:1px solid #FFF;*/
 	position:relative;
-	padding-left:80px;
+	padding-left:50px;
 }
 div.googlemap-pic {
 	/*outline:1px solid #FFF;*/
-	width:450px;
-	height:240px;
-	background-image:url(../images/Untitledfcc-2.jpg);
+	width:500px;
+	height:290px;
+	background-image:url(../../../C-_Users_dan_Desktop_googlemap1.jpg);
 	background-repeat:no-repeat;
 	margin-bottom:70px;
 }
@@ -604,11 +604,11 @@ div.googlemap-detail {
 	padding-right:80px;
 }
 div.message {
-	width:440px;
+	width:380px;
 	float:right;
 	height:inherit;
 	/*outline:1px solid #FFF;*/
-	padding-right:60px;
+	padding-right:40px;
 }
 #contact {
 	padding-right:0px;
@@ -625,16 +625,16 @@ p {
 	padding-bottom:3px;
 }
 input {
-	border-radius:7px;
-	background-color:#f5eee4;
+	border-radius:9px;
+	background-color:rgb(221,221,221);
 	margin-bottom:15px;
 	display:block;
 	border-color:#999;
 	height:20px;
 }
 textarea {
-	border-radius:7px;
-	background-color:#f5eee4;
+	
+	background-color:rgb(221,221,221);
 	border-color:#000;
 	margin-bottom:15px;
 }
@@ -664,6 +664,8 @@ input.send {
 	font-family:Tahoma, Geneva, sans-serif;
 	width:65px;
 	height:24px;
+	border-radius:9px;
+	
 }
 input:hover {
 	background-color:#FFF;
