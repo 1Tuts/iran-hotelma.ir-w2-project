@@ -122,16 +122,16 @@ div.menu li li a:hover {
 div.menu li li:last-child {
 	border-left:0px;
 }
-div.menu li ul li ul a{
+div.menu li ul li ul a {
 	display:none;
-		}
-div.menu li ul li:hover ul a{
+}
+div.menu li ul li:hover ul a {
 	display:block;
-	}
-div.menu li li ul{
+}
+div.menu li li ul {
 	right:120px;
 	top:-3px;
-	}
+}
 div.logoimage {
 	width:190px;
 	height:110px;
@@ -153,49 +153,45 @@ div.banner {
 }
 /*-------------content--------------------------*/
 
-div.content-reserv{
+div.content-reserv {
 	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
-	height:1150px;
-	/*border:1px dashed red;*/
+	height:1150px;/*border:1px dashed red;*/
 }
-div.content-leftr{
+div.content-leftr {
 	width:570px;
 	height:1060px;
 	/*border:1px dashed blue;*/
 	float:left;
 	padding:45px 0px;
-	
 }
-div.rules{
+div.rules {
 	width:570px;
 	height:850px;
 	background-color:#ccc;
 	/*border:1px dashed white;*/
 	background-color:#888;
 	opacity:0.75;
-	}
-div.rules ol{
+}
+div.rules ol {
 	float:right;
 	padding:35px;
 }
-div.rules ol li{
+div.rules ol li {
 	color:#ddd;
 	font-size:18px;
 	font-family:Tahoma, Geneva, sans-serif;
 	direction:rtl;
 	margin-right:8px;
-    
 }
-div.rules h3{
+div.rules h3 {
 	color:#eee;
 	float:right;
 	font-size:26px;
 	font-family:Arial, Helvetica, sans-serif;
 	margin-top:20px;
 }
-
-div.phones{
+div.phones {
 	width:570px;
 	height:115px;
 	/*border:1px dashed red;*/
@@ -208,18 +204,17 @@ div.phones p {
 	font-family:Arial, Helvetica, sans-serif;
 	text-align:center;
 }
-div.phones p.num{
+div.phones p.num {
 	text-align:center;
 }
-div.content-rightr{
+div.content-rightr {
 	width:410px;
 	height:1125px;
 	margin-left:575px;
 	/*border:2px dashed orange;*/
 	padding:25px 20px 0;
-
 }
-div.reserv-date{
+div.reserv-date {
 	width:410px;
 	height:365px;
 	border:1px dashed transparent;
@@ -227,21 +222,19 @@ div.reserv-date{
 	background-color:rgb(64,50,90);
 	opacity:0.75;
 }
-div.reserv-date table{
+div.reserv-date table {
 	width:410px;
 	height:300px;
 }
-div.contact-info table{
+div.contact-info table {
 	width:410px;
 	height:300px;
 }
-
-div.reserv-date td,div.contact-info td,div.add-service td,div.key-send td{
+div.reserv-date td, div.contact-info td, div.add-service td, div.key-send td {
 	color:#ddd;
 	font-size:17px;
 }
-
-div.contact-info{
+div.contact-info {
 	width:410px;
 	height:370px;
 	margin-top:20px;
@@ -249,15 +242,12 @@ div.contact-info{
 	border-radius:10%;
 	background-color:rgb(64,50,90);
 	opacity:0.75;
-
-	}
-div.contact-info h4,div.reserv-date h4,div.add-service h4{
-color:#ddd;
-font-family:Tahoma, Geneva, sans-serif;
 }
-
-
-div.add-service{
+div.contact-info h4, div.reserv-date h4, div.add-service h4 {
+	color:#ddd;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+div.add-service {
 	width:410px;
 	height:190px;
 	margin-top:20px;
@@ -266,12 +256,11 @@ div.add-service{
 	background-color:rgb(64,50,90);
 	opacity:0.75;
 }
-div.add-service table{
+div.add-service table {
 	width:410px;
 	height:120px;
 }
-	
-div.key-send{
+div.key-send {
 	width:410px;
 	height:100px;
 	margin-top:20px;
@@ -279,22 +268,15 @@ div.key-send{
 	border-radius:10%;
 	background-color:rgb(64,50,90);
 	opacity:0.75;
-	}
-div.key-send table{
+}
+div.key-send table {
 	width:410px;
 	height:50px;
 }
-#key{
+#key {
 	font-size:22px;
 	font-family:Arial, Helvetica, sans-serif;
 }
-
-
-
-
-
-
-
 div.content {
 	background-image:url(../images/backcontentmaster.gif);
 	width:auto;
@@ -331,7 +313,6 @@ div.cocenter {
 	position:relative;
 	top:-30px;
 }
-
 #conr {
 	position:relative;
 	top:-30px;
@@ -360,12 +341,8 @@ div.contentleft {
 	width:300px;
 	height:inherit;
 }
-.checkreserve{
-	background:#CC6633;
-	}
-ul.formreserve li{
-	list-style-type:none;
-	}	
+#reservetable{
+	float:right;}
 div.contentright {
 	outline:1px solid #FFF;
 	width:auto;
@@ -403,9 +380,7 @@ h2.text {
 ul.well li {
 	list-style-type:none;
 }
-
 .zang1 {
-	
 	padding-top:150px;
 	padding-right:50px;
 	-webkit-transition:all 0.5s linear 1s;
@@ -777,7 +752,6 @@ input {
 	height:20px;
 }
 textarea {
-	
 	background-color:rgb(221,221,221);
 	border-color:#000;
 	margin-bottom:15px;
@@ -797,8 +771,8 @@ p.email {
 	font-family:Tahoma, Geneva, sans-serif;
 	text-align:center;
 	background-color:#666;
-	}
-p.tell{
+}
+p.tell {
 	padding-bottom:10px;
 	text-align:center;
 	background-color:#999;
@@ -809,7 +783,6 @@ input.send {
 	width:65px;
 	height:24px;
 	border-radius:9px;
-	
 }
 input:hover {
 	background-color:#FFF;
