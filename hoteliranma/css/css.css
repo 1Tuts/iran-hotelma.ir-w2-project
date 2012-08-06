@@ -169,11 +169,13 @@ div.content-leftr{
 }
 div.rules{
 	width:570px;
-	height:850px;
+	height:700px;
 	background-color:#ccc;
 	/*border:1px dashed white;*/
 	background-color:#888;
 	opacity:0.75;
+	padding:50px 0;
+
 	}
 div.rules ol{
 	float:right;
@@ -227,6 +229,9 @@ div.reserv-date{
 	background-color:rgb(64,50,90);
 	opacity:0.75;
 }
+table{
+		margin-right:15px;
+}
 div.reserv-date table{
 	width:410px;
 	height:300px;
@@ -256,7 +261,10 @@ color:#ddd;
 font-family:Tahoma, Geneva, sans-serif;
 }
 
-
+div.contact-info input,div.add-service input,div.key-send input{
+	display:inline;
+}
+	
 div.add-service{
 	width:410px;
 	height:190px;
@@ -282,7 +290,8 @@ div.key-send{
 	}
 div.key-send table{
 	width:410px;
-	height:50px;
+	height:80px;
+	margin-top:10px;
 }
 #key{
 	font-size:22px;
