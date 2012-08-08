@@ -425,6 +425,24 @@ div.frameroom {
 	outline:1px solid #FF9;
 	height:700px;
 }
+div.roomtext{
+	outline:1px solid #FFF;
+	width:auto;
+	height:150px;}
+div.roomgallery{
+	outline:1px solid #FFF;
+	width:auto;
+	height:550px;}
+	div.galleryleft{
+		outline:1px solid #FFF;
+		width:500px;
+		height:inherit;
+		float:left;}
+	div.galleryright{
+		outline:1px solid #FFF;
+		width:auto;
+		height:inherit;
+		margin-left:500px;}
 div.contentroomd {
 	width:auto;
 	height:210px;
