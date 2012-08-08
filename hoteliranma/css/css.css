@@ -428,8 +428,7 @@ div.contentroomleft {
 	height:500px;
 }
 div.contentroomright t {
-}
-/*-------------content-reserve------------------------*/
+}/*-------------content-reserve------------------------*/
 
 div.content-reserv {
 	background-image:url(../images/backcontentmaster.jpg);
@@ -736,48 +735,80 @@ div.content-roomservices {
 	background-image:url(../images/backcontentmaster.jpg);
 	background-repeat:repeat;
 	width:auto;
-	min-height:1110px;
-	padding:80px;
+	min-height:950px;
+	padding:80px 80px 50px 80px;
 }
 div.content-roomservices-up {
 	width:auto;
-	height:300px;
-	border:1px solid #F93;
+	min-height:220px;
+	padding:10px 20px;
 }
-div.content-roomservices-up  img{
+div.content-roomservices-up img {
 	float:left;
 }
-div.content-roomservices-up h1{
-		color:#000;
+div.content-roomservices-up h1, div.content-roomservices-down h1 {
+	color:#000;
 	text-shadow:2px 2px 10px #e3c064;
 	color:#e3c064;
 }
-div.content-roomservices-up ul{
-	list-style-type:none;
-
+div.content-roomservices-up ul {
+	list-style-type:square;
+	padding-right:40px;
 }
-div.content-roomservices-up ul li{
+div.content-roomservices-up ul li {
 	color:#FFFFFF;
-	
 }
 div.content-roomservices-middle {
 	width:auto;
-	height:700px;
-	border:1px solid #F93;
-	/*background:url(../images/3_145_N64l.jpg) center top no-repeat;*/
-
+	height:330px;
+	padding:25px 33px;
 }
 div.box {
-	border:2px solid #00F;
-	width:400px;
-	height:400px;
+	width:700px;
+	height:330px;
 	float:left;
 }
-
-
-div.content-roomservices-down{
+div.box img {
+	-webkit-transition:all 5s;
+	-moz-transition:all 5s;
+	-ms-transition:all 5s;
+	-o-transition:all 5s;
+	border:6px solid #666;
+}
+div.box img:hover {
+	-webkit-transform:skew(-30deg, 30deg);
+	-moz-transform:skew(-30deg, 30deg);
+	-ms-transform:skew(-30deg, 30deg);
+	-o-transform:skew(-30deg, 30deg);
+}
+div.content-roomservices-down {
 	width:auto;
-	height:auto;
+	height:auto;  /*meghdar bezaram?????----*/
+	padding:30px 20px;
+}
+#minibar {
+	float:right;
+}
+#roomservice {
+	margin-right:430px;
+}
+div.table {
+	width:auto;
+	height:260px;
+	padding:5px;
+	padding-right:140px;
+}
+#table1-room {
+	color:#FFFFFF;
+	width:200px;
+	height:250px;
+	float:right;
+}
+#table2-room {
+	color:#FFFFFF;
+	width:200px;
+	height:250px;
+	float:left;
 }
 /* ------ contact us ---------  */
 	
@@ -875,6 +906,7 @@ input.send {
 input:hover {
 	background-color:#FFF;
 }
+
 /*-------------footer-------------------------*/
 div.footer {
 	/*outline:1px solid #FFF;*/
@@ -884,15 +916,18 @@ div.footer {
 }
 div.footer-up {
 	width:auto;
-	height:40px;
+	height:30px;
+	padding:5px;
 }
-div.footer-up a{
-text-decoration:none;	
+div.footer-up a img {
 }
-div.footer-down{
+div.footer-up a {
+	text-decoration:none;
+	color:#000099;
+}
+div.footer-down {
 	width:auto;
 	height:25px;
 	font-size:14px;
 	text-align:center;
-
 }
