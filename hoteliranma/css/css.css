@@ -154,7 +154,7 @@ div.banner {
 }
 /*-------------content--------------------------*/
 div.content {
-	background-image:url(../images/backcontentmaster.gif);
+	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
 	height:750px;
 	outline:1px solid #F9C;
@@ -218,6 +218,13 @@ div.contentleft {
 	width:300px;
 	height:inherit;
 }
+.index-form{
+	width:300px;
+	padding:5px;
+	height:290px;
+	background-color:#333;
+	border:1px dashed #FF9900;
+	-webkit-box-shadow: 2px 2px #666;}
 .checkreserve{
 	background:#CC6633;
 	}
@@ -235,7 +242,7 @@ div.ledown {
 	width:500px;
 	height:290px;
 	float:left;
-	background-color:#900;
+	
 }
 div.ridown {
 	outline:1px solid #FFF;
@@ -276,7 +283,7 @@ div.ridown a:hover {
 }
 /*-------------content2--------------------------*/
 div.content2 {
-	background-image:url(../images/backcontent2.jpg);
+	background-image:url(../images/backcontent2%20copy.jpg);
 	background-repeat:repeat;
 	outline:1px solid #F9C;
 	width:auto;
