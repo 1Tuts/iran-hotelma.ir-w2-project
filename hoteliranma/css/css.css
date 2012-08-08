@@ -160,6 +160,7 @@ div.content {
 }
 /*----------------------contentmaster-*/
 div.contentmaster {
+	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
 	height:410px;
 }
