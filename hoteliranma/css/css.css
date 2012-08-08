@@ -429,57 +429,50 @@ div.contentroomleft {
 }
 div.contentroomright t {
 }
+/*-------------content-reserve------------------------*/
 
-/*-------------content-reserve--------------------------*/
-/*div.content-reserve{
+div.content-reserv {
 	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
-	height:750px;
-	outline:1px solid #F9C;
-}*/
-div.content-reserve{
-	background-image:url(../images/backcontentmaster.jpg);
-	width:auto;
-	height:1150px;
-	/*border:1px dashed red;*/
+	height:1150px;/*border:1px dashed red;*/
 }
-div.content-reserve-left{
+div.content-leftr {
 	width:570px;
 	height:1060px;
 	/*border:1px dashed blue;*/
 	float:left;
 	padding:45px 0px;
-	
 }
-div.rules{
+div.rules {
 	width:570px;
-	height:850px;
+	height:700px;
 	background-color:#ccc;
 	/*border:1px dashed white;*/
 	background-color:#888;
 	opacity:0.75;
+	padding:50px 0;
+
 	}
-div.rules ol{
+
+div.rules ol {
 	float:right;
 	padding:35px;
 }
-div.rules ol li{
+div.rules ol li {
 	color:#ddd;
 	font-size:18px;
 	font-family:Tahoma, Geneva, sans-serif;
 	direction:rtl;
 	margin-right:8px;
-    
 }
-div.rules h3{
+div.rules h3 {
 	color:#eee;
 	float:right;
 	font-size:26px;
 	font-family:Arial, Helvetica, sans-serif;
 	margin-top:20px;
 }
-
-div.phones{
+div.phones {
 	width:570px;
 	height:115px;
 	/*border:1px dashed red;*/
@@ -492,18 +485,17 @@ div.phones p {
 	font-family:Arial, Helvetica, sans-serif;
 	text-align:center;
 }
-div.phones p.num{
+div.phones p.num {
 	text-align:center;
 }
-div.content-reserve-right{
+div.content-rightr {
 	width:410px;
 	height:1125px;
 	margin-left:575px;
 	/*border:2px dashed orange;*/
 	padding:25px 20px 0;
-
 }
-div.reserv-date{
+div.reserv-date {
 	width:410px;
 	height:365px;
 	border:1px dashed transparent;
@@ -511,21 +503,23 @@ div.reserv-date{
 	background-color:rgb(64,50,90);
 	opacity:0.75;
 }
+
+table{
+		margin-right:15px;
+}
 div.reserv-date table{
 	width:410px;
 	height:300px;
 }
-div.contact-info table{
+div.contact-info table {
 	width:410px;
 	height:300px;
 }
-
-div.reserv-date td,div.contact-info td,div.add-service td,div.key-send td{
+div.reserv-date td, div.contact-info td, div.add-service td, div.key-send td {
 	color:#ddd;
 	font-size:17px;
 }
-
-div.contact-info{
+div.contact-info {
 	width:410px;
 	height:370px;
 	margin-top:20px;
@@ -533,15 +527,21 @@ div.contact-info{
 	border-radius:10%;
 	background-color:rgb(64,50,90);
 	opacity:0.75;
-
-	}
-div.contact-info h4,div.reserv-date h4,div.add-service h4{
-color:#ddd;
-font-family:Tahoma, Geneva, sans-serif;
 }
 
 
-div.add-service{
+div.contact-info input,div.add-service input,div.key-send input{
+	display:inline;
+}
+	
+
+
+div.contact-info h4, div.reserv-date h4, div.add-service h4 {
+	color:#ddd;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+div.add-service {
+
 	width:410px;
 	height:190px;
 	margin-top:20px;
@@ -550,12 +550,11 @@ div.add-service{
 	background-color:rgb(64,50,90);
 	opacity:0.75;
 }
-div.add-service table{
+div.add-service table {
 	width:410px;
 	height:120px;
 }
-	
-div.key-send{
+div.key-send {
 	width:410px;
 	height:100px;
 	margin-top:20px;
@@ -563,14 +562,21 @@ div.key-send{
 	border-radius:10%;
 	background-color:rgb(64,50,90);
 	opacity:0.75;
-	}
-div.key-send table{
-	width:410px;
-	height:50px;
 }
-#key{
+div.key-send table {
+	width:410px;
+	height:80px;
+	margin-top:10px;
+}
+#key {
 	font-size:22px;
 	font-family:Arial, Helvetica, sans-serif;
+}
+div.content {
+	background-image:url(../images/backcontentmaster.gif);
+	width:auto;
+	height:750px;
+	outline:1px solid #F9C;
 }
 /*-------------content-aboutus-------------------------*/
 div.content-aboutus {
