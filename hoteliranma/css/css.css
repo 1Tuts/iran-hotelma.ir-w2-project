@@ -35,10 +35,10 @@ div.headertop {
 	height:25px;
 	/*outline:1px solid #FFF;*/
 	padding:5px 30px 0 30px;
-	background-color:#840000;
+	background-image:url(../images/header.jpg);
 }
 div.headertop a {
-	color:#CCC;
+	color:#000;
 	float:right;
 	text-decoration:none;
 	font-family:Tahoma, Geneva, sans-serif;
@@ -54,7 +54,7 @@ div.headerdown {
 	width:auto;
 	height:45px;
 	position:relative;
-	background-color:#e3c064;
+	background-image:url(../images/menu.4.jpg);
 }
 div.menu {
 	width:760px;
