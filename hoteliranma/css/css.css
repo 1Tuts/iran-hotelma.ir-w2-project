@@ -907,6 +907,66 @@ input:hover {
 	background-color:#FFF;
 }
 
+
+/****------------------------------iframe-----------------------*/
+div.contain-salon{
+	background:url(../images/backcontentmaster.jpg) repeat;
+	width:auto;
+	min-height:930px;
+	padding:100px 80px 80px 80px;
+	
+	
+}
+div.salon-menu{
+	width:300px;
+	height:40px;
+}
+div.salon-menu ul{
+	list-style:none;
+	
+}
+div.salon-menu ul li{
+	float:right;
+	width:150px;
+	height:40px;
+	
+}
+div.salon-menu ul li a{
+display:block;
+color:#fff;
+	width:150px;
+	height:40px;
+	position:absolute;
+	
+	
+}
+#pazirai{
+	background-image:url(../images/men.gif);
+}
+#conferance{
+	background-image:url(../images/conferance.gif);
+	
+}
+#pazirai a:hover{
+background-image:url(../images/pazirai.gif);	
+}
+#conferance a:hover{
+background-image:url(../images/hover-confe.gif);	
+}
+
+div.salon-iframe{
+	width:auto;
+	height:800px;
+	
+	
+}
+#salon-iframe-frame{
+	background-color:#333333;
+}
+
+
+
+
 /*-------------footer-------------------------*/
 div.footer {
 	/*outline:1px solid #FFF;*/
