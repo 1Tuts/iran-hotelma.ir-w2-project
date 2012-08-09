@@ -35,10 +35,10 @@ div.headertop {
 	height:25px;
 	/*outline:1px solid #FFF;*/
 	padding:5px 30px 0 30px;
-	background-color:#840000;
+	background-image:url(../images/header.jpg);
 }
 div.headertop a {
-	color:#CCC;
+	color:#000;
 	float:right;
 	text-decoration:none;
 	font-family:Tahoma, Geneva, sans-serif;
@@ -54,7 +54,7 @@ div.headerdown {
 	width:auto;
 	height:45px;
 	position:relative;
-	background-color:#e3c064;
+	background-image:url(../images/menu.4.jpg);
 }
 div.menu {
 	width:760px;
@@ -157,11 +157,10 @@ div.content {
 	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
 	height:750px;
-	outline:1px solid #F9C;
 }
 /*----------------------contentmaster-*/
 div.contentmaster {
-	outline:1px solid #F9C;
+	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
 	height:410px;
 }
@@ -189,7 +188,6 @@ div.cocenter {
 	position:relative;
 	top:-30px;
 }
-
 #conr {
 	position:relative;
 	top:-30px;
@@ -208,44 +206,61 @@ div.contentdown {
 }
 div.contentdown {
 >>>>>>> origin/master padding-left:50px;
-	outline:1px solid #903;
 	height:290px;
 	width:auto;
 }
 /*--------------form reserve-----------------------*/
 div.contentleft {
 	float:left;
-	width:300px;
-	height:inherit;
+	width:280px;
+	height:270px;
 }
-.index-form{
-	width:300px;
-	padding:5px;
-	height:290px;
+.index-form {
+	position:relative;
+	left:20px;
+	width:250px;
+	height:270px;
 	background-color:#333;
-	border:1px dashed #FF9900;
-	-webkit-box-shadow: 2px 2px #666;}
-.checkreserve{
+}
+.titleform {
+	color:#FC0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:9px;
+}
+.formkey {
+	background-color:#575850;
+	color:#000000;
+	font-size:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	width:100px;
+	height:30px;
+	border:1px solid #666;
+	border-radius:5px;
+}
+.formkey:hover {
+	background-color:#333333;
+	color:#FC0;
+}
+.scrol {
+	background-color:#999;
+}
+.checkreserve {
 	background:#CC6633;
-	}
-ul.formreserve li{
+}
+ul.formreserve li {
 	list-style-type:none;
-	}	
+}
 div.contentright {
-	outline:1px solid #FFF;
 	width:auto;
 	height:inherit;
 	margin-left:300px;
 }
 div.ledown {
-	outline:1px solid #FFF;
 	width:500px;
 	height:290px;
 	float:left;
-	
 }
 div.ridown {
-	outline:1px solid #FFF;
 	width:auto;
 	height:290px;
 }
@@ -254,26 +269,25 @@ div.ridown {
 }
 h2.wellcometext {
 	font-family:Tahoma, Geneva, sans-serif;
-	font-size:12px;
+	font-size:16px;
 	font-weight:bold;
 	color:#FFCC00;
+	text-shadow:#333333;
 }
 h2.text {
 	padding-top:40px;
 	font-family:Tahoma, Geneva, sans-serif;
-	font-size:9px;
+	font-size:11px;
 	line-height:20px;
 	color:#fff;
 }
 ul.well li {
 	list-style-type:none;
 }
-.zang1 {
-	
-	padding-top:150px;
-	padding-right:50px;
-	-webkit-transition:all 0.5s linear 1s;
-	-moz-transition:all 0.5s linear 1s;
+a.zang img {
+	padding:10px;
+	width:200px;
+	height:150px;
 }
 div.ridown a:hover {
 	opacity:0.8;
@@ -285,39 +299,64 @@ div.ridown a:hover {
 div.content2 {
 	background-image:url(../images/backcontent2%20copy.jpg);
 	background-repeat:repeat;
-	outline:1px solid #F9C;
 	width:auto;
 	height:340px
 }
 div.contentleft2 {
-	padding:0px 20px;
-	outline:1px solid #F9C;
-	width:310px;
+	width:330px;
 	height:inherit;
 	float:left;
 }
-div.contentleft2 li {
-	list-style-type:none;
-}
-h4 {
+h1.content2-title {
+	color:#FFCC00;
 	font-family:Tahoma, Geneva, sans-serif;
-	font-size:14px;
-	color:#FFFFFF;
+	font-size:12px;
 	font-weight:bold;
-	padding:30px;
+	padding:10px;
+}
+ul.emkanatser {
+	padding:20px 20px;
 	list-style-type:none;
 }
 div.contentright2 {
-	outline:1px solid #F9C;
-	width:350px;
+	width:330px;
 	height:inherit;
 	float:right;
 }
 div.contentcenter2 {
-	outline:1px solid #F9C;
 	width:auto;
 	height:inherit;
-	margin:0 350px;
+	margin:0 330px;
+}
+h1.notename {
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	padding:20px;
+	font-weight:bold;
+}
+h4.notetext {
+	color:#999;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+}
+h4.notewriter {
+	color:#999;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+}
+h1.notename {
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+h4.notetext {
+}
+h4.notewriter {
+	color:#999;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
 }
 /*-------------contentrooms-------------------------*/	
 div.contentrooms {
@@ -830,10 +869,10 @@ div.googlemap {
 div.googlemap-pic {
 	/*outline:1px solid #FFF;*/
 	width:450px;
-	height:240px;
-	background-image:url(../images/Untitledfcc-2.jpg);
+	height:260px;
+	background-image:url(../images/googlemap.jpg);
 	background-repeat:no-repeat;
-	margin-bottom:70px;
+	margin-bottom:60px;
 }
 div.googlemap-detail {
 	/*outline:1px solid #FFF;*/
@@ -852,7 +891,7 @@ div.message {
 	padding-right:0px;
 	color:#e3c064;
 	font-family:Tahoma, Geneva, sans-serif;
-	font-size:17px;
+	font-size:22px;
 	font-weight:bold;
 	margin-bottom:30px;
 }
@@ -864,7 +903,7 @@ p {
 }
 input {
 	border-radius:7px;
-	background-color:#f5eee4;
+	background-color:#CCCCCC;
 	margin-bottom:15px;
 	display:block;
 	border-color:#999;
@@ -872,7 +911,7 @@ input {
 }
 textarea {
 	border-radius:7px;
-	background-color:#f5eee4;
+	background-color:#CCCCCC;
 	border-color:#000;
 	margin-bottom:15px;
 }
@@ -903,7 +942,7 @@ input.send {
 	width:65px;
 	height:24px;
 }
-input:hover {
+input:hover,textarea:hover {
 	background-color:#FFF;
 }
 
