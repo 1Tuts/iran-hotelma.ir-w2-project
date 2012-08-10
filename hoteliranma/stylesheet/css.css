@@ -524,42 +524,18 @@ div.chaharroom {
 }
 /*-------------content-roomgallery-------------------------------------------------------------------------------------------------*/
 @-webkit-keyframes slider {
- 0% {
-top:0
-}
- 10% {
-top:0; opacity:0.5 	
-}
- 20% {
-	 opacity:0;
-
-	-webkit-transform:rotate(-90deg);
-}
-30%{
-	top:-705px;}
- 40% {
-top:-705px ; opacity:0.8
-}
-50%{
-	 opacity:0;
-	-webkit-transform:rotate(-90deg);}
- 60% {
-top:-1415px
-}
- 70% {
-top:-1415px
-}
-80%{ 
-	 opacity:0;
-	-webkit-transform:rotate(-90deg);}
-	
-90%{top:-2815px ;}
-98%{ top:-2815px ;}	
-
- 100% {
-top:0 ; 
-	
-}
+ 0% {top:0;}
+ 10% {top:0; opacity:0.5;}
+ 20% {opacity:0;-webkit-transform:rotate(-90deg);}
+ 30% {top:-705px;}
+ 40% {top:-705px ; opacity:0.8;}
+ 50%{opacity:0;-webkit-transform:rotate(-90deg);}
+ 60% {top:-1415px;}
+ 70% {top:-1415px;}
+ 80%{opacity:0;-webkit-transform:rotate(-90deg);}
+ 90%{top:-2815px ;}
+ 98%{ top:-2815px ;}	
+ 100% {top:0 ;}
 }
 
 
@@ -1066,67 +1042,67 @@ input:hover, textarea:hover {
 
 /*------------------------------iframe-slider--------------------------------------------------------------------------*/
 @keyframes slider{
- 0% {left:0}
- 10% {left:0}
- 20% {left:-705px}
- 40% {left:-705px}
- 50% {left:-1410px}
- 70% {left:-1410px}
- 90% {left:-1410px}
- 95% {left:-1430px}
- 100% {left:0}
+ 0% {left:0;}
+ 10% {left:0;}
+ 20% {left:-705px;}
+ 40% {left:-705px;}
+ 50% {left:-1410px;}
+ 70% {left:-1410px;}
+ 90% {left:-1410px;}
+ 95% {left:-1430px;}
+ 100% {left:0;}
 }
 
 @-webkit-keyframes slider {
- 0% {left:0}
- 10% {left:0}
- 20% {left:-705px}
- 40% {left:-705px}
- 50% {left:-1410px}
- 70% {left:-1410px}
- 90% {left:-1410px}
- 95% {left:-1430px}
- 100% {left:0}
+ 0% {left:0;}
+ 10% {left:0;}
+ 20% {left:-705px;}
+ 40% {left:-705px;}
+ 50% {left:-1410px;}
+ 70% {left:-1410px;}
+ 90% {left:-1410px;}
+ 95% {left:-1430px;}
+ 100% {left:0;}
 }
 
 
 @-moz-keyframes slider {
- 0% {left:0}
- 10% {left:0}
- 20% {left:-705px}
- 40% {left:-705px}
- 50% {left:-1410px}
- 70% {left:-1410px}
- 90% {left:-1410px}
- 95% {left:-1430px}
- 100% {left:0}
+ 0% {left:0;}
+ 10% {left:0;}
+ 20% {left:-705px;}
+ 40% {left:-705px;}
+ 50% {left:-1410px;}
+ 70% {left:-1410px;}
+ 90% {left:-1410px;}
+ 95% {left:-1430px;}
+ 100% {left:0;}
 }
 
 
 @-o-keyframes slider {
 	
-0% {left:0}
- 10% {left:0}
- 20% {left:-705px}
- 40% {left:-705px}
- 50% {left:-1410px}
- 70% {left:-1410px}
- 90% {left:-1410px}
- 95% {left:-1430px}
- 100% {left:0}
+0% {left:0;}
+ 10% {left:0;}
+ 20% {left:-705px;}
+ 40% {left:-705px;}
+ 50% {left:-1410px;}
+ 70% {left:-1410px;}
+ 90% {left:-1410px;}
+ 95% {left:-1430px;}
+ 100% {left:0;}
 }
 
 
 @-ms-keyframes slider {
- 0% {left:0}
- 10% {left:0}
- 20% {left:-705px}
- 40% {left:-705px}
- 50% {left:-1410px}
- 70% {left:-1410px}
- 90% {left:-1410px}
- 95% {left:-1430px}
- 100% {left:0}
+ 0% {left:0;}
+ 10% {left:0;}
+ 20% {left:-705px;}
+ 40% {left:-705px;}
+ 50% {left:-1410px;}
+ 70% {left:-1410px;}
+ 90% {left:-1410px;}
+ 95% {left:-1430px;}
+ 100% {left:0;}
 }
 div#view {
 	width:700px;
