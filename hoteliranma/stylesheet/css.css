@@ -585,6 +585,10 @@ div#pic-container{
 	
 
 }
+div#pic-container img{
+	float:left;
+	border:5px solid #666;
+}
 /*-------------content-reserve------------------------------------------------------------------------------------------------*/
 div.content-reserv {
 	background-image:url(../images/backcontentmaster.jpg);
@@ -1228,6 +1232,10 @@ div#pic-container {
 	-moz-animation:slider 8s infinite;
 	-ms-animation:slider 8s infinite;
 	-o-animation:slider 8s infinite;
+}
+div#pic-container img{
+	float:left;
+	border:6px solid #666;
 }
 
 
