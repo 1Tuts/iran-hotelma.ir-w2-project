@@ -130,11 +130,11 @@ div.menu li ul li:hover ul a {
 	display:block;
 }
 div.menu li li ul {
-	right:122px;
+	right:134px;
 	top:-1px;
 }
 a.submenu:hover {
-	margin-right:4px;
+	margin-right:3px;
 }
 div.logoimage {
 	width:190px;
