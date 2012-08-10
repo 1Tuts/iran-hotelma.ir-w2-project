@@ -453,13 +453,32 @@ div.galleryright {
 	border-image:url(../images/backimageroom.jpg) 20 20 20 20 stretch stretch;
 	margin:0 auto;
 }
-.link-gallery {
-	padding:20px;
-	color:#CCC;
-	font-family:Tahoma, Geneva, sans-serif;
-	font-size:14px;
-	text-decoration:none;
-}
+h3#roombot{
+	padding:20px 20px;
+	background-image:url(../images/gallery-bottom.gif);
+	display:block;
+	width:110px;
+font-size:13px;
+	font-weight:bold;
+	color:#000;
+	text-shadow:2px 2px 5px #FFFFFF;
+
+	height:20px;}
+h3#apartmentbot{
+	padding:20px 20px;
+	background-image:url(../images/gallery-bottom.gif);
+	display:block;
+	width:110px;
+	font-size:13px;
+	font-weight:bold;
+	color:#000;
+	text-shadow:2px 2px 5px #FFFFFF;
+	}
+div.frameroom a:hover{
+	
+	background-image:url(../images/gallery-bottomhover.gif);
+	color:#FFFFFF;
+	}
 ul.gr li {
 	list-style-type:none;
 }
