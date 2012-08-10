@@ -375,8 +375,8 @@ h1#rooms {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:18px;
 	font-weight:bold;
-	color:white;
-text-shadow:2px 2px 4px #000000;
+	color:#dbb051;
+	text-shadow:2px 2px 4px #000000;
 	text-align:right;
 	direction:rtl;
 	display:block;
@@ -1066,157 +1066,67 @@ input:hover, textarea:hover {
 
 /*------------------------------iframe-slider--------------------------------------------------------------------------*/
 @keyframes slider{
- 0% {
-left:0
-}
- 10% {
-left:0
-}
- 20% {
-left:-705px
-}
- 40% {
-left:-705px
-}
- 50% {
-left:-1410px
-}
- 70% {
-left:-1410px
-}
- 90% {
-left:-1410px
-}
- 95% {
-left:-1430px
-}
- 100% {
-left:0
-}
+ 0% {left:0}
+ 10% {left:0}
+ 20% {left:-705px}
+ 40% {left:-705px}
+ 50% {left:-1410px}
+ 70% {left:-1410px}
+ 90% {left:-1410px}
+ 95% {left:-1430px}
+ 100% {left:0}
 }
 
 @-webkit-keyframes slider {
- 0% {
-left:0
-}
- 10% {
-left:0
-}
- 20% {
-left:-705px
-}
- 40% {
-left:-705px
-}
- 50% {
-left:-1410px
-}
- 70% {
-left:-1410px
-}
- 90% {
-left:-1410px
-}
- 95% {
-left:-1430px
-}
- 100% {
-left:0
-}
+ 0% {left:0}
+ 10% {left:0}
+ 20% {left:-705px}
+ 40% {left:-705px}
+ 50% {left:-1410px}
+ 70% {left:-1410px}
+ 90% {left:-1410px}
+ 95% {left:-1430px}
+ 100% {left:0}
 }
 
 
 @-moz-keyframes slider {
- 0% {
-left:0
-}
- 10% {
-left:0
-}
- 20% {
-left:-705px
-}
- 40% {
-left:-705px
-}
- 50% {
-left:-1410px
-}
- 70% {
-left:-1410px
-}
- 90% {
-left:-1410px
-}
- 95% {
-left:-1430px
-}
- 100% {
-left:0
-}
+ 0% {left:0}
+ 10% {left:0}
+ 20% {left:-705px}
+ 40% {left:-705px}
+ 50% {left:-1410px}
+ 70% {left:-1410px}
+ 90% {left:-1410px}
+ 95% {left:-1430px}
+ 100% {left:0}
 }
 
 
 @-o-keyframes slider {
 	
-0% {
-left:0
-}
- 10% {
-left:0
-}
- 20% {
-left:-705px
-}
- 40% {
-left:-705px
-}
- 50% {
-left:-1410px
-}
- 70% {
-left:-1410px
-}
- 90% {
-left:-1410px
-}
- 95% {
-left:-1430px
-}
- 100% {
-left:0
-}
+0% {left:0}
+ 10% {left:0}
+ 20% {left:-705px}
+ 40% {left:-705px}
+ 50% {left:-1410px}
+ 70% {left:-1410px}
+ 90% {left:-1410px}
+ 95% {left:-1430px}
+ 100% {left:0}
 }
 
 
 @-ms-keyframes slider {
- 0% {
-left:0
-}
- 10% {
-left:0
-}
- 20% {
-left:-705px
-}
- 40% {
-left:-705px
-}
- 50% {
-left:-1410px
-}
- 70% {
-left:-1410px
-}
- 90% {
-left:-1410px
-}
- 95% {
-left:-1430px
-}
- 100% {
-left:0
-}
+ 0% {left:0}
+ 10% {left:0}
+ 20% {left:-705px}
+ 40% {left:-705px}
+ 50% {left:-1410px}
+ 70% {left:-1410px}
+ 90% {left:-1410px}
+ 95% {left:-1430px}
+ 100% {left:0}
 }
 div#view {
 	width:700px;
