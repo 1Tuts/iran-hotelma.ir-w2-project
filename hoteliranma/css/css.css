@@ -123,19 +123,19 @@ div.menu li li a:hover {
 div.menu li li:last-child {
 	border-left:0px;
 }
-div.menu li ul li ul a{
+div.menu li ul li ul a {
 	display:none;
-		}
-div.menu li ul li:hover ul a{
+}
+div.menu li ul li:hover ul a {
 	display:block;
-	}
-div.menu li li ul{
+}
+div.menu li li ul {
 	right:122px;
 	top:-1px;
-	}
-a.submenu:hover{
+}
+a.submenu:hover {
 	margin-right:4px;
-	}
+}
 div.logoimage {
 	width:190px;
 	height:110px;
@@ -361,17 +361,15 @@ h4.notewriter {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:10px;
 }
-/*-------------contentrooms-------------------------*/	
+/*-------------content-rooms-------------------------*/	
 div.contentrooms {
 	background-image:url(../images/backcontentmaster.jpg);
-	outline:1px solid #CC0;
 	width:auto;
 	height:1110px;
 }
 div.contentroomt {
 	width:auto;
 	height:900px;
-	outline:1px solid #FF9;
 }
 h1#rooms {
 	font-family:Tahoma, Geneva, sans-serif;
@@ -385,7 +383,7 @@ h1#rooms {
 }
 div.menuroom {
 	width:auto;
-	outline:1px solid #FF9;
+	
 	height:150px;
 }
 div.roommenu {
@@ -424,37 +422,85 @@ div.roommenu a:hover {
 	-o-transition:all .4s linear;
 }
 div.frameroom {
-	width:auto;
-	outline:1px solid #FF9;
+	padding:40px 40px;
+	width:940px;
 	height:700px;
+}
+div.roomtext {
+	width:auto;
+	height:150px;
+}
+div.roomgallery {
+	
+	width:auto;
+	height:550px;
+}
+div.galleryleft {
+	padding:30px 30px;
+	width:440px;
+	height:640;
+	float:left;
+}
+div.galleryright {
+	padding:30px 30px;
+	width:440px;
+	height:640;
+ margin-left:500px;
+}
+.gallery {
+	border:5px solid grey;
+	border-image:url(../images/backimageroom.jpg) 20 20 20 20 stretch stretch;
+	margin:0 auto;
+}
+.link-gallery {
+	padding:20px;
+	color:#CCC;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+}
+ul.gr li {
+	list-style-type:none;
+}
+ul.gr li a {
+	color:#CCC;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	text-shadow:2px 2px 8px #FFFFFF;
+	text-align:center;
+}
+.gallery img{
+	margin:0 auto;}
+
+a.link-gallery div.contentroomd {
+	width:auto;
+	height:210px;
 }
 div.contentroomd {
 	width:auto;
 	height:210px;
-	outline:1px solid #FF9;
+	border-top:3px dashed #999999;
+	
 }
 div.yekroom {
 	width:245px;
 	height:200px;
-	outline:1px solid #FF9;
 	float:left;
 }
 div.doroom {
 	width:255px;
 	height:200px;
-	outline:1px solid #FF9;
 	float:left;
 }
 div.seroom {
 	width:245px;
 	height:200px;
-	outline:1px solid #FF9;
 	float:left;
 }
 div.chaharroom {
 	width:278px;
 	height:200px;
-	outline:1px solid #FF9;
 	margin-left:auto;
 	float:right;
 }
@@ -471,7 +517,6 @@ div.contentroomleft {
 }
 div.contentroomright t {
 }/*-------------content-reserve------------------------*/
-
 div.content-reserv {
 	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
@@ -492,9 +537,7 @@ div.rules {
 	background-color:#888;
 	opacity:0.75;
 	padding:50px 0;
-
-	}
-
+}
 div.rules ol {
 	float:right;
 	padding:35px;
@@ -544,11 +587,10 @@ div.reserv-date {
 	background-color:rgb(64,50,90);
 	opacity:0.75;
 }
-
-table{
-		margin-right:15px;
+table {
+	margin-right:15px;
 }
-div.reserv-date table{
+div.reserv-date table {
 	width:410px;
 	height:300px;
 }
@@ -569,20 +611,14 @@ div.contact-info {
 	background-color:rgb(64,50,90);
 	opacity:0.75;
 }
-
-
-div.contact-info input,div.add-service input,div.key-send input{
+div.contact-info input, div.add-service input, div.key-send input {
 	display:inline;
 }
-	
-
-
 div.contact-info h4, div.reserv-date h4, div.add-service h4 {
 	color:#ddd;
 	font-family:Tahoma, Geneva, sans-serif;
 }
 div.add-service {
-
 	width:410px;
 	height:190px;
 	margin-top:20px;
@@ -724,7 +760,7 @@ div.contentdown-aboutus-middle {
 	padding:10px;
 }
 div.contentdown-aboutus-middle h1 {
-		color:#000;
+	color:#000;
 	text-shadow:2px 2px 10px #e3c064;
 	color:#e3c064;
 }
@@ -771,7 +807,6 @@ img#six:hover, img#seven:hover, img#eight:hover {
 	-o-transform:rotate(10deg);
 	-webkit-transform:rotate(10deg);
 }
-
 /*--------------------content-roomservices-------------*/
 div.content-roomservices {
 	background-image:url(../images/backcontentmaster.jpg);
@@ -933,8 +968,8 @@ p.email {
 	font-family:Tahoma, Geneva, sans-serif;
 	text-align:center;
 	background-color:#666;
-	}
-p.tell{
+}
+p.tell {
 	padding-bottom:10px;
 	text-align:center;
 	background-color:#999;
@@ -945,70 +980,54 @@ input.send {
 	width:65px;
 	height:24px;
 }
-input:hover,textarea:hover {
+input:hover, textarea:hover {
 	background-color:#FFF;
 }
-
-
 /****------------------------------iframe-----------------------*/
-div.contain-salon{
+div.contain-salon {
 	background:url(../images/backcontentmaster.jpg) repeat;
 	width:auto;
 	min-height:930px;
 	padding:100px 80px 80px 80px;
-	
-	
 }
-div.salon-menu{
+div.salon-menu {
 	width:300px;
 	height:40px;
 }
-div.salon-menu ul{
+div.salon-menu ul {
 	list-style:none;
-	
 }
-div.salon-menu ul li{
+div.salon-menu ul li {
 	float:right;
 	width:150px;
 	height:40px;
-	
 }
-div.salon-menu ul li a{
-display:block;
-color:#fff;
+div.salon-menu ul li a {
+	display:block;
+	color:#fff;
 	width:150px;
 	height:40px;
 	position:absolute;
-	
-	
 }
-#pazirai{
+#pazirai {
 	background-image:url(../images/men.gif);
 }
-#conferance{
+#conferance {
 	background-image:url(../images/conferance.gif);
-	
 }
-#pazirai a:hover{
-background-image:url(../images/pazirai.gif);	
+#pazirai a:hover {
+	background-image:url(../images/pazirai.gif);
 }
-#conferance a:hover{
-background-image:url(../images/hover-confe.gif);	
+#conferance a:hover {
+	background-image:url(../images/hover-confe.gif);
 }
-
-div.salon-iframe{
+div.salon-iframe {
 	width:auto;
 	height:800px;
-	
-	
 }
-#salon-iframe-frame{
+#salon-iframe-frame {
 	background-color:#333333;
 }
-
-
-
-
 /*-------------footer-------------------------*/
 div.footer {
 	/*outline:1px solid #FFF;*/
