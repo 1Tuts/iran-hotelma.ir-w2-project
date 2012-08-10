@@ -876,7 +876,7 @@ img#six:hover, img#seven:hover, img#eight:hover {
 	-o-transform:rotate(10deg);
 	-webkit-transform:rotate(10deg);
 }
-/*--------------------content-roomservices-------------------------------------------------------------------------------------*/
+/*--------------------content-roomservices------------------------------------------------------------------------------*/
 div.content-roomservices {
 	background-image:url(../images/backcontentmaster.jpg);
 	background-repeat:repeat;
@@ -956,7 +956,13 @@ div.table {
 	height:250px;
 	float:left;
 }
-/* ------ contact us ---------------------------------------------------------------------------------  */
+
+div.content-roomservices-up a:link {color:#009;}    
+div.content-roomservices-up a:visited {color:#0000CC;} 
+/*
+div.content-roomservices-up a:hover {color:#FF00FF;}   
+div.content-roomservices-up a:active {color:#0000FF;}*/
+/* ------ contact us -------------------------------------------------------------------------------------------------  */
 	
 div.contact-us {
 	width:auto;
@@ -1052,12 +1058,185 @@ input.send {
 input:hover, textarea:hover {
 	background-color:#FFF;
 }
-/****------------------------------iframe-----------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------iframe-slider--------------------------------------------------------------------------*/
+@keyframes slider{
+ 0% {
+left:0
+}
+ 10% {
+left:0
+}
+ 20% {
+left:-705px
+}
+ 40% {
+left:-705px
+}
+ 50% {
+left:-1410px
+}
+ 70% {
+left:-1410px
+}
+ 90% {
+left:-1410px
+}
+ 95% {
+left:-1430px
+}
+ 100% {
+left:0
+}
+}
+
+@-webkit-keyframes slider {
+ 0% {
+left:0
+}
+ 10% {
+left:0
+}
+ 20% {
+left:-705px
+}
+ 40% {
+left:-705px
+}
+ 50% {
+left:-1410px
+}
+ 70% {
+left:-1410px
+}
+ 90% {
+left:-1410px
+}
+ 95% {
+left:-1430px
+}
+ 100% {
+left:0
+}
+}
+
+
+@-moz-keyframes slider {
+ 0% {
+left:0
+}
+ 10% {
+left:0
+}
+ 20% {
+left:-705px
+}
+ 40% {
+left:-705px
+}
+ 50% {
+left:-1410px
+}
+ 70% {
+left:-1410px
+}
+ 90% {
+left:-1410px
+}
+ 95% {
+left:-1430px
+}
+ 100% {
+left:0
+}
+}
+
+
+@-o-keyframes slider {
+	
+0% {
+left:0
+}
+ 10% {
+left:0
+}
+ 20% {
+left:-705px
+}
+ 40% {
+left:-705px
+}
+ 50% {
+left:-1410px
+}
+ 70% {
+left:-1410px
+}
+ 90% {
+left:-1410px
+}
+ 95% {
+left:-1430px
+}
+ 100% {
+left:0
+}
+}
+
+
+@-ms-keyframes slider {
+ 0% {
+left:0
+}
+ 10% {
+left:0
+}
+ 20% {
+left:-705px
+}
+ 40% {
+left:-705px
+}
+ 50% {
+left:-1410px
+}
+ 70% {
+left:-1410px
+}
+ 90% {
+left:-1410px
+}
+ 95% {
+left:-1430px
+}
+ 100% {
+left:0
+}
+}
+div#view {
+	width:700px;
+	height:700px;
+	overflow:hidden;
+}
+div#pic-container {
+	width:2100px;
+	height:700px;
+	position:relative;
+	float:left;
+	-webkit-animation:slider 8s infinite;
+	-moz-animation:slider 8s infinite;
+	-ms-animation:slider 8s infinite;
+	-o-animation:slider 8s infinite;
+}
+
+
+/*-------------------------iframe------------------------------------------------------------------------------------*/
 div.contain-salon {
 	background:url(../images/backcontentmaster.jpg) repeat;
 	width:auto;
-	min-height:930px;
-	padding:100px 80px 80px 80px;
+	min-height:910px;
+	padding:100px 156px 100px 100px;
 }
 div.salon-menu {
 	width:300px;
@@ -1084,10 +1263,10 @@ div.salon-menu ul li a {
 #conferance {
 	background-image:url(../images/conferance.gif);
 }
-#pazirai a:hover {
+a#pazirai:hover {
 	background-image:url(../images/pazirai.gif);
 }
-#conferance a:hover {
+a#conferance:hover {
 	background-image:url(../images/hover-confe.gif);
 }
 div.salon-iframe {
@@ -1095,29 +1274,35 @@ div.salon-iframe {
 	height:800px;
 }
 #salon-iframe-frame {
-	background-color:#333333;
+	background-image:url(../../../New%20folder%20(3)/hoteliranma/images/Besmelah.gif);
+	background-repeat:repeat;
 }
 /*-------------footer-------------------------------------------------------------------------------------------------*/
 div.footer {
-	outline:1px solid #FFF;
+	/*outline:1px solid #FFF;*/
 	width:auto;
 	height:65px;
 	background-color:#333;
+
+	
 }
 div.footer-up {
 	width:auto;
-	height:30px;
-	padding:5px;
+	height:20px;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	padding-top:20px;
+
 }
-div.footer-up a img {
-}
-div.footer-up a {
-	text-decoration:none;
-	color:#000099;
-}
+
 div.footer-down {
 	width:auto;
 	height:25px;
-	font-size:14px;
-	text-align:center;
+	font-size:10px;
+	text-align:center ;
+	font-family:Tahoma, Geneva, sans-serif;
+	direction:ltr;
 }
+ div.footer-down a:link {color:#009;}   
+div.footer-down a:visited {color:#0000CC;} 
