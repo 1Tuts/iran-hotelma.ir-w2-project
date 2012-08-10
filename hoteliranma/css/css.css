@@ -18,18 +18,18 @@ body {
 	background-color:#000;
 }
 div.container {
-	background-image:url(../images/hoteliran.jpg);
+	
 	background-repeat:no-repeat;
-	width:1024px;
-	min-height:1024px;
+width:1024px;
+	height:1250px;
 	margin:0 auto;
 }
-/*-------------header--------------------------*/
+/*-------------header----------------------------------------------------------------------------------------*/
 div.header {
 	width:auto;
 	height:75px;/*outline:1px solid #F00;*/
 }
-/*-------------header top------------------------*/
+/*-------------header top--------------------------------------------------------------------------------------*/
 div.headertop {
 	width:auto;
 	height:25px;
@@ -49,7 +49,7 @@ div.headertop a {
 div.headertop a:hover {
 	color:#FFF;
 }
-/*------------- header down ---------------------*/
+/*------------- header down -----------------------------------------------------------------------------------*/
 div.headerdown {
 	width:auto;
 	height:45px;
@@ -149,19 +149,19 @@ div.logoimage {
 div.logoimage img:hover {
 	background-color:#666;
 }
-/*-------------banner--------------------------*/
+/*-------------banner----------------------------------------------------------------------------------------*/
 div.banner {
 <<<<<<< HEAD ======= background-image:url(../images/banner.jpg);
 >>>>>>> origin/master width:auto;
 	height:360px;
 }
-/*-------------content--------------------------*/
+/*-------------content----------------------------------------------------------------------------------------*/
 div.content {
 	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
 	height:750px;
 }
-/*----------------------contentmaster-*/
+/*----------------------contentmaster---------------------------------------------------------------*/
 div.contentmaster {
 	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
@@ -203,7 +203,7 @@ div.cocenter {
 	left:10px;
 	right:10px;
 }
-/*--------------contentdown-----------------------*/
+/*--------------contentdown-------------------------------------------------------------------------------------*/
 div.contentdown {
 ======= height:120px;
 }
@@ -212,7 +212,7 @@ div.contentdown {
 	height:290px;
 	width:auto;
 }
-/*--------------form reserve-----------------------*/
+/*--------------form reserve-------------------------------------------------------------------------------------*/
 div.contentleft {
 	float:left;
 	width:280px;
@@ -298,7 +298,7 @@ div.ridown a:hover {
 .zang1 {
  -webkit-transform:
 }
-/*-------------content2--------------------------*/
+/*-------------content2----------------------------------------------------------------------------------------*/
 div.content2 {
 	background-image:url(../images/backcontent2%20copy.jpg);
 	background-repeat:repeat;
@@ -361,7 +361,7 @@ h4.notewriter {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:10px;
 }
-/*-------------content-rooms-------------------------*/	
+/*-------------content-rooms---------------------------------------------------------------------------------------*/	
 div.contentrooms {
 	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
@@ -474,11 +474,9 @@ ul.gr li a {
 .gallery img{
 	margin:0 auto;}
 
-a.link-gallery div.contentroomd {
-	width:auto;
-	height:210px;
-}
+
 div.contentroomd {
+	background-image:url(../images/backcontent2%20copy.jpg);
 	width:auto;
 	height:210px;
 	border-top:3px dashed #999999;
@@ -505,7 +503,7 @@ div.chaharroom {
 	margin-left:auto;
 	float:right;
 }
-/*-------------content-roomgallery-------------------------*/
+/*-------------content-roomgallery-------------------------------------------------------------------------------------------------*/
 @-webkit-keyframes slider {
  0% {
 top:0
@@ -537,8 +535,7 @@ top:-1415px
 	-webkit-transform:rotate(-90deg);}
 	
 90%{top:-2815px ;}
-98%{ top:-2815px ; opacity:0;
-	-webkit-transform:rotate(-90deg);}	
+98%{ top:-2815px ;}	
 
  100% {
 top:0 ; 
@@ -569,7 +566,7 @@ div#pic-container{
 	
 
 }
-/*-------------content-reserve------------------------*/
+/*-------------content-reserve------------------------------------------------------------------------------------------------*/
 div.content-reserv {
 	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
@@ -708,7 +705,7 @@ div.content {
 	height:750px;
 	outline:1px solid #F9C;
 }
-/*-------------content-aboutus-------------------------*/
+/*-------------content-aboutus-------------------------------------------------------------------------------------------------*/
 div.content-aboutus {
 	background-image:url(../images/backcontentmaster.jpg);
 	background-repeat:repeat;
@@ -860,7 +857,7 @@ img#six:hover, img#seven:hover, img#eight:hover {
 	-o-transform:rotate(10deg);
 	-webkit-transform:rotate(10deg);
 }
-/*--------------------content-roomservices-------------*/
+/*--------------------content-roomservices-------------------------------------------------------------------------------------*/
 div.content-roomservices {
 	background-image:url(../images/backcontentmaster.jpg);
 	background-repeat:repeat;
@@ -940,7 +937,7 @@ div.table {
 	height:250px;
 	float:left;
 }
-/* ------ contact us ---------  */
+/* ------ contact us ---------------------------------------------------------------------------------  */
 	
 div.contact-us {
 	width:auto;
@@ -1036,7 +1033,7 @@ input.send {
 input:hover, textarea:hover {
 	background-color:#FFF;
 }
-/****------------------------------iframe-----------------------*/
+/****------------------------------iframe-----------------------------------------------------------------------------------------------*/
 div.contain-salon {
 	background:url(../images/backcontentmaster.jpg) repeat;
 	width:auto;
@@ -1081,9 +1078,9 @@ div.salon-iframe {
 #salon-iframe-frame {
 	background-color:#333333;
 }
-/*-------------footer-------------------------*/
+/*-------------footer-------------------------------------------------------------------------------------------------*/
 div.footer {
-	/*outline:1px solid #FFF;*/
+	outline:1px solid #FFF;
 	width:auto;
 	height:65px;
 	background-color:#333;
