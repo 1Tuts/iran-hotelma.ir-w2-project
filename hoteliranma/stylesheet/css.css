@@ -669,7 +669,8 @@ div#pic-container img {
 	float:left;
 	border:5px solid #666;
 }
-/*-------------content-reserve------------------------------------------------------------------------------------------------*/
+
+/*-------------content-reserve------------------------*/
 div.content-reserv {
 	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
@@ -678,52 +679,51 @@ div.content-reserv {
 div.content-leftr {
 	width:570px;
 	height:1060px;
-	/*border:1px dashed blue;*/
 	float:left;
 	padding:45px 0px;
 }
 div.rules {
-	width:570px;
-	height:700px;
-	background-color:#ccc;
-	/*border:1px dashed white;*/
-	background-color:#888;
+	width:545px;
+	height:690px;
+	background-color:#777;
 	opacity:0.75;
 	padding:50px 0;
-}
+
+	}
+
 div.rules ol {
 	float:right;
 	padding:35px;
 }
 div.rules ol li {
-	color:#ddd;
+	color:#eee;
 	font-size:18px;
 	font-family:Tahoma, Geneva, sans-serif;
 	direction:rtl;
 	margin-right:8px;
 }
-div.rules h3 {
-	color:#eee;
+div.rules h4 {
+	color:#ddd;
 	float:right;
 	font-size:26px;
 	font-family:Arial, Helvetica, sans-serif;
 	margin-top:20px;
 }
 div.phones {
-	width:570px;
-	height:115px;
+	width:545px;
+	height:140px;
 	/*border:1px dashed red;*/
-	background-color:#888;
+	background-color:#777;
 	opacity:0.75;
 }
-div.phones p {
-	color:#eee;
-	font-size:25px;
+div.phones span {
+	color:#ddd;
+	font-size:22px;
 	font-family:Arial, Helvetica, sans-serif;
-	text-align:center;
+	margin-right:210px;
 }
-div.phones p.num {
-	text-align:center;
+div.phones img{
+	margin-right:235px;
 }
 div.content-rightr {
 	width:410px;
@@ -737,13 +737,14 @@ div.reserv-date {
 	height:365px;
 	border:1px dashed transparent;
 	border-radius:10%;
-	background-color:rgb(64,50,90);
+	background-color:rgb(60,60,70);
 	opacity:0.75;
 }
-table {
-	margin-right:15px;
+
+table{
+		margin-right:15px;
 }
-div.reserv-date table {
+div.reserv-date table{
 	width:410px;
 	height:300px;
 }
@@ -761,38 +762,51 @@ div.contact-info {
 	margin-top:20px;
 	border:1px dashed transparent;
 	border-radius:10%;
-	background-color:rgb(64,50,90);
+	background-color:rgb(60,60,70);
 	opacity:0.75;
 }
-div.contact-info input, div.add-service input, div.key-send input {
+
+
+div.contact-info input,div.add-service input,div.key-send input{
 	display:inline;
 }
+	
+
+
 div.contact-info h4, div.reserv-date h4, div.add-service h4 {
 	color:#ddd;
 	font-family:Tahoma, Geneva, sans-serif;
+	margin:20px 120px 20px 0px;
 }
 div.add-service {
+
 	width:410px;
-	height:190px;
+	height:220px;
 	margin-top:20px;
 	border:1px dashed transparent;
 	border-radius:8%;
-	background-color:rgb(64,50,90);
+	background-color:rgb(60,60,70);
 	opacity:0.75;
 }
 div.add-service table {
-	width:410px;
+	width:400px;
 	height:120px;
 }
+option{
+	width:20px;
+	padding:3px;
+}
+
+
 div.key-send {
 	width:410px;
-	height:100px;
+	height:90px;
 	margin-top:20px;
 	border:1px dashed transparent;
-	border-radius:10%;
-	background-color:rgb(64,50,90);
+	background-color:#777;
 	opacity:0.75;
 }
+
 div.key-send table {
 	width:410px;
 	height:80px;
@@ -802,12 +816,7 @@ div.key-send table {
 	font-size:22px;
 	font-family:Arial, Helvetica, sans-serif;
 }
-div.content {
-	background-image:url(../images/backcontentmaster.jpg);
-	width:auto;
-	height:750px;
-	outline:1px solid #F9C;
-}
+/*-------- ENTEHAYE SAFE RESERV------*/
 /*-------------content-aboutus-------------------------------------------------------------------------------------------------*/
 div.content-aboutus {
 	background-image:url(../images/backcontentmaster.jpg);
@@ -954,6 +963,56 @@ img#six:hover, img#seven:hover, img#eight:hover {
 	-o-transform:rotate(10deg);
 	-webkit-transform:rotate(10deg);
 }
+/*--------------------content-COFFEESHOP-------------*/
+div.content-coffeeshop{
+	background-image:url(../images/backcontentmaster.jpg);
+	background-repeat:repeat;
+	width:auto;
+	min-height:950px;
+	padding:70px 50px;
+}
+div.content-coffeeshop-up {
+	width:auto;
+	min-height:200px;
+	padding:10px 20px;
+}
+div.content-coffeeshop-up p{
+	line-height:30px;
+}
+div.content-coffeeshop-middle{
+	width:auto;
+	min-height:250px;
+	padding:50px 0px;
+}
+div.boxcafe{
+	width:auto;
+	height:350px;
+	padding-right:80px;
+}
+div.boxcafe img{
+border-radius:10%;
+transition:all 1s;
+-webkit-transition:all 1s;
+-moz-transition:all 1s;
+-o-transition:all 1s;
+-ms-transition:all 1s;
+
+}
+div.boxcafe img:hover{
+	-webkit-transform:scale(1.5,1.5);
+	-moz-transform:scale(1.5,1.5);
+	-o-transform:scale(1.5,1.5);
+	-ms-transform:scale(1.5,1.5);
+	z-index:1;
+}
+div.content-coffeeshop-down{
+	width:auto;
+	height:auto;}
+div.content-coffeeshop-down p{
+	line-height:25px;
+}
+
+/*--------------------ENTEHAYE COFFEE-------------*/
 /*--------------------content-roomservices------------------------------------------------------------------------------*/
 div.content-roomservices {
 	background-image:url(../images/backcontentmaster.jpg);
