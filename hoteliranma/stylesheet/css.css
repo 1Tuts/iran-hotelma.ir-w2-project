@@ -18,9 +18,8 @@ body {
 	background-color:#000;
 }
 div.container {
-	
 	background-repeat:no-repeat;
-width:1024px;
+	width:1024px;
 	height:1250px;
 	margin:0 auto;
 }
@@ -152,7 +151,7 @@ div.logoimage img:hover {
 /*-------------banner----------------------------------------------------------------------------------------*/
 div.banner {
 	background-image:url(../images/banner.jpg);
- 	width:auto;
+	width:auto;
 	height:360px;
 }
 /*-------------content----------------------------------------------------------------------------------------*/
@@ -205,10 +204,10 @@ div.cocenter {
 }
 /*--------------contentdown-------------------------------------------------------------------------------------*/
 div.contentdown {
-======= height:120px;
+	height:120px;
 }
 div.contentdown {
->>>>>>> origin/master padding-left:50px;
+	padding-left:50px;
 	height:290px;
 	width:auto;
 }
@@ -371,36 +370,37 @@ div.contentroomt {
 	width:auto;
 	height:900px;
 }
-div.contentroomt h1{
+div.contentroomt h1 {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:24px;
 	color:#FC0;
 	text-align:right;
 	text-shadow:5p 5p 5px #000000;
 	padding:30px 30px;
-	}
-div.gallery-room-frame{
+}
+div.gallery-room-frame {
 	outline:1px solid #FFF;
 	width:auto;
 	height:800px;
-
 }
-div.gallery-room-frame ul li{
-
+div.gallery-room-frame ul li {
 	list-style-type:none;
-	padding:30px 70px;}
-div.left-room-gallery{
+	padding:30px 70px;
+}
+div.left-room-gallery {
 	margin:0 auto;
 	width:500px;
 	float:left;
 	height:500px;
-	outline:1px solid #FC6; }
-div.right-room-gallery{
+	outline:1px solid #FC6;
+}
+div.right-room-gallery {
 	width:500px;
 	margin-left:500px;
 	height:500px;
-	outline:1px solid #FC6; }
-h4.bt a{
+	outline:1px solid #FC6;
+}
+h4.bt a {
 	width:110px;
 	height:20px;
 	display:inherit;
@@ -409,64 +409,65 @@ h4.bt a{
 	text-shadow:5px 5px 5px #666666;
 	font-weight:bold;
 	text-align:center;
-	
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	text-decoration:none;
 	padding:20px;
-
-	}
-h4.bt a:hover{
-	
+}
+h4.bt a:hover {
 	width:110px;
 	height:20px;
 	display:inherit;
-		background-image:url(../images/gallery-bottom.gif);
+	background-image:url(../images/gallery-bottom.gif);
 	color:#000000;
-			text-shadow:5px 5px 5px #FFFFFF;
+	text-shadow:5px 5px 5px #FFFFFF;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	text-decoration:none;
 	padding:20px;
-	
-	
-	}
-.gallery-image{
+}
+.gallery-image {
 	border:20px solid #333;
-	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;}
+	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
+}
 /*-------------content-room-gallery-------------------------------------------------------------------------------------*/	
 
-@-webkit-keyframes slider{
-	10%{ left:0;}
-	20%{ left:0;}
-	30%{ left:-500px;}
-    40%{}
-    50%{}
-	60%{}
-    70%{}
-	80%{}
-	90%{}
-	100%{}
-	
-}  
-		
-
-div.view-room-gallery{
+@-webkit-keyframes slider {
+ 10% {
+left:0;
+}
+ 20% {
+left:0;
+}
+ 30% {
+left:-500px;
+}
+ 40% {
+}
+ 50% {
+}
+ 60% {
+}
+ 70% {
+}
+ 80% {
+}
+ 90% {
+}
+ 100% {
+}
+}
+div.view-room-gallery {
 	width:500px;
 	height:500px;
 	outline:1px dashed #999;
 	overflow:hidden;
-	
-	
 }
-
-div.pic-roomcontainer{
+div.pic-roomcontainer {
 	width:2000px;
 	height:500px;
 	position:relative;
-
 }
-	
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
 	outline:1px solid #FFF;
@@ -474,7 +475,6 @@ div.contentroomd {
 	width:auto;
 	height:210px;
 	border-top:3px dashed #999999;
-	
 }
 div.yekroom {
 	width:245px;
@@ -499,44 +499,65 @@ div.chaharroom {
 }
 /*-------------content-roomgallery-------------------------------------------------------------------------------------------------*/
 @-webkit-keyframes slider {
- 0% {top:0;}
- 10% {top:0; opacity:0.5;}
- 20% {opacity:0;-webkit-transform:rotate(-90deg);}
- 30% {top:-705px;}
- 40% {top:-705px ; opacity:0.8;}
- 50%{opacity:0;-webkit-transform:rotate(-90deg);}
- 60% {top:-1415px;}
- 70% {top:-1415px;}
- 80%{opacity:0;-webkit-transform:rotate(-90deg);}
- 90%{top:-2815px ;}
- 98%{ top:-2815px ;}	
- 100% {top:0 ;}
+ 0% {
+top:0;
 }
-
-
-div#view{
+ 10% {
+top:0;
+opacity:0.5;
+}
+ 20% {
+opacity:0;
+-webkit-transform:rotate(-90deg);
+}
+ 30% {
+top:-705px;
+}
+ 40% {
+top:-705px;
+opacity:0.8;
+}
+ 50% {
+opacity:0;
+-webkit-transform:rotate(-90deg);
+}
+ 60% {
+top:-1415px;
+}
+ 70% {
+top:-1415px;
+}
+ 80% {
+opacity:0;
+-webkit-transform:rotate(-90deg);
+}
+ 90% {
+top:-2815px;
+}
+ 98% {
+top:-2815px;
+}
+ 100% {
+top:0;
+}
+}
+div#view {
 	width:900px;
 	height:700px;
 	outline:1px dashed #999;
 	margin:0 auto;
-	overflow:hidden;	
-	
+	overflow:hidden;
 }
-
-div#pic-container{
+div#pic-container {
 	width:800px;
 	height:3500px;
 	margin:0 auto;
 	position:relative;
-	
 	right:40px;
 	left:40px;
 	-webkit-animation:slider 10s infinite;
-
-	
-
 }
-div#pic-container img{
+div#pic-container img {
 	float:left;
 	border:5px solid #666;
 }
@@ -775,12 +796,6 @@ div.contentdown-aboutus-middle {
 	width:auto;
 	min-height:375px;
 	margin-bottom:30px;
-	/*
-	background-color:#aaa;
-	-moz-box-shadow:inset 0px 0px 400px 100px #000;
-	-ms-box-shadow:inset 0px 0px 400px 100px #000;
-	-o-box-shadow:inset 0px 0px 400px 100px #000;
-	-webkit-box-shadow:inset 0px 0px 400px 100px #000;*/
 	padding:10px;
 }
 div.contentdown-aboutus-middle h1 {
@@ -911,9 +926,12 @@ div.table {
 	height:250px;
 	float:left;
 }
-
-div.content-roomservices-up a:link {color:#009;}    
-div.content-roomservices-up a:visited {color:#0000CC;} 
+div.content-roomservices-up a:link {
+	color:#009;
+}
+div.content-roomservices-up a:visited {
+	color:#0000CC;
+}
 /*
 div.content-roomservices-up a:hover {color:#FF00FF;}   
 div.content-roomservices-up a:active {color:#0000FF;}*/
@@ -1016,100 +1034,180 @@ input:hover, textarea:hover {
 
 
 /*------------------------------iframe-slider--------------------------------------------------------------------------*/
-@keyframes slider{
- 0% {left:0;}
- 10% {left:0;}
- 20% {left:-705px;}
- 40% {left:-705px;}
- 50% {left:-1410px;}
- 70% {left:-1410px;}
- 90% {left:-1410px;}
- 95% {left:-1430px;}
- 100% {left:0;}
+@keyframes slider-iframe {
+ 0% {
+left:0;
 }
-
-@-webkit-keyframes slider {
- 0% {left:0;}
- 10% {left:0;}
- 20% {left:-705px;}
- 40% {left:-705px;}
- 50% {left:-1410px;}
- 70% {left:-1410px;}
- 90% {left:-1410px;}
- 95% {left:-1430px;}
- 100% {left:0;}
+ 10% {
+left:0;
 }
-
-
-@-moz-keyframes slider {
- 0% {left:0;}
- 10% {left:0;}
- 20% {left:-705px;}
- 40% {left:-705px;}
- 50% {left:-1410px;}
- 70% {left:-1410px;}
- 90% {left:-1410px;}
- 95% {left:-1430px;}
- 100% {left:0;}
+ 20% {
+left:-505px;
 }
-
-
-@-o-keyframes slider {
-	
-0% {left:0;}
- 10% {left:0;}
- 20% {left:-705px;}
- 40% {left:-705px;}
- 50% {left:-1410px;}
- 70% {left:-1410px;}
- 90% {left:-1410px;}
- 95% {left:-1430px;}
- 100% {left:0;}
+ 40% {
+left:-505px;
 }
-
-
-@-ms-keyframes slider {
- 0% {left:0;}
- 10% {left:0;}
- 20% {left:-705px;}
- 40% {left:-705px;}
- 50% {left:-1410px;}
- 70% {left:-1410px;}
- 90% {left:-1410px;}
- 95% {left:-1430px;}
- 100% {left:0;}
+ 50% {
+left:-1010px;
 }
-div#view {
-	width:700px;
-	height:700px;
+ 70% {
+left:-1010px;
+}
+ 90% {
+left:-1010px;
+}
+ 95% {
+left:-1030px;
+}
+ 100% {
+left:0;
+}
+}
+ @-webkit-keyframes slider-iframe {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-505px;
+}
+ 40% {
+left:-505px;
+}
+ 50% {
+left:-1010px;
+}
+ 70% {
+left:-1010px;
+}
+ 90% {
+left:-1010px;
+}
+ 95% {
+left:-1030px;
+}
+ 100% {
+left:0;
+}
+}
+ @-moz-keyframes slider-iframe {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-505px;
+}
+ 40% {
+left:-505px;
+}
+ 50% {
+left:-1010px;
+}
+ 70% {
+left:-1010px;
+}
+ 90% {
+left:-1010px;
+}
+ 95% {
+left:-1030px;
+}
+ 100% {
+left:0;
+}
+}
+ @-o-keyframes slider-iframe {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-505px;
+}
+ 40% {
+left:-505px;
+}
+ 50% {
+left:-1010px;
+}
+ 70% {
+left:-1010px;
+}
+ 90% {
+left:-1010px;
+}
+ 95% {
+left:-1030px;
+}
+ 100% {
+left:0;
+}
+}
+ @-ms-keyframes slider-iframe {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-505px;
+}
+ 40% {
+left:-505px;
+}
+ 50% {
+left:-1010px;
+}
+ 70% {
+left:-1010px;
+}
+ 90% {
+left:-1010px;
+}
+ 95% {
+left:-1030px;
+}
+ 100% {
+left:0;
+}
+}
+div#view-iframe {
+	width:500px;
+	height:500px;
 	overflow:hidden;
 }
-div#pic-container {
-	width:2100px;
-	height:700px;
+div#pic-container-iframe {
+	width:1500px;
+	height:500px;
 	position:relative;
 	float:left;
-	-webkit-animation:slider 8s infinite;
-	-moz-animation:slider 8s infinite;
-	-ms-animation:slider 8s infinite;
-	-o-animation:slider 8s infinite;
+	-webkit-animation:slider-iframe 15s infinite;
+	-moz-animation:slider-iframe 15s infinite;
+	-ms-animation:slider-iframe 15s infinite;
+	-o-animation:slider-iframe 15s infinite;
 }
-div#pic-container img{
+div#pic-container-iframe img {
 	float:left;
-	border:6px solid #666;
 }
-
-
 /*-------------------------iframe------------------------------------------------------------------------------------*/
 div.contain-salon {
 	background:url(../images/backcontentmaster.jpg) repeat;
 	width:auto;
-	min-height:910px;
-	padding:100px 156px 100px 100px;
+	min-height:860px;
+	padding:150px 80px 100px 80px;
 }
 div.salon-menu {
 	width:300px;
 	height:40px;
+	padding-right:200px;
 }
 div.salon-menu ul {
 	list-style:none;
@@ -1136,15 +1234,24 @@ a#pazirai:hover {
 	background-image:url(../images/pazirai.gif);
 }
 a#conferance:hover {
+	background-image: url(../images/hover-confe.gif);
 	background-image:url(../images/hover-confe.gif);
 }
 div.salon-iframe {
 	width:auto;
-	height:800px;
+	height:600px;
+	padding-right:200px;
 }
 #salon-iframe-frame {
-	background-image:url(../../../New%20folder%20(3)/hoteliranma/images/Besmelah.gif);
+	background-image:url(../images/backcontent2%20copy.jpg);
 	background-repeat:repeat;
+}
+div.contain-salon-reserve {
+	width:auto;
+	height:70px;
+	color:#CCC;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
 }
 /*-------------footer-------------------------------------------------------------------------------------------------*/
 div.footer {
@@ -1152,8 +1259,6 @@ div.footer {
 	width:auto;
 	height:65px;
 	background-color:#333;
-
-	
 }
 div.footer-up {
 	width:auto;
@@ -1162,16 +1267,18 @@ div.footer-up {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	padding-top:20px;
-
 }
-
 div.footer-down {
 	width:auto;
 	height:25px;
 	font-size:10px;
-	text-align:center ;
+	text-align:center;
 	font-family:Tahoma, Geneva, sans-serif;
 	direction:ltr;
 }
- div.footer-down a:link {color:#009;}   
-div.footer-down a:visited {color:#0000CC;} 
+div.footer-down a:link {
+	color:#009;
+}
+div.footer-down a:visited {
+	color:#0000CC;
+}
