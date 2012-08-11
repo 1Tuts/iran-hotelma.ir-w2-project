@@ -299,17 +299,17 @@ div.cocenter {
 }
 #conl {
 	position:relative;
-	top:-30px;
+	top:-60px;
 }
 #conr {
 	position:relative;
-	top:-30px;
+	top:-60px;
 	right:70px;
 	left:0;
 }
 #conc {
 	position:relative;
-	top:-30px;
+	top:-60px;
 	left:10px;
 	right:10px;
 }
@@ -327,19 +327,34 @@ div.contentleft {
 	float:left;
 	width:280px;
 	height:270px;
+
 }
 .index-form {
+	opacity:.8;
 	position:relative;
 	left:20px;
 	width:250px;
 	height:270px;
 	background-color:#333;
+	border:2px double #CCCCCC;
+	
 }
 .titleform {
 	color:#FC0;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:9px;
+	padding:0 20px;
 }
+#line{
+	padding:10px 0;
+	display:block;
+	border-bottom:2px double #FFFF66;}
+td.selection{
+	padding:0 5px;
+	text-align:right;
+	
+	
+	}	
 .formkey {
 	background-color:#575850;
 	color:#000000;
@@ -384,13 +399,13 @@ h2.wellcometext {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:16px;
 	font-weight:bold;
-	color:#FFCC00;
+	color:#FC0;
 	text-shadow:#333333;
 }
 h2.text {
 	padding-top:40px;
 	font-family:Tahoma, Geneva, sans-serif;
-	font-size:11px;
+	font-size:14px;
 	line-height:20px;
 	color:#fff;
 }
@@ -425,7 +440,7 @@ h1.content2-title {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	font-weight:bold;
-	padding:10px;
+	padding:10px 5px;
 }
 .rs img{
 	padding:10px;
@@ -495,7 +510,7 @@ div.contentroomt h1 {
 	padding:30px 30px;
 }
 div.gallery-room-frame {
-	outline:1px solid #FFF;
+	
 	width:auto;
 	height:800px;
 }
@@ -508,13 +523,13 @@ div.left-room-gallery {
 	width:500px;
 	float:left;
 	height:500px;
-	outline:1px solid #FC6;
+	
 }
 div.right-room-gallery {
 	width:500px;
 	margin-left:500px;
 	height:500px;
-	outline:1px solid #FC6;
+
 }
 h4.bt a {
 	width:110px;
@@ -578,7 +593,7 @@ div#pic-container-roomgallery{
 
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
-	outline:1px solid #FFF;
+	
 	background-image:url(../images/backcontent2%20copy.jpg);
 	width:auto;
 	height:210px;
