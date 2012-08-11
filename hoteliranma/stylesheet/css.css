@@ -543,9 +543,7 @@ a.zang img {
 div.ridown a:hover {
 	opacity:0.8;
 }
-.zang1 {
- -webkit-transform:
-}
+
 /*-------------content2----------------------------------------------------------------------------------------*/
 div.content2 {
 	background-image:url(../images/backcontent2%20copy.jpg);
@@ -631,7 +629,7 @@ div.contentroomt h1 {
 	font-size:24px;
 	color:#FC0;
 	text-align:right;
-	text-shadow:5p 5p 5px #000000;
+	text-shadow:5px 5px 5px #000000;
 	padding:30px 30px;
 }
 div.gallery-room-frame {
