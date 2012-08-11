@@ -8,7 +8,7 @@ Iran hotel website
 entekhabe in design be dalile tarahi ziba va motefavet nesbat be design haye irani ast .
 
  address domain proje:
-   www.iran-hotelma.ir
+   www.provident.ir
    
    Buliding Technologies
 
