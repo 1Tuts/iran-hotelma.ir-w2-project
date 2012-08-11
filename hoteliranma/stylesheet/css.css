@@ -432,48 +432,34 @@ h4.bt a:hover {
 }
 /*-------------content-room-gallery-------------------------------------------------------------------------------------*/	
 
-div.accslides {
-width : 600px;
-margin : 0 auto;
-overflow : hidden;
+@-webkit-keyframes slider-roomgallery {
+	0%{ left:0 }
+	10%{ left:0 ; opacity:0 }
+	20%{ left:-605px }
+	30%{ left:-605px }
+	40%{ opacity:0;}
+	50%{ left:-1210px }
+	70%{ left:-1210px }
+	90%{ left:-1210px }
+	95%{ left:-1240px }
+	100%{ left:0 }
 }
 
-div.accslides .train{
-width : 1000px;
+div#view-roomgallery{
+	margin:0 auto;
+	width:600px;
+	height:400px;
+	outline:1px dashed #999;	
+	overflow:hidden;
 }
 
-div.accslides .train > div {
-float : left;
-width : 150px;
-overflow : hidden;
--webkit-transition:5s;
-}
-div.accslides .train > div:hover{
-	width:50px;}
-
-div.accslides .train > div:last-child {
-padding-right : 300px;
+div#pic-container-roomgallery{
+	width:1830px;
+	height:400px;
+	position:relative;
+	-webkit-animation:slider-roomgallery 10s infinite;
 }
 
-div.accslides .train > div > img {
-display: block;
-}
-
-
-/* Acc Slide css animation (no js)
--------------------------------------------------- */
-
-div.accslides .train > div {
--webkit-transition : width 700ms; /* u can move to line 21 */
-}
-
-div.accslides:hover .train > div {
-width : 50px;
-}
-
-div.accslides .train > div:hover {
-width : 450px;
-}
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
 	outline:1px solid #FFF;
