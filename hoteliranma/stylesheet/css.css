@@ -864,10 +864,12 @@ div.content-leftr {
 }
 div.rules {
 	width:545px;
-	height:690px;
+	height:680px;
 	background-color:#777;
 	opacity:0.75;
-	padding:50px 0;
+	padding:30px 0;
+	margin-top:40px;
+
 }
 div.rules ol {
 	float:right;
@@ -881,22 +883,21 @@ div.rules ol li {
 	margin-right:8px;
 }
 div.rules h4 {
-	color:#ddd;
+	color:#e3c033;
 	float:right;
 	font-size:26px;
 	font-family:Arial, Helvetica, sans-serif;
-	margin-top:20px;
 }
 div.phones {
 	width:545px;
-	height:140px;
-	/*border:1px dashed red;*/
+	min-height:140px;
 	background-color:#777;
 	opacity:0.75;
+
 }
 div.phones span {
-	color:#ddd;
-	font-size:22px;
+	color:#222;
+	font-size:20px;
 	font-family:Arial, Helvetica, sans-serif;
 	margin-right:210px;
 }
@@ -913,7 +914,7 @@ div.content-rightr {
 div.reserv-date {
 	width:410px;
 	height:365px;
-	border:1px dashed transparent;
+	border:1px dotted white;
 	border-radius:10%;
 	background-color:rgb(60,60,70);
 	opacity:0.75;
@@ -929,15 +930,15 @@ div.contact-info table {
 	width:410px;
 	height:300px;
 }
-div.reserv-date td, div.contact-info td, div.add-service td, div.key-send td {
-	color:#ddd;
+div.reserv-date td, div.contact-info td, div.add-service td {
+	color:#da3;
 	font-size:17px;
 }
 div.contact-info {
 	width:410px;
 	height:370px;
 	margin-top:20px;
-	border:1px dashed transparent;
+	border:1px dotted white;
 	border-radius:10%;
 	background-color:rgb(60,60,70);
 	opacity:0.75;
@@ -946,7 +947,7 @@ div.contact-info input, div.add-service input, div.key-send input {
 	display:inline;
 }
 div.contact-info h4, div.reserv-date h4, div.add-service h4 {
-	color:#ddd;
+	color:#e3c033;
 	font-family:Tahoma, Geneva, sans-serif;
 	margin:20px 120px 20px 0px;
 }
@@ -954,7 +955,7 @@ div.add-service {
 	width:410px;
 	height:220px;
 	margin-top:20px;
-	border:1px dashed transparent;
+	border:1px dotted white;
 	border-radius:8%;
 	background-color:rgb(60,60,70);
 	opacity:0.75;
@@ -978,12 +979,19 @@ div.key-send {
 div.key-send table {
 	width:410px;
 	height:80px;
-	margin-top:10px;
 }
+div.key-send td{
+	color:#000;}
 #key {
 	font-size:22px;
 	font-family:Arial, Helvetica, sans-serif;
 }
+#key:hover{
+	background-color:#666;
+	color:white;
+}
+
+
 /*-------- ENTEHAYE SAFE RESERV------*/
 /*-------------content-aboutus-------------------------------------------------------------------------------------------------*/
 div.content-aboutus {
@@ -1144,9 +1152,18 @@ div.content-coffeeshop-up {
 	min-height:200px;
 	padding:10px 20px;
 }
+div.content-coffeeshop-up img{
+	float:left;
+	-moz-transition:all 0.5;
+	-webkit-transition:all 0.5;
+	-ms-transition:all 0.5;
+	-o-transition:all 0.5;
+}
 div.content-coffeeshop-up p {
 	line-height:30px;
 }
+
+
 div.content-coffeeshop-middle {
 	width:auto;
 	min-height:250px;
@@ -1179,7 +1196,11 @@ div.content-coffeeshop-down {
 div.content-coffeeshop-down p {
 	line-height:25px;
 }
+div.content-coffeeshop-down h2,div.content-coffeeshop-up h2{
+	color:#e3c064;}
+
 /*--------------------ENTEHAYE COFFEE-------------*/
+
 /*--------------------content-roomservices------------------------------------------------------------------------------*/
 div.content-roomservices {
 	background-image:url(../images/backcontentmaster.jpg);
