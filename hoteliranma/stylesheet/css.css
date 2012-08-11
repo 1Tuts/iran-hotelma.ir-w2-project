@@ -439,12 +439,7 @@ div.cocenter {
 	left:10px;
 	right:10px;
 }
-a.soghat {
-	opacity:0.7;
-}
-a.soghat:hover {
-	opacity:1;
-}
+
 /*--------------contentdown-------------------------------------------------------------------------------------*/
 div.contentdown {
 	height:120px;
