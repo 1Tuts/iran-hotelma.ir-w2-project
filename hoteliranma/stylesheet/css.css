@@ -151,12 +151,11 @@ div.logoimage img:hover {
 /*-------------banner----------------------------------------------------------------------------------------*/
 div.banner {
 	background-image:url(../images/backcontentmaster.jpg);
-    width:962px;
+	width:962px;
 	height:300px;
 	padding:40px 30px;
-	
 }
-div.slider{
+div.slider {
 	background-color:#999;
 	width:900px;
 	height:280px;
@@ -165,7 +164,7 @@ div.slider{
 	margin-right:30px;
 	margin-bottom:10px;
 }
-div.opacityb{
+div.opacityb {
 	width:900px;
 	height:40px;
 	background-color:#222;
@@ -174,7 +173,7 @@ div.opacityb{
 	position:absolute;
 	top:355px;
 }
-div.aks{
+div.aks {
 	width:4630px;
 	height:280px;
 	position:relative;
@@ -184,87 +183,214 @@ div.aks{
 	-ms-animation:slidingb 25s infinite;
 	-o-animation:slidingb 25s infinite;
 }
-div.aks > img{
+div.aks > img {
 	float:right;
 }
-@keyframes slidingb{
-	0%{right:0}
-	10%{right:0}
-	15%{right:-925px}
-	25%{right:-925px}
-	30%{right:-1850px}
-	40%{right:-1850px}
-	45%{right:-2775px}
-	55%{right:-2775px}
-	60%{right:-3700px}
-	70%{right:-3700px}
-	80%{right:-3700px}
-	85%{right:-3730px}
-	90%{right:0}
+@keyframes slidingb {
+ 0% {
+right:0
 }
-@-moz-keyframes slidingb{
-	0%{right:0}
-	10%{right:0}
-	15%{right:-925px}
-	25%{right:-925px}
-	30%{right:-1850px}
-	40%{right:-1850px}
-	45%{right:-2775px}
-	55%{right:-2775px}
-	60%{right:-3700px}
-	70%{right:-3700px}
-	80%{right:-3700px}
-	85%{right:-3730px}
-	90%{right:0}
+ 10% {
+right:0
 }
-@-webkit-keyframes slidingb{
-	0%{right:0}
-	10%{right:0}
-	15%{right:-925px}
-	25%{right:-925px}
-	30%{right:-1850px}
-	40%{right:-1850px}
-	45%{right:-2775px}
-	55%{right:-2775px}
-	60%{right:-3700px}
-	70%{right:-3700px}
-	80%{right:-3700px}
-	85%{right:-3730px}
-	90%{right:0}
-	
+ 15% {
+right:-925px
 }
-@-o-keyframes slidingb{
-	0%{right:0}
-	10%{right:0}
-	15%{right:-925px}
-	25%{right:-925px}
-	30%{right:-1850px}
-	40%{right:-1850px}
-	45%{right:-2775px}
-	55%{right:-2775px}
-	60%{right:-3700px}
-	70%{right:-3700px}
-	80%{right:-3700px}
-	85%{right:-3730px}
-	90%{right:0}
+ 25% {
+right:-925px
 }
-
-@-ms-keyframes slidingb{
-	0%{right:0}
-	10%{right:0}
-	15%{right:-925px}
-	25%{right:-925px}
-	30%{right:-1850px}
-	40%{right:-1850px}
-	45%{right:-2775px}
-	55%{right:-2775px}
-	60%{right:-3700px}
-	70%{right:-3700px}
-	80%{right:-3700px}
-	85%{right:-3730px}
-	90%{right:0}
+ 30% {
+right:-1850px
 }
-
+ 40% {
+right:-1850px
+}
+ 45% {
+right:-2775px
+}
+ 55% {
+right:-2775px
+}
+ 60% {
+right:-3700px
+}
+ 70% {
+right:-3700px
+}
+ 80% {
+right:-3700px
+}
+ 85% {
+right:-3730px
+}
+ 90% {
+right:0
+}
+}
+@-moz-keyframes slidingb {
+ 0% {
+right:0
+}
+ 10% {
+right:0
+}
+ 15% {
+right:-925px
+}
+ 25% {
+right:-925px
+}
+ 30% {
+right:-1850px
+}
+ 40% {
+right:-1850px
+}
+ 45% {
+right:-2775px
+}
+ 55% {
+right:-2775px
+}
+ 60% {
+right:-3700px
+}
+ 70% {
+right:-3700px
+}
+ 80% {
+right:-3700px
+}
+ 85% {
+right:-3730px
+}
+ 90% {
+right:0
+}
+}
+@-webkit-keyframes slidingb {
+ 0% {
+right:0
+}
+ 10% {
+right:0
+}
+ 15% {
+right:-925px
+}
+ 25% {
+right:-925px
+}
+ 30% {
+right:-1850px
+}
+ 40% {
+right:-1850px
+}
+ 45% {
+right:-2775px
+}
+ 55% {
+right:-2775px
+}
+ 60% {
+right:-3700px
+}
+ 70% {
+right:-3700px
+}
+ 80% {
+right:-3700px
+}
+ 85% {
+right:-3730px
+}
+ 90% {
+right:0
+}
+}
+@-o-keyframes slidingb {
+ 0% {
+right:0
+}
+ 10% {
+right:0
+}
+ 15% {
+right:-925px
+}
+ 25% {
+right:-925px
+}
+ 30% {
+right:-1850px
+}
+ 40% {
+right:-1850px
+}
+ 45% {
+right:-2775px
+}
+ 55% {
+right:-2775px
+}
+ 60% {
+right:-3700px
+}
+ 70% {
+right:-3700px
+}
+ 80% {
+right:-3700px
+}
+ 85% {
+right:-3730px
+}
+ 90% {
+right:0
+}
+}
+ @-ms-keyframes slidingb {
+ 0% {
+right:0
+}
+ 10% {
+right:0
+}
+ 15% {
+right:-925px
+}
+ 25% {
+right:-925px
+}
+ 30% {
+right:-1850px
+}
+ 40% {
+right:-1850px
+}
+ 45% {
+right:-2775px
+}
+ 55% {
+right:-2775px
+}
+ 60% {
+right:-3700px
+}
+ 70% {
+right:-3700px
+}
+ 80% {
+right:-3700px
+}
+ 85% {
+right:-3730px
+}
+ 90% {
+right:0
+}
+}
 /*-------------content----------------------------------------------------------------------------------------*/
 div.content {
 	background-image:url(../images/backcontentmaster.jpg);
@@ -327,7 +453,6 @@ div.contentleft {
 	float:left;
 	width:280px;
 	height:270px;
-
 }
 .index-form {
 	opacity:.8;
@@ -337,7 +462,6 @@ div.contentleft {
 	height:270px;
 	background-color:#333;
 	border:2px double #CCCCCC;
-	
 }
 .titleform {
 	color:#FC0;
@@ -345,16 +469,15 @@ div.contentleft {
 	font-size:9px;
 	padding:0 20px;
 }
-#line{
+#line {
 	padding:10px 0;
 	display:block;
-	border-bottom:2px double #FFFF66;}
-td.selection{
+	border-bottom:2px double #FFFF66;
+}
+td.selection {
 	padding:0 5px;
 	text-align:right;
-	
-	
-	}	
+}
 .formkey {
 	background-color:#575850;
 	color:#000000;
@@ -442,11 +565,13 @@ h1.content2-title {
 	font-weight:bold;
 	padding:10px 5px;
 }
-.rs img{
+.rs img {
 	padding:10px;
-	opacity:.5;}
-	.rs img:hover{
-	opacity:1;}
+	opacity:.5;
+}
+.rs img:hover {
+	opacity:1;
+}
 ul.emkanatser {
 	padding:20px 20px;
 	list-style-type:none;
@@ -510,7 +635,6 @@ div.contentroomt h1 {
 	padding:30px 30px;
 }
 div.gallery-room-frame {
-	
 	width:auto;
 	height:800px;
 }
@@ -523,13 +647,11 @@ div.left-room-gallery {
 	width:500px;
 	float:left;
 	height:500px;
-	
 }
 div.right-room-gallery {
 	width:500px;
 	margin-left:500px;
 	height:500px;
-
 }
 h4.bt a {
 	width:110px;
@@ -564,36 +686,53 @@ h4.bt a:hover {
 /*-------------content-room-gallery-------------------------------------------------------------------------------------*/	
 
 @-webkit-keyframes slider-roomgallery {
-	0%{ left:0 }
-	10%{ left:0 ; opacity:0 }
-	20%{ left:-605px }
-	30%{ left:-605px }
-	40%{ opacity:0;}
-	50%{ left:-1210px }
-	70%{ left:-1210px }
-	90%{ left:-1210px }
-	95%{ left:-1240px }
-	100%{ left:0 }
+ 0% {
+left:0
 }
-
-div#view-roomgallery{
+ 10% {
+left:0;
+opacity:0
+}
+ 20% {
+left:-605px
+}
+ 30% {
+left:-605px
+}
+ 40% {
+opacity:0;
+}
+ 50% {
+left:-1210px
+}
+ 70% {
+left:-1210px
+}
+ 90% {
+left:-1210px
+}
+ 95% {
+left:-1240px
+}
+ 100% {
+left:0
+}
+}
+div#view-roomgallery {
 	margin:0 auto;
 	width:600px;
 	height:400px;
-	outline:1px dashed #999;	
+	outline:1px dashed #999;
 	overflow:hidden;
 }
-
-div#pic-container-roomgallery{
+div#pic-container-roomgallery {
 	width:1830px;
 	height:400px;
 	position:relative;
 	-webkit-animation:slider-roomgallery 10s infinite;
 }
-
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
-	
 	background-image:url(../images/backcontent2%20copy.jpg);
 	width:auto;
 	height:210px;
@@ -684,7 +823,6 @@ div#pic-container img {
 	float:left;
 	border:5px solid #666;
 }
-
 /*-------------content-reserve------------------------*/
 div.content-reserv {
 	background-image:url(../images/backcontentmaster.jpg);
@@ -703,9 +841,7 @@ div.rules {
 	background-color:#777;
 	opacity:0.75;
 	padding:50px 0;
-
-	}
-
+}
 div.rules ol {
 	float:right;
 	padding:35px;
@@ -737,7 +873,7 @@ div.phones span {
 	font-family:Arial, Helvetica, sans-serif;
 	margin-right:210px;
 }
-div.phones img{
+div.phones img {
 	margin-right:235px;
 }
 div.content-rightr {
@@ -755,11 +891,10 @@ div.reserv-date {
 	background-color:rgb(60,60,70);
 	opacity:0.75;
 }
-
-table{
-		margin-right:15px;
+table {
+	margin-right:15px;
 }
-div.reserv-date table{
+div.reserv-date table {
 	width:410px;
 	height:300px;
 }
@@ -780,21 +915,15 @@ div.contact-info {
 	background-color:rgb(60,60,70);
 	opacity:0.75;
 }
-
-
-div.contact-info input,div.add-service input,div.key-send input{
+div.contact-info input, div.add-service input, div.key-send input {
 	display:inline;
 }
-	
-
-
 div.contact-info h4, div.reserv-date h4, div.add-service h4 {
 	color:#ddd;
 	font-family:Tahoma, Geneva, sans-serif;
 	margin:20px 120px 20px 0px;
 }
 div.add-service {
-
 	width:410px;
 	height:220px;
 	margin-top:20px;
@@ -807,12 +936,10 @@ div.add-service table {
 	width:400px;
 	height:120px;
 }
-option{
+option {
 	width:20px;
 	padding:3px;
 }
-
-
 div.key-send {
 	width:410px;
 	height:90px;
@@ -821,7 +948,6 @@ div.key-send {
 	background-color:#777;
 	opacity:0.75;
 }
-
 div.key-send table {
 	width:410px;
 	height:80px;
@@ -979,7 +1105,7 @@ img#six:hover, img#seven:hover, img#eight:hover {
 	-webkit-transform:rotate(10deg);
 }
 /*--------------------content-COFFEESHOP-------------*/
-div.content-coffeeshop{
+div.content-coffeeshop {
 	background-image:url(../images/backcontentmaster.jpg);
 	background-repeat:repeat;
 	width:auto;
@@ -991,42 +1117,41 @@ div.content-coffeeshop-up {
 	min-height:200px;
 	padding:10px 20px;
 }
-div.content-coffeeshop-up p{
+div.content-coffeeshop-up p {
 	line-height:30px;
 }
-div.content-coffeeshop-middle{
+div.content-coffeeshop-middle {
 	width:auto;
 	min-height:250px;
 	padding:50px 0px;
 }
-div.boxcafe{
+div.boxcafe {
 	width:auto;
 	height:350px;
 	padding-right:80px;
 }
-div.boxcafe img{
-border-radius:10%;
-transition:all 1s;
--webkit-transition:all 1s;
--moz-transition:all 1s;
--o-transition:all 1s;
--ms-transition:all 1s;
-
+div.boxcafe img {
+	border-radius:10%;
+	transition:all 1s;
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	-o-transition:all 1s;
+	-ms-transition:all 1s;
 }
-div.boxcafe img:hover{
-	-webkit-transform:scale(1.5,1.5);
-	-moz-transform:scale(1.5,1.5);
-	-o-transform:scale(1.5,1.5);
-	-ms-transform:scale(1.5,1.5);
+div.boxcafe img:hover {
+	-webkit-transform:scale(1.5, 1.5);
+	-moz-transform:scale(1.5, 1.5);
+	-o-transform:scale(1.5, 1.5);
+	-ms-transform:scale(1.5, 1.5);
 	z-index:1;
 }
-div.content-coffeeshop-down{
+div.content-coffeeshop-down {
 	width:auto;
-	height:auto;}
-div.content-coffeeshop-down p{
+	height:auto;
+}
+div.content-coffeeshop-down p {
 	line-height:25px;
 }
-
 /*--------------------ENTEHAYE COFFEE-------------*/
 /*--------------------content-roomservices------------------------------------------------------------------------------*/
 div.content-roomservices {
