@@ -448,6 +448,8 @@ width : 150px;
 overflow : hidden;
 -webkit-transition:5s;
 }
+div.accslides .train > div:hover{
+	width:50px;}
 
 div.accslides .train > div:last-child {
 padding-right : 300px;
