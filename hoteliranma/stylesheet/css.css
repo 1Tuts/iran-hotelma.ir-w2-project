@@ -151,30 +151,29 @@ div.logoimage img:hover {
 /*-------------banner----------------------------------------------------------------------------------------*/
 div.banner {
 	background-image:url(../images/backcontentmaster.jpg);
-	width:962px;
+	min-width:1024px;
 	height:300px;
-	padding:40px 30px;
+	padding-bottom:40px;
 }
 div.slider {
 	background-color:#999;
-	width:900px;
+	min-width:1010px;
 	height:280px;
 	border:8px groove #555;
 	overflow:hidden;
-	margin-right:30px;
 	margin-bottom:10px;
 }
 div.opacityb {
-	width:900px;
+	min-width:1012px;
 	height:40px;
 	background-color:#222;
 	opacity:0.55;
 	filter:Alpha(opacity=55);
 	position:absolute;
-	top:355px;
+	top:315px;
 }
 div.aks {
-	width:4630px;
+	min-width:5060px;
 	height:280px;
 	position:relative;
 	animation:slidingb 25s infinite;
@@ -187,82 +186,82 @@ div.aks > img {
 	float:right;
 }
 @keyframes slidingb {
- 0% {
+0% {
 right:0
 }
  10% {
 right:0
 }
  15% {
-right:-925px
+right:-1015px
 }
  25% {
-right:-925px
+right:-1015px
 }
  30% {
-right:-1850px
+right:-2025px
 }
  40% {
-right:-1850px
+right:-2025px
 }
  45% {
-right:-2775px
+right:-3035px
 }
  55% {
-right:-2775px
+right:-3035px
 }
  60% {
-right:-3700px
+right:-4048px
 }
  70% {
-right:-3700px
+right:-4048px
 }
  80% {
-right:-3700px
+right:-4048px
 }
  85% {
-right:-3730px
+right:-4080px
 }
  90% {
 right:0
 }
 }
 @-moz-keyframes slidingb {
- 0% {
+0% {
 right:0
 }
  10% {
 right:0
 }
  15% {
-right:-925px
+right:-1015px
 }
  25% {
-right:-925px
+right:-1015px
 }
  30% {
-right:-1850px
+right:-2025px
 }
  40% {
-right:-1850px
+right:-2025px
 }
  45% {
-right:-2775px
+right:-3035px
 }
  55% {
-right:-2775px
+right:-3035px
 }
  60% {
-right:-3700px
+right:-4048px
 }
  70% {
-right:-3700px
+right:-4048px
 }
  80% {
-right:-3700px
+right:-4048px
 }
  85% {
-right:-3730px
+right:-4080px
 }
  90% {
 right:0
@@ -276,119 +275,120 @@ right:0
 right:0
 }
  15% {
-right:-925px
+right:-1015px
 }
  25% {
-right:-925px
+right:-1015px
 }
  30% {
-right:-1850px
+right:-2025px
 }
  40% {
-right:-1850px
+right:-2025px
 }
  45% {
-right:-2775px
+right:-3035px
 }
  55% {
-right:-2775px
+right:-3035px
 }
  60% {
-right:-3700px
+right:-4048px
 }
  70% {
-right:-3700px
+right:-4048px
 }
  80% {
-right:-3700px
+right:-4048px
 }
  85% {
-right:-3730px
+right:-4080px
 }
  90% {
 right:0
 }
 }
 @-o-keyframes slidingb {
- 0% {
+0% {
 right:0
 }
  10% {
 right:0
 }
  15% {
-right:-925px
+right:-1015px
 }
  25% {
-right:-925px
+right:-1015px
 }
  30% {
-right:-1850px
+right:-2025px
 }
  40% {
-right:-1850px
+right:-2025px
 }
  45% {
-right:-2775px
+right:-3035px
 }
  55% {
-right:-2775px
+right:-3035px
 }
  60% {
-right:-3700px
+right:-4048px
 }
  70% {
-right:-3700px
+right:-4048px
 }
  80% {
-right:-3700px
+right:-4048px
 }
  85% {
-right:-3730px
+right:-4080px
 }
  90% {
 right:0
 }
 }
  @-ms-keyframes slidingb {
- 0% {
+0% {
 right:0
 }
  10% {
 right:0
 }
  15% {
-right:-925px
+right:-1015px
 }
  25% {
-right:-925px
+right:-1015px
 }
  30% {
-right:-1850px
+right:-2025px
 }
  40% {
-right:-1850px
+right:-2025px
 }
  45% {
-right:-2775px
+right:-3035px
 }
  55% {
-right:-2775px
+right:-3035px
 }
  60% {
-right:-3700px
+right:-4048px
 }
  70% {
-right:-3700px
+right:-4048px
 }
  80% {
-right:-3700px
+right:-4048px
 }
  85% {
-right:-3730px
+right:-4080px
 }
  90% {
 right:0
+}
 }
 }
 /*-------------content----------------------------------------------------------------------------------------*/
