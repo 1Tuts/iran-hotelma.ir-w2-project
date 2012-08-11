@@ -432,41 +432,45 @@ h4.bt a:hover {
 }
 /*-------------content-room-gallery-------------------------------------------------------------------------------------*/	
 
-@-webkit-keyframes slider {
- 10% {
-left:0;
+div.accslides {
+width : 600px;
+margin : 0 auto;
+overflow : hidden;
 }
- 20% {
-left:0;
+
+div.accslides .train{
+width : 1000px;
 }
- 30% {
-left:-500px;
+
+div.accslides .train > div {
+float : left;
+width : 150px;
+overflow : hidden;
+-webkit-transition:5s;
 }
- 40% {
+
+div.accslides .train > div:last-child {
+padding-right : 300px;
 }
- 50% {
+
+div.accslides .train > div > img {
+display: block;
 }
- 60% {
+
+
+/* Acc Slide css animation (no js)
+-------------------------------------------------- */
+
+div.accslides .train > div {
+-webkit-transition : width 700ms; /* u can move to line 21 */
 }
- 70% {
+
+div.accslides:hover .train > div {
+width : 50px;
 }
- 80% {
-}
- 90% {
-}
- 100% {
-}
-}
-div.view-room-gallery {
-	width:500px;
-	height:500px;
-	outline:1px dashed #999;
-	overflow:hidden;
-}
-div.pic-roomcontainer {
-	width:2000px;
-	height:500px;
-	position:relative;
+
+div.accslides .train > div:hover {
+width : 450px;
 }
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
