@@ -823,6 +823,73 @@ div#pic-container img {
 	float:left;
 	border:5px solid #666;
 }
+/*---------------content-apartment-gallery-------------------*/	
+div.gallery-apartment{
+	width:auto;
+	height:1110px;
+	background-image:url(../images/backcontentmaster.jpg);
+	
+	}
+div.pic-gallery-apartment{
+	width:auto;
+	height:900px;
+	position:relative;
+	}
+div.pic-gallery-apartment h2{
+	color:#FC0;
+	padding-right:30px;
+	padding-top:70px;
+	padding-bottom:20px;
+	}
+div.pic-gallery-detail{
+	width:600px;
+	height:300px;
+	outline:1px solid #FFF;
+	position:absolute;
+	right:200px;
+	top:150px;
+	}
+
+div.sliders{
+	width:100px;
+	position:relative;
+	
+	}
+div.train{
+	left:-500px;
+	position:absolute;
+	overflow:hidden;
+	}
+div.train > div{
+	float:left;
+	width:150px;
+	overflow:hidden;
+	-webkit-transition:all .5s linear;
+	-moz-transition:all .5s linear;
+	-o-transition:all .5s linear;
+	-ms-transition:all .5s linear;
+	}
+div.sliders:hover .train > div{
+	width:50px;
+	}
+div.sliders:hover .train > div:hover{
+	width:450px;
+	}
+div.sliders .train> div:last-child{
+	padding-right:300px;
+	}	
+div.sliders .train > div > img {
+	display:block;
+	}
+div.sliders .train > div {
+	-webkit-transition:width 600ms;
+	}
+div.sliders:hover .train > div {
+	width:50px;
+	}
+div.sliders .train > div:hover {
+	width:450px;
+	}
 /*-------------content-reserve------------------------*/
 div.content-reserv {
 	background-image:url(../images/backcontentmaster.jpg);
