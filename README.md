@@ -7,6 +7,12 @@ Iran hotel website
    
 entekhabe in design be dalile tarahi ziba va motefavet nesbat be design haye irani ast .
 
+Contributing
+
+Clone this project and check source code:
+
+https://github.com/1schools-projects/iran-hotelma.ir.git
+
  address domain proje:
    www.provident.ir
    
