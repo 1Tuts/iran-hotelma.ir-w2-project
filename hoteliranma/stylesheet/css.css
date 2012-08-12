@@ -841,13 +841,19 @@ div.pic-gallery-apartment h2{
 	padding-top:70px;
 	padding-bottom:20px;
 	}
+#back{
+	text-decoration:none;
+	color:#FFF;
+	margin-right:130px;
+	font-family:Tahoma, Geneva, sans-serif;
+	}
 div.pic-gallery-detail{
 	width:600px;
 	height:300px;
-	outline:1px solid #FFF;
+	border:1px dashed #FFF;
 	position:absolute;
 	right:200px;
-	top:200px;
+	top:180px;
 	}
 
 div.sliders{
