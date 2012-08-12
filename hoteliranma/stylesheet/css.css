@@ -847,7 +847,7 @@ div.pic-gallery-detail{
 	outline:1px solid #FFF;
 	position:absolute;
 	right:200px;
-	top:150px;
+	top:200px;
 	}
 
 div.sliders{
@@ -1219,6 +1219,7 @@ div.content-coffeeshop-down {
 div.content-coffeeshop-down p {
 	line-height:25px;
 }
+
 /*--------------------ENTEHAYE COFFEE-------------*/
 /*--------------------content-roomservices------------------------------------------------------------------------------*/
 div.content-roomservices {
