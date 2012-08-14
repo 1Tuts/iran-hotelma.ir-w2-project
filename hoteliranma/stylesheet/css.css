@@ -19,8 +19,8 @@ body {
 }
 div.container {
 	background-repeat:no-repeat;
-	width:1024px;
-	height:1250px;
+	width:950px;
+	min-height:600px;
 	margin:0 auto;
 }
 /*-------------header----------------------------------------------------------------------------------------*/
@@ -144,6 +144,7 @@ div.logoimage {
 	left:50px;
 	top:-20px;
 	background-color:#999;
+	z-index:1;
 }
 div.logoimage img:hover {
 	background-color:#666;
@@ -1003,7 +1004,7 @@ div.content-aboutus {
 div.contentup-aboutus {
 	width:auto;
 	min-height:321px;
-	background-image:url(../images/labi%20hotel.JPG);
+	background-image:url(../images/labi-%20hotel.JPG);
 }
 div.contentdown-aboutus {
 	width:auto;
@@ -1294,7 +1295,7 @@ div.content-roomservices-up a:active {color:#0000FF;}*/
 	
 div.contact-us {
 	width:auto;
-	height:1020px;
+	min-height:600px;
 	/*outline:1px solid #FFF;*/
 	padding-top:90px;
 	background-image:url(../images/backcontentmaster.jpg);
