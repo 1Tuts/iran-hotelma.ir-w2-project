@@ -1298,39 +1298,36 @@ div.content-roomservices-up a:visited {
 	
 div.contact-us {
 	width:auto;
-	min-height:600px;
+	min-height:630px;
 	/*outline:1px solid #FFF;*/
 	padding-top:90px;
 	background-image:url(../images/backcontentmaster.jpg);
 }
 div.googlemap {
-	width:420px;
-	height:inherit;
+	width:400px;
+	height:630px;
 	float:left;
 	/*outline:1px solid #FFF;*/
 	position:relative;
-	padding-left:80px;
+	padding-left:50px;
 }
 div.googlemap-pic {
 	/*outline:1px solid #FFF;*/
-	width:450px;
-	height:260px;
-	background-image:url(../images/googlemap.jpg);
+	width:400px;
+	height:240px;
+	background-image:url(../images/map.jpg);
 	background-repeat:no-repeat;
-	margin-bottom:60px;
+	margin-top:60px;
 }
 div.googlemap-detail {
 	/*outline:1px solid #FFF;*/
-	width:370px;
-	height:320px;
-	padding-right:45px;
 }
 div.message {
-	width:440px;
+	width:390px;
 	float:right;
-	height:inherit;
+	height:630px;
 	/*outline:1px solid #FFF;*/
-	padding-right:60px;
+	padding-right:40px;
 }
 #contact {
 	padding-right:0px;
