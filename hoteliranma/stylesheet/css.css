@@ -517,7 +517,7 @@ h2.wellcometext {
 	font-size:16px;
 	font-weight:bold;
 	color:#FC0;
-	text-shadow:#333333;
+	text-shadow:5px 5px 5px #333333;
 }
 h2.text {
 	padding-top:40px;
@@ -568,6 +568,8 @@ ul.emkanatser {
 	padding:20px 20px;
 	list-style-type:none;
 }
+.emkanat{
+	margin:2px solid #666;}
 div.contentright2 {
 	width:330px;
 	height:inherit;
