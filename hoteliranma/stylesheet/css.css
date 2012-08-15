@@ -113,7 +113,7 @@ div.menu li li {
 }
 div.menu li li a {
 	white-space: nowrap;
-	padding:7px 8px;
+	padding:7px 10px;
 	color:#000;
 }
 div.menu li li a:hover {
@@ -129,8 +129,8 @@ div.menu li ul li:hover ul a {
 	display:block;
 }
 div.menu li li ul {
-	right:134px;
-	top:-1px;
+	right:138px;
+	top:0px;
 }
 a.submenu:hover {
 	margin-right:3px;
@@ -625,7 +625,7 @@ h4.notewriter {
 div.contentrooms {
 	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
-	height:1110px;
+	min-height:990px;
 }
 div.contentroomt {
 	width:auto;
@@ -637,7 +637,7 @@ div.contentroomt h1 {
 	color:#FC0;
 	text-align:right;
 	text-shadow:5px 5px 5px #000000;
-	padding:20px 30px;
+	padding:75px 30px 30px 30px;
 }
 div.gallery-room-frame {
 	width:auto;
@@ -755,12 +755,12 @@ div.chaharroom {
 /*-------------content-roomgallery-------------------------------------------------------------------------------------------------*/
 div.gallery-room {
 	width:auto;
-	height:1110px;
+	min-height:800px;
 	background-image:url(../images/backcontentmaster.jpg);
 }
 div.pic-gallery-room {
 	width:auto;
-	height:900px;
+	min-height:590px;
 	position:relative;
 }
 div.pic-gallery-room h2 {
@@ -827,12 +827,12 @@ div.sliders .train > div:hover {
 /*---------------content-apartment-gallery-------------------*/	
 div.gallery-apartment {
 	width:auto;
-	height:1110px;
+	min-height:800px;
 	background-image:url(../images/backcontentmaster.jpg);
 }
 div.pic-gallery-apartment {
 	width:auto;
-	height:900px;
+	min-height:590px;
 	position:relative;
 }
 div.pic-gallery-apartment h2 {
@@ -1384,7 +1384,7 @@ div.message {
 	padding-right:0px;
 	color:#FC3;
 	font-family:Tahoma, Geneva, sans-serif;
-	font-size:22px;
+	font-size:18px;
 	font-weight:bold;
 	margin-bottom:30px;
 }
