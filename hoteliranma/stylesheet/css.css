@@ -53,7 +53,7 @@ div.headerdown {
 	width:auto;
 	height:45px;
 	position:relative;
-	background-image:url(../images/menu-pic-down2.jpg);
+	background-image:url(../images/headerdown.jpg);
 }
 div.menu {
 	width:760px;
@@ -81,7 +81,7 @@ div.menu a {
 	font-size:12px;
 	font-family:Tahoma, Geneva, sans-serif;
 	text-shadow:1px 1px 3px #000000;
-	padding:16px 18px;
+	padding:17px 18px;
 	display:block;
 	font-weight:bold;
 }
@@ -108,7 +108,7 @@ div.menu li:hover ul {
 }
 div.menu li li {
 	float: none;
-	background-image:url(../images/submenu2.jpg);
+	background-image:url(../images/submenu.jpg);
 	border:0 none;
 }
 div.menu li li a {
