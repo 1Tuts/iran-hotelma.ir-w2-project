@@ -404,19 +404,19 @@ div.contenttop {
 }
 div.coleft {
 	z-index:2;
-	width:360px;
+	width:300px;
 	height:inherit;
 	float:left;
 }
 div.coright {
-	width:360px;
+	width:300px;
 	height:inherit;
 	float:right;
 }
 div.cocenter {
 	width:auto;
 	height:inherit;
-	margin:0 360px;
+	margin:0 330px;
 }
 #conl {
 	position:relative;
@@ -425,7 +425,7 @@ div.cocenter {
 #conr {
 	position:relative;
 	top:-60px;
-	right:70px;
+	right:30px;
 	left:0;
 }
 #conc {
@@ -555,6 +555,7 @@ h1.content2-title {
 	font-size:12px;
 	font-weight:bold;
 	padding:10px 5px;
+	line-height:10px;
 }
 .rs img {
 	padding:10px;
@@ -588,9 +589,10 @@ h4.notetext {
 	color:#999;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:11px;
+	line-height:15px;
 }
 h4.notewriter {
-	color:#999;
+	color:#FFC;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:10px;
 }
