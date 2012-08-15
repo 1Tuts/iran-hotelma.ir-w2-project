@@ -53,7 +53,7 @@ div.headerdown {
 	width:auto;
 	height:45px;
 	position:relative;
-	background-image:url(../images/menu-pic-down.jpg);
+	background-image:url(../images/menu-pic-down2.jpg);
 }
 div.menu {
 	width:760px;
@@ -1371,6 +1371,7 @@ div.googlemap-pic {
 }
 div.googlemap-detail {
 	/*outline:1px solid #FFF;*/
+	box-shadow:4px 4px 8px #FFFFFF;
 }
 div.message {
 	width:390px;
@@ -1381,7 +1382,7 @@ div.message {
 }
 #contact {
 	padding-right:0px;
-	color:#e3c064;
+	color:#FC3;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:22px;
 	font-weight:bold;
@@ -1423,6 +1424,15 @@ p.email {
 	text-align:center;
 	background-color:#666;
 }
+p.email a{
+	color:#000;
+	font-size:18px;
+	text-decoration:none;
+	}
+p.email a:hover{
+	text-decoration:underline;
+	color:#FC3;
+	}
 p.tell {
 	padding-bottom:10px;
 	text-align:center;
