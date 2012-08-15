@@ -1017,7 +1017,7 @@ div.contentdown-aboutus-up {
 	-ms-box-shadow:inset 0px 0px 40px 0px #FFF;
 	-o-box-shadow:inset 0px 0px 40px 0px #FFF;
 	-webkit-box-shadow:inset 0px 0px 40px 0px #FFF;
-	padding-left:50px;
+	padding-left:29px;
 }
 div.contentdown-aboutus-up ul, div.contentdown-aboutus-down ul {
 	list-style-type:none;
@@ -1272,7 +1272,7 @@ div.table {
 	width:auto;
 	height:260px;
 	padding:5px;
-	padding-right:140px;
+	padding-right:60px;
 }
 table.table1-room {
 	color:#FFFFFF;
@@ -1287,11 +1287,11 @@ table.table2-room {
 	float:left;
 }
 table.table2-room tr, table.table1-room tr {
-	border:1px !important;
+	border:1px solid #CCC !important;
 	border-color:#e3c064 !important;
 }
 table.table2-room td, table.table1-room td {
-	border:1px !important;
+	border:1px solid #CCC !important;
 	border-color:#e3c064 !important;
 }
 div.content-roomservices-up a:link {
@@ -1396,178 +1396,12 @@ input.send {
 input:hover, textarea:hover {
 	background-color:#FFF;
 }
-
-
-/*------------------------------iframe-slider--------------------------------------------------------------------------*/
-@keyframes slider-iframe {
- 0% {
-left:0;
-}
- 10% {
-left:0;
-}
- 20% {
-left:-505px;
-}
- 40% {
-left:-505px;
-}
- 50% {
-left:-1010px;
-}
- 70% {
-left:-1010px;
-}
- 90% {
-left:-1010px;
-}
- 95% {
-left:-1030px;
-}
- 100% {
-left:0;
-}
-}
- @-webkit-keyframes slider-iframe {
- 0% {
-left:0;
-}
- 10% {
-left:0;
-}
- 20% {
-left:-505px;
-}
- 40% {
-left:-505px;
-}
- 50% {
-left:-1010px;
-}
- 70% {
-left:-1010px;
-}
- 90% {
-left:-1010px;
-}
- 95% {
-left:-1030px;
-}
- 100% {
-left:0;
-}
-}
- @-moz-keyframes slider-iframe {
- 0% {
-left:0;
-}
- 10% {
-left:0;
-}
- 20% {
-left:-505px;
-}
- 40% {
-left:-505px;
-}
- 50% {
-left:-1010px;
-}
- 70% {
-left:-1010px;
-}
- 90% {
-left:-1010px;
-}
- 95% {
-left:-1030px;
-}
- 100% {
-left:0;
-}
-}
- @-o-keyframes slider-iframe {
- 0% {
-left:0;
-}
- 10% {
-left:0;
-}
- 20% {
-left:-505px;
-}
- 40% {
-left:-505px;
-}
- 50% {
-left:-1010px;
-}
- 70% {
-left:-1010px;
-}
- 90% {
-left:-1010px;
-}
- 95% {
-left:-1030px;
-}
- 100% {
-left:0;
-}
-}
- @-ms-keyframes slider-iframe {
- 0% {
-left:0;
-}
- 10% {
-left:0;
-}
- 20% {
-left:-505px;
-}
- 40% {
-left:-505px;
-}
- 50% {
-left:-1010px;
-}
- 70% {
-left:-1010px;
-}
- 90% {
-left:-1010px;
-}
- 95% {
-left:-1030px;
-}
- 100% {
-left:0;
-}
-}
-div#view-iframe {
-	width:500px;
-	height:500px;
-	overflow:hidden;
-}
-div#pic-container-iframe {
-	width:1500px;
-	height:500px;
-	position:relative;
-	float:left;
-	-webkit-animation:slider-iframe 15s infinite;
-	-moz-animation:slider-iframe 15s infinite;
-	-ms-animation:slider-iframe 15s infinite;
-	-o-animation:slider-iframe 15s infinite;
-}
-div#pic-container-iframe img {
-	float:left;
-}
 /*-------------------------salonha-----------------------------------------------------------------------------------*/
 div.contentsalonha {
 	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
 	height:950px;
-	padding:80px 100px 80px 0;
+	padding:80px 70px 80px 0;
 }
 div.contentsalon {
 	width:auto;
@@ -1589,7 +1423,7 @@ div.gallery-salon-frame ul li {
 	list-style-type:none;
 }
 div.left-salon-gallery {
-	width:500px;
+	width:450px;
 	float:left;
 	height:500px;
 }
@@ -1636,25 +1470,72 @@ div.contain-salon-reserve {
 	padding-left:90px;
 }
 /*--------------------------------------------------salon-gallary------------------------------------------*/
-div.content-salon-gallary{
+div.content-salon-gallary {
 	background-image:url(../images/backcontentmaster.jpg);
 	background-repeat:repeat;
 	width:auto;
 	min-height:950px;
 	padding:80px;
 }
-div.content-salon-gallary-left{
-	width:700px;
-	height:800px;
-float:left;
-border:1px solid #CCC;	
+div.content-salon-gallary-up {
+	width:auto;
+	height:600px;
+	padding:50px 100px;
 }
-div.content-salon-gallary-right{
-		width:auto;
-	height:800px;
-	border:1px solid #CCC;	
+div.title {
+	width:auto;
+	height:40px;
 }
-
+div.title h1 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:24px;
+	color:#FC0;
+	text-align:right;
+	text-shadow:5px 5px 5px #000000;
+}
+div.content-salon-gallary-up iframe {
+	background-image:url(../images/resturan.jpg) !important;
+	border:5px solid #333 !important;
+}
+div.content-salon-gallary-down {
+	width:auto;
+	height:200px;
+}
+div.left-salon {
+	float:left;
+	width:140px;
+	height:140px;
+	padding:30px;
+}
+div.right-salon {
+	float:right;
+	width:140px;
+	height:140px;
+	padding:30px;
+}
+div.middle-salon {
+	width:auto;
+	height:140px;
+	float:left;
+	padding:30px;
+}
+div.middle2-salon {
+	margin-left:400px;
+	margin-right:200px;
+	width:auto;
+	height:140px;
+	padding:30px;
+}
+div.content-salon-gallary-down a {
+	text-decoration:none;
+}
+div.content-salon-gallary-down p {
+	text-align:center;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#e3c064;
+	padding-top:20px;
+}
 /*-------------footer-----------------------------------------------------------------------------------------*/
 div.footer {
 	width:auto;
