@@ -520,8 +520,8 @@ h2.wellcometext {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:16px;
 	font-weight:bold;
-	color:#FC0;
-	text-shadow:5px 5px 5px #333333;
+	color:#FC3;
+text-shadow:2px 2px 4px #fc3;
 }
 h2.text {
 	padding-top:40px;
@@ -573,7 +573,9 @@ ul.emkanatser {
 	list-style-type:none;
 }
 .emkanat{
-	margin:2px solid #666;}
+	-webkit-box-shadow:2px 2px 8px #999999;
+	-moz-box-shadow:2px 2px 8px #999999;
+	}
 div.contentright2 {
 	width:330px;
 	height:inherit;
@@ -592,10 +594,12 @@ h1.notename {
 	font-weight:bold;
 }
 h4.notetext {
+	opacity:.8;
 	color:#999;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:11px;
 	line-height:15px;
+	padding:5px 0;
 }
 h4.notewriter {
 	color:#FFC;
@@ -608,7 +612,8 @@ h1.notename {
 	font-size:12px;
 	font-weight:bold;
 }
-h4.notetext {
+h4.notetext:hover {
+	opacity:1;
 }
 h4.notewriter {
 	color:#999;
