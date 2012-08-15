@@ -451,17 +451,18 @@ div.contentleft {
 }
 .index-form {
 	opacity:.8;
-	position:relative;
-	left:20px;
-	width:250px;
+	margin:0 auto;
+	width:200px;
 	height:270px;
 	background-color:#333;
 }
-.titleform {
+td.titleform {
 	color:#FC0;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:9px;
-	padding:4px 20px;
+	padding:0 5px;
+	
+	
 }
 #line {
 	padding:10px 0;
@@ -469,11 +470,14 @@ div.contentleft {
 	border-bottom:2px double #FFFF66;
 }
 td.selection {
-	padding:0 5px;
+	padding:2px 2px;
 	text-align:right;
 }
 .formkey {
 	background-color:#575850;
+	position:relative;
+	left:60px;
+	right:60px;
 	color:#000000;
 	font-size:10px;
 	font-family:Tahoma, Geneva, sans-serif;
