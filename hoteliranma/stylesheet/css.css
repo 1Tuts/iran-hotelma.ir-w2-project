@@ -649,21 +649,28 @@ div.gallery-room-frame ul li {
 	padding:30px 70px;
 }
 div.left-room-gallery {
+	padding:0 20px;
+	outline:1px solid #CCC;
 	margin:0 auto;
-	width:500px;
+	width:410px;
 	float:left;
-	height:450px;
+	height:400px;
 }
+
 div.right-room-gallery {
-	width:500px;
-	margin-left:500px;
-	height:450px;
+	padding:10px 30px;
+	width:390px;
+	outline:1px solid #CCC;
+	height:380px;
+	margin-left:450px;
 }
-div.room-bt{
-	width:auto;
-	height:40px;
-	outline:1px solid #CCC;}
+h4.room-text{
+	padding:20px 30px;
+	}
+
 h4.bt a {
+	padding:0 50px;
+
 	width:110px;
 	height:20px;
 	display:inherit;
@@ -678,6 +685,7 @@ h4.bt a {
 	
 }
 h4.bt a:hover {
+	text-align:center;
 	width:110px;
 	height:20px;
 	display:inherit;
@@ -690,6 +698,7 @@ h4.bt a:hover {
 	padding:20px;
 }
 .gallery-image {
+	
 	-webkit-box-shadow:5px 5px 8px #999999;
 	-moz-box-shadow:2px 2px 8px #999999;
 	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
@@ -698,11 +707,7 @@ h4.bt a:hover {
 	-webkit-transform:rotate(-15deg);}
 #g2:hover{
 	-webkit-transform:rotate(15deg);}
-div.room-list{
-	width:auto;
-
-	height:280px;
-	outline:1px solid #CCC;}	
+	
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
 	background-image:url(../images/backcontent2%20copy.jpg);
@@ -711,22 +716,22 @@ div.contentroomd {
 	border-top:3px dashed #999999;
 }
 div.yekroom {
-	width:220px;
+	width:240px;
 	height:200px;
 	float:left;
 }
 div.doroom {
-	width:220px;
+	width:240px;
 	height:200px;
 	float:left;
 }
 div.seroom {
-	width:220px;
+	width:240px;
 	height:200px;
 	float:left;
 }
 div.chaharroom {
-	width:278px;
+	width:220px;
 	height:200px;
 	margin-left:auto;
 	float:right;
