@@ -644,13 +644,11 @@ div.gallery-room-frame {
 	height:800px;
 
 }
-div.gallery-room-frame ul li {
-	list-style-type:none;
-	padding:30px 70px;
-}
+
 div.left-room-gallery {
+	
 	padding:0 20px;
-	outline:1px solid #CCC;
+
 	margin:0 auto;
 	width:410px;
 	float:left;
@@ -660,12 +658,28 @@ div.left-room-gallery {
 div.right-room-gallery {
 	padding:10px 30px;
 	width:390px;
-	outline:1px solid #CCC;
+	
 	height:380px;
 	margin-left:450px;
 }
+div.left-room-gallery ul li{
+	list-style:circle #666;
+	}
+	div.left-room-gallery ul{
+		padding:30px 30px;}
+#room-text{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	padding:15px 0;}		
 h4.room-text{
-	padding:20px 30px;
+
+	
+	text-align:right;
+	line-height:25px;
+	color:#FFFFFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px;
+	
 	}
 
 h4.bt a {
