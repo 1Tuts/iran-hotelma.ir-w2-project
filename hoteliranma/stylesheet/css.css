@@ -470,6 +470,7 @@ td.titleform {
 	border-bottom:2px double #FFFF66;
 }
 td.selection {
+	
 	padding:2px 2px;
 	text-align:right;
 }
@@ -636,11 +637,12 @@ div.contentroomt h1 {
 	color:#FC0;
 	text-align:right;
 	text-shadow:5px 5px 5px #000000;
-	padding:30px 30px;
+	padding:20px 30px;
 }
 div.gallery-room-frame {
 	width:auto;
 	height:800px;
+
 }
 div.gallery-room-frame ul li {
 	list-style-type:none;
@@ -650,13 +652,17 @@ div.left-room-gallery {
 	margin:0 auto;
 	width:500px;
 	float:left;
-	height:500px;
+	height:450px;
 }
 div.right-room-gallery {
 	width:500px;
 	margin-left:500px;
-	height:500px;
+	height:450px;
 }
+div.room-bt{
+	width:auto;
+	height:40px;
+	outline:1px solid #CCC;}
 h4.bt a {
 	width:110px;
 	height:20px;
@@ -669,7 +675,7 @@ h4.bt a {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	text-decoration:none;
-	padding:20px;
+	
 }
 h4.bt a:hover {
 	width:110px;
@@ -684,9 +690,19 @@ h4.bt a:hover {
 	padding:20px;
 }
 .gallery-image {
-	border:20px solid #333;
+	-webkit-box-shadow:5px 5px 8px #999999;
+	-moz-box-shadow:2px 2px 8px #999999;
 	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
 }
+#g1:hover{
+	-webkit-transform:rotate(-15deg);}
+#g2:hover{
+	-webkit-transform:rotate(15deg);}
+div.room-list{
+	width:auto;
+
+	height:280px;
+	outline:1px solid #CCC;}	
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
 	background-image:url(../images/backcontent2%20copy.jpg);
@@ -695,17 +711,17 @@ div.contentroomd {
 	border-top:3px dashed #999999;
 }
 div.yekroom {
-	width:245px;
+	width:220px;
 	height:200px;
 	float:left;
 }
 div.doroom {
-	width:255px;
+	width:220px;
 	height:200px;
 	float:left;
 }
 div.seroom {
-	width:245px;
+	width:220px;
 	height:200px;
 	float:left;
 }
