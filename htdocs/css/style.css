@@ -144,20 +144,20 @@ div.logoimage {
 /*-------------banner----------------------------------------------------------------------------------------*/
 div.banner {
 	background-image:url(../images/backcontentmaster.jpg);
-	min-width:1024px;
+	min-width:950px;
 	height:300px;
 	padding-bottom:40px;
 }
 div.slider {
 	background-color:#999;
-	min-width:1010px;
+	min-width:920px;
 	height:280px;
 	border:8px groove #555;
 	overflow:hidden;
 	margin-bottom:10px;
 }
 div.opacityb {
-	min-width:1012px;
+	min-width:940px;
 	height:40px;
 	background-color:#222;
 	opacity:0.55;
@@ -166,7 +166,7 @@ div.opacityb {
 	top:315px;
 }
 div.aks {
-	min-width:5060px;
+	min-width:4700px;
 	height:280px;
 	position:relative;
 	animation:slidingb 25s infinite;
@@ -179,210 +179,79 @@ div.aks > img {
 	float:right;
 }
 @keyframes slidingb {
-0% {
-right:0
-}
- 10% {
-right:0
-}
- 15% {
-right:-1015px
-}
- 25% {
-right:-1015px
-}
- 30% {
-right:-2025px
-}
- 40% {
-right:-2025px
-}
- 45% {
-right:-3035px
-}
- 55% {
-right:-3035px
-}
- 60% {
-right:-4048px
-}
- 70% {
-right:-4048px
-}
- 80% {
-right:-4048px
-}
- 85% {
-right:-4080px
-}
- 90% {
-right:0
-}
+ 0% {right:0}
+ 10% {right:0}
+ 15% {right:-940px}
+ 25% {right:-940px}
+ 30% {right:-1880px}
+ 40% {right:-1880px}
+ 45% {right:-2820px}
+ 55% {right:-2820px}
+ 60% {right:-3760px}
+ 70% {right:-3760px}
+ 80% {right:-3760px}
+ 85% {right:-3780px}
+ 90% {right:0}
 }
 @-moz-keyframes slidingb {
-0% {
-right:0
-}
- 10% {
-right:0
-}
- 15% {
-right:-1015px
-}
- 25% {
-right:-1015px
-}
- 30% {
-right:-2025px
-}
- 40% {
-right:-2025px
-}
- 45% {
-right:-3035px
-}
- 55% {
-right:-3035px
-}
- 60% {
-right:-4048px
-}
- 70% {
-right:-4048px
-}
- 80% {
-right:-4048px
-}
- 85% {
-right:-4080px
-}
- 90% {
-right:0
-}
+ 0% {right:0}
+ 10% {right:0}
+ 15% {right:-940px}
+ 25% {right:-940px}
+ 30% {right:-1880px}
+ 40% {right:-1880px}
+ 45% {right:-2820px}
+ 55% {right:-2820px}
+ 60% {right:-3760px}
+ 70% {right:-3760px}
+ 80% {right:-3760px}
+ 85% {right:-3780px}
+ 90% {right:0}
 }
 @-webkit-keyframes slidingb {
- 0% {
-right:0
-}
- 10% {
-right:0
-}
- 15% {
-right:-1015px
-}
- 25% {
-right:-1015px
-}
- 30% {
-right:-2025px
-}
- 40% {
-right:-2025px
-}
- 45% {
-right:-3035px
-}
- 55% {
-right:-3035px
-}
- 60% {
-right:-4048px
-}
- 70% {
-right:-4048px
-}
- 80% {
-right:-4048px
-}
- 85% {
-right:-4080px
-}
- 90% {
-right:0
-}
+ 0% {right:0}
+ 10% {right:0}
+ 15% {right:-940px}
+ 25% {right:-940px}
+ 30% {right:-1880px}
+ 40% {right:-1880px}
+ 45% {right:-2820px}
+ 55% {right:-2820px}
+ 60% {right:-3760px}
+ 70% {right:-3760px}
+ 80% {right:-3760px}
+ 85% {right:-3780px}
+ 90% {right:0}
 }
 @-o-keyframes slidingb {
-0% {
-right:0
-}
- 10% {
-right:0
-}
- 15% {
-right:-1015px
-}
- 25% {
-right:-1015px
-}
- 30% {
-right:-2025px
-}
- 40% {
-right:-2025px
-}
- 45% {
-right:-3035px
-}
- 55% {
-right:-3035px
-}
- 60% {
-right:-4048px
-}
- 70% {
-right:-4048px
-}
- 80% {
-right:-4048px
-}
- 85% {
-right:-4080px
-}
- 90% {
-right:0
-}
+ 0% {right:0}
+ 10% {right:0}
+ 15% {right:-940px}
+ 25% {right:-940px}
+ 30% {right:-1880px}
+ 40% {right:-1880px}
+ 45% {right:-2820px}
+ 55% {right:-2820px}
+ 60% {right:-3760px}
+ 70% {right:-3760px}
+ 80% {right:-3760px}
+ 85% {right:-3780px}
+ 90% {right:0}
 }
  @-ms-keyframes slidingb {
-0% {
-right:0
-}
- 10% {
-right:0
-}
- 15% {
-right:-1015px
-}
- 25% {
-right:-1015px
-}
- 30% {
-right:-2025px
-}
- 40% {
-right:-2025px
-}
- 45% {
-right:-3035px
-}
- 55% {
-right:-3035px
-}
- 60% {
-right:-4048px
-}
- 70% {
-right:-4048px
-}
- 80% {
-right:-4048px
-}
- 85% {
-right:-4080px
-}
- 90% {
-right:0
-}
-}
+ 0% {right:0}
+ 10% {right:0}
+ 15% {right:-940px}
+ 25% {right:-940px}
+ 30% {right:-1880px}
+ 40% {right:-1880px}
+ 45% {right:-2820px}
+ 55% {right:-2820px}
+ 60% {right:-3760px}
+ 70% {right:-3760px}
+ 80% {right:-3760px}
+ 85% {right:-3780px}
+ 90% {right:0}
 }
 /*-------------content----------------------------------------------------------------------------------------*/
 div.content {
@@ -886,87 +755,127 @@ div.sliders .train > div:hover {
 div.content-reserv {
 	background-image:url(../images/backcontentmaster.jpg);
 	width:auto;
-	height:1150px;/*border:1px dashed red;*/
+	min-height:1150px;/*border:1px dashed red;*/
 }
 div.content-leftr {
-	width:570px;
+	width:540px;
 	height:1060px;
 	float:left;
 	padding:45px 0px;
 }
 div.rules {
-	width:545px;
-	height:680px;
+	width:490px;
+	height:650px;
 	background-color:#777;
 	opacity:0.75;
-	padding:30px 0;
+	/*padding:10px 0;*/
 	margin-top:40px;
+}
+div.cover{
+	width:490px;
+	height:30px;
 }
 div.rules ol {
 	float:right;
-	padding:35px;
+	padding:20px;
+	line-height:25px;
+	list-style-type:decimal !important;
 }
 div.rules ol li {
 	color:#eee;
-	font-size:18px;
+	font-size:14px;
 	font-family:Tahoma, Geneva, sans-serif;
 	direction:rtl;
 	margin-right:8px;
 }
 div.rules h4 {
-	color:#e3c033;
+	color:#e3c022;
 	float:right;
-	font-size:26px;
+	font-size:18px;
 	font-family:Arial, Helvetica, sans-serif;
 }
 div.phones {
-	width:545px;
+	width:490px;
 	min-height:140px;
 	background-color:#777;
 	opacity:0.75;
+
 }
 div.phones span {
 	color:#222;
-	font-size:20px;
+	font-size:18px;
 	font-family:Arial, Helvetica, sans-serif;
-	margin-right:210px;
+	margin-right:190px;
 }
 div.phones img {
-	margin-right:235px;
+	margin-right:200px;
+	-moz-animation:phone 1.5s ease infinite;
+	-webkit-animation:phone 1.5s ease infinite;
+	-o-animation:phone 1.5s ease infinite;
+	-ms-animation:phone 1.5s ease infinite;
+	
+}
+@-moz-keyframes phone {
+	0%{opacity:1}
+	50%{opacity:1}
+	60%{opacity:0}
+	80%{opacity:0}
+	
+}
+@-ms-keyframes phone {
+	0%{opacity:1}
+	50%{opacity:1}
+	60%{opacity:0}
+	80%{opacity:0}
+	
+}
+@-webkit-keyframes phone {
+	0%{opacity:1}
+	50%{opacity:1}
+	60%{opacity:0}
+	80%{opacity:0}
+	
+}
+@-o-keyframes phone {
+	0%{opacity:1}
+	50%{opacity:1}
+	60%{opacity:0}
+	80%{opacity:0}
+	
 }
 div.content-rightr {
-	width:410px;
-	height:1125px;
+	min-height:1125px;
 	margin-left:575px;
 	/*border:2px dashed orange;*/
 	padding:25px 20px 0;
 }
 div.reserv-date {
-	width:410px;
-	height:365px;
+	width:345px;
+	min-height:345px;
 	border:1px dotted white;
 	border-radius:10%;
 	background-color:rgb(60,60,70);
 	opacity:0.75;
 }
+
 table {
 	margin-right:15px;
 }
 div.reserv-date table {
-	width:410px;
+	max-width:345px;
 	height:300px;
 }
 div.contact-info table {
-	width:410px;
+	width:345px;
 	height:300px;
 }
 div.reserv-date td, div.contact-info td, div.add-service td {
 	color:#da3;
-	font-size:17px;
+	font-size:15px;
 }
 div.contact-info {
-	width:410px;
-	height:370px;
+	width:345px;
+	min-height:360px;
 	margin-top:20px;
 	border:1px dotted white;
 	border-radius:10%;
@@ -977,13 +886,14 @@ div.contact-info input, div.add-service input, div.key-send input {
 	display:inline;
 }
 div.contact-info h4, div.reserv-date h4, div.add-service h4 {
+	font-size:14px;
 	color:#e3c033;
 	font-family:Tahoma, Geneva, sans-serif;
-	margin:20px 120px 20px 0px;
+	margin:20px 110px 20px 0px;
 }
 div.add-service {
-	width:410px;
-	height:220px;
+	width:345px;
+	min-height:200px;
 	margin-top:20px;
 	border:1px dotted white;
 	border-radius:8%;
@@ -991,34 +901,35 @@ div.add-service {
 	opacity:0.75;
 }
 div.add-service table {
-	width:400px;
-	height:120px;
+	width:345px;
+	min-height:120px;
 }
 option {
-	width:20px;
-	padding:3px;
+	width:15px;
+	padding:2px;
 }
 div.key-send {
-	width:410px;
-	height:90px;
+	width:345px;
+	max-height:90px;
 	margin-top:20px;
 	border:1px dashed transparent;
 	background-color:#777;
 	opacity:0.75;
 }
 div.key-send table {
-	width:410px;
-	height:80px;
+	max-width:355px;
+	min-height:30px;	
 }
-div.key-send td {
+div.key-send td{
 	color:#000;
 }
+
 #key {
-	font-size:22px;
+	font-size:16px;
 	font-family:Arial, Helvetica, sans-serif;
 }
-#key:hover {
-	background-color:#666;
+#key:hover{
+	background-color:#333;
 	color:white;
 }
 /*-------- ENTEHAYE SAFE RESERV------*/
@@ -1231,10 +1142,26 @@ div.content-coffeeshop-down {
 div.content-coffeeshop-down p {
 	line-height:25px;
 }
-div.content-coffeeshop-down h2, div.content-coffeeshop-up h2 {
-	color:#e3c064;
+div.table #table1-roomr,div.table #table1-rooml{
+	color:#FFFFFF;
+	width:200px;
+	height:250px;
+	float:right;
+	border:1px solid #CCC !important;
+	border-color:#e3c064 !important;
 }
-/*--------------------ENTEHAYE COFFEE-------------*/
+div.table #table1-roomr td,div.table #table1-rooml td{
+	border:1px solid #CCC !important;
+	border-color:#e3c064 !important;
+}
+	
+div.table #table1-rooml{
+	margin-right:70px;
+	
+}
+div.content-coffeeshop-down h4, div.content-coffeeshop-up h4 {
+	color:#e3c064;
+}/*--------------------ENTEHAYE COFFEE-------------*/
 
 /*--------------------content-roomservices------------------------------------------------------------------------------*/
 div.content-roomservices {
