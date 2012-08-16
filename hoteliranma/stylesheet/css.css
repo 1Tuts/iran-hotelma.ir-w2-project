@@ -26,14 +26,14 @@ div.container {
 /*-------------header----------------------------------------------------------------------------------------*/
 div.header {
 	width:auto;
-	height:75px;/*outline:1px solid #F00;*/
+	height:73px;/*outline:1px solid #F00;*/
 }
 /*-------------header top--------------------------------------------------------------------------------------*/
 div.headertop {
 	width:auto;
 	height:25px;
 	/*outline:1px solid #FFF;*/
-	padding:5px 30px 0 30px;
+	padding:2px 30px 0 30px;
 	background-color:#666;
 }
 div.headertop a {
@@ -739,14 +739,14 @@ div.chaharroom {
 	float:right;
 }
 /*-------------content-roomgallery-------------------------------------------------------------------------------------------------*/
-div.gallery-room {
+div.gallery-rooms{
 	width:auto;
-	min-height:800px;
+	min-height:770px;
 	background-image:url(../images/backcontentmaster.jpg);
-}
+	}
 div.pic-gallery-room {
 	width:auto;
-	min-height:590px;
+	min-height:560px;
 	position:relative;
 }
 div.pic-gallery-room h2 {
@@ -813,12 +813,12 @@ div.sliders .train > div:hover {
 /*---------------content-apartment-gallery-------------------*/	
 div.gallery-apartment {
 	width:auto;
-	min-height:800px;
+	min-height:770px;
 	background-image:url(../images/backcontentmaster.jpg);
 }
 div.pic-gallery-apartment {
 	width:auto;
-	min-height:590px;
+	min-height:560px;
 	position:relative;
 }
 div.pic-gallery-apartment h2 {
@@ -826,6 +826,8 @@ div.pic-gallery-apartment h2 {
 	padding-right:30px;
 	padding-top:70px;
 	padding-bottom:20px;
+	font-size:24px;
+	font-weight:bold;
 }
 #back {
 	text-decoration:none;
@@ -1370,14 +1372,26 @@ div.message {
 	/*outline:1px solid #FFF;*/
 	padding-right:40px;
 }
-#contact {
+{
 	padding-right:0px;
 	color:#FC3;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:18px;
 	font-weight:bold;
 	margin-bottom:30px;
+	-webkit-transform: rotate(-10deg);
 }
+a.contact{
+	text-decoration:none;
+	color:#FC3;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	}
+a.contact:hover{
+	-webkit-transform:scale(2,2)
+	text-decoration:underline;
+	}
 p {
 	color:#FFF;
 	font-size:15px;
