@@ -87,7 +87,6 @@ div.menu a {
 }
 div.menu a:hover {
 	color:#000000;
-	
 }
 div.menu a:hover, div.headertop a:hover, div.logoimage img:hover {
 	-webkit-transition:all .3s linear;
@@ -142,7 +141,6 @@ div.logoimage {
 	top:-20px;
 	z-index:1;
 }
-
 /*-------------banner----------------------------------------------------------------------------------------*/
 div.banner {
 	background-image:url(../images/backcontentmaster.jpg);
@@ -461,8 +459,6 @@ td.titleform {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:9px;
 	padding:0 5px;
-	
-	
 }
 #line {
 	padding:10px 0;
@@ -470,7 +466,6 @@ td.titleform {
 	border-bottom:2px double #FFFF66;
 }
 td.selection {
-	
 	padding:2px 2px;
 	text-align:right;
 }
@@ -522,7 +517,7 @@ h2.wellcometext {
 	font-size:16px;
 	font-weight:bold;
 	color:#FC3;
-text-shadow:2px 2px 4px #fc3;
+	text-shadow:2px 2px 4px #fc3;
 }
 h2.text {
 	padding-top:40px;
@@ -573,10 +568,10 @@ ul.emkanatser {
 	padding:20px 20px;
 	list-style-type:none;
 }
-.emkanat{
+.emkanat {
 	-webkit-box-shadow:2px 2px 8px #999999;
 	-moz-box-shadow:2px 2px 8px #999999;
-	}
+}
 div.contentright2 {
 	width:330px;
 	height:inherit;
@@ -642,51 +637,43 @@ div.contentroomt h1 {
 div.gallery-room-frame {
 	width:auto;
 	height:800px;
-
 }
-
 div.left-room-gallery {
-	
 	padding:0 20px;
-
 	margin:0 auto;
 	width:410px;
 	float:left;
 	height:400px;
 }
-
 div.right-room-gallery {
 	padding:10px 30px;
 	width:390px;
-	
 	height:380px;
 	margin-left:450px;
 }
-div.left-room-gallery ul li{
+div.left-room-gallery ul li {
 	list-style:circle #666;
-	}
-	div.left-room-gallery ul{
-		padding:30px 30px;}
-#room-text{
+}
+div.left-room-gallery ul {
+	padding:30px 30px;
+}
+#room-text {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-weight:bold;
-	padding:15px 0;}		
-h4.room-text{
-
-	
+	padding:15px 0;
+}
+h4.room-text {
 	text-align:right;
 	line-height:25px;
 	color:#FFFFFF;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:15px;
-	
-	}
-a.room-buttom{
-	padding:50px 0;}
-      
+}
+a.room-buttom {
+	padding:50px 0;
+}
 h4.bt a {
 	padding:0 50px;
-
 	width:110px;
 	height:20px;
 	display:inherit;
@@ -698,7 +685,6 @@ h4.bt a {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	text-decoration:none;
-	
 }
 h4.bt a:hover {
 	text-align:center;
@@ -714,16 +700,16 @@ h4.bt a:hover {
 	padding:20px;
 }
 .gallery-image {
-	
 	-webkit-box-shadow:5px 5px 8px #999999;
 	-moz-box-shadow:2px 2px 8px #999999;
 	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
 }
-#g1:hover{
-	-webkit-transform:rotate(-15deg);}
-#g2:hover{
-	-webkit-transform:rotate(15deg);}
-	
+#g1:hover {
+	-webkit-transform:rotate(-15deg);
+}
+#g2:hover {
+	-webkit-transform:rotate(15deg);
+}
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
 	background-image:url(../images/backcontent2%20copy.jpg);
@@ -1258,7 +1244,7 @@ div.content-roomservices {
 }
 div.content-roomservices-up {
 	width:auto;
-	min-height:220px;
+	min-height:200px;
 	padding:10px 20px;
 }
 div.content-roomservices-up img {
@@ -1304,7 +1290,7 @@ div.box img:hover {
 div.content-roomservices-down {
 	width:auto;
 	height:auto;  /*meghdar bezaram?????----*/
-	padding:30px 20px;
+	padding:0 20px 0 20px;
 }
 #minibar {
 	float:right;
@@ -1323,12 +1309,16 @@ table.table1-room {
 	width:200px;
 	height:250px;
 	float:right;
+	border:1px solid #CCC !important;
+	border-color:#e3c064 !important;
 }
 table.table2-room {
 	color:#FFFFFF;
 	width:200px;
 	height:250px;
 	float:left;
+	border:1px solid #CCC !important;
+	border-color:#e3c064 !important;
 }
 table.table2-room tr, table.table1-room tr {
 	border:1px solid #CCC !important;
@@ -1424,15 +1414,15 @@ p.email {
 	text-align:center;
 	background-color:#666;
 }
-p.email a{
+p.email a {
 	color:#000;
 	font-size:18px;
 	text-decoration:none;
-	}
-p.email a:hover{
+}
+p.email a:hover {
 	text-decoration:underline;
 	color:#FC3;
-	}
+}
 p.tell {
 	padding-bottom:10px;
 	text-align:center;
@@ -1482,32 +1472,6 @@ div.right-salon-gallery {
 	width:500px;
 	height:500px;
 }
-h4.bt a {
-	width:110px;
-	height:20px;
-	display:inherit;
-	background-image:url(../images/gallery-bottomhover.gif);
-	color:#FFFFFF;
-	text-shadow:5px 5px 5px #666666;
-	font-weight:bold;
-	text-align:center;
-	font-family:Tahoma, Geneva, sans-serif;
-	font-size:12px;
-	text-decoration:none;
-	padding:20px;
-}
-h4.bt a:hover {
-	width:110px;
-	height:20px;
-	display:inherit;
-	background-image:url(../images/gallery-bottom.gif);
-	color:#000000;
-	text-shadow:5px 5px 5px #FFFFFF;
-	font-family:Tahoma, Geneva, sans-serif;
-	font-size:12px;
-	text-decoration:none;
-	padding:20px;
-}
 .gallery-image {
 	border:20px solid #333;
 	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
@@ -1520,7 +1484,71 @@ div.contain-salon-reserve {
 	font-size:16px;
 	padding-left:90px;
 }
-/*--------------------------------------------------salon-gallary------------------------------------------*/
+div.contentsalnos {
+	background-image:url(../images/backcontentmaster.jpg);
+	width:auto;
+	min-height:990px;
+}
+div.contentsalont {
+	width:auto;
+	height:900px;
+}
+div.contentsalont h1 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:24px;
+	color:#FC0;
+	text-align:right;
+	text-shadow:5px 5px 5px #000000;
+	padding:75px 30px 30px 30px;
+}
+div.gallery-salon-frame {
+	width:auto;
+	height:800px;
+}
+div.left-salon-gallery {
+	padding:0 20px;
+	margin:0 auto;
+	width:410px;
+	float:left;
+	height:400px;
+}
+div.right-salon-gallery {
+	padding:10px 30px;
+	width:390px;
+	height:380px;
+	margin-left:450px;
+}
+div.left-salon-gallery ul li {
+	list-style:circle #666;
+}
+div.left-salon-gallery ul {
+	padding:30px 30px;
+}
+#salon-text {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	padding:15px 0;
+}
+h4.salon-text {
+	text-align:right;
+	line-height:25px;
+	color:#FFFFFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px;
+}
+a.salon-buttom {
+	padding:50px 0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	color:#FC0;
+	text-decoration:none;
+}
+.gallery-image {
+	-webkit-box-shadow:5px 5px 8px #999999;
+	-moz-box-shadow:2px 2px 8px #999999;
+	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
+}
+/*--------------------------------------------------salon-paziraee-gallary------------------------------------------*/
 div.content-salon-gallary {
 	background-image:url(../images/backcontentmaster.jpg);
 	background-repeat:repeat;
@@ -1530,7 +1558,7 @@ div.content-salon-gallary {
 }
 div.content-salon-gallary-up {
 	width:auto;
-	height:600px;
+	height:400px;
 	padding:50px 100px;
 }
 div.title {
@@ -1544,9 +1572,13 @@ div.title h1 {
 	text-align:right;
 	text-shadow:5px 5px 5px #000000;
 }
-div.content-salon-gallary-up iframe {
-	background-image:url(../images/resturan.jpg) !important;
-	border:5px solid #333 !important;
+div.content-salon-gallary-up > iframe {
+	background-image:url(../images/darvish.jpg) !important;
+	border:10px solid #222 !important;
+	-webkit-box-shadow: 3px 3px 8px #999999;
+	-ms-box-shadow: 3px 3px 8px #999999;
+	-moz-box-shadow: 3px 3px 8px #999999;
+	-o-box-shadow: 3px 3px 8px #999999;
 }
 div.content-salon-gallary-down {
 	width:auto;
@@ -1580,12 +1612,60 @@ div.middle2-salon {
 div.content-salon-gallary-down a {
 	text-decoration:none;
 }
+div.content-salon-gallary-down img {
+	border:3px solid #222 !important;
+	-webkit-box-shadow: 2px 2px 8px #999999;
+	-ms-box-shadow: 2px 2px 8px #999999;
+	-moz-box-shadow: 2px 2px 8px #999999;
+	-o-box-shadow: 2px 2px 8px #999999;
+}
 div.content-salon-gallary-down p {
 	text-align:center;
 	font-size:16px;
 	font-family:Tahoma, Geneva, sans-serif;
 	color:#e3c064;
 	padding-top:20px;
+}
+/*------------------------------------salon-conferance-gallary------------------------------------------------*/
+div.content-salon-gallary-up1 {
+	width:auto;
+	height:400px;
+	padding:50px 100px;
+}
+div.content-salon-gallary-up1 > iframe {
+	background-image:url(../images/salone--konferance.jpg)) !important;
+	border:10px solid #222 !important;
+	-webkit-box-shadow: 3px 3px 8px #999999;
+	-ms-box-shadow: 3px 3px 8px #999999;
+	-moz-box-shadow: 3px 3px 8px #999999;
+	-o-box-shadow: 3px 3px 8px #999999;
+}
+div.left-salon1 {
+	float:left;
+	width:140px;
+	height:140px;
+	padding:30px;
+	margin-left:50px;
+}
+div.right-salon1 {
+	float:right;
+	width:140px;
+	height:140px;
+	padding:30px;
+	margin-right:70px;
+}
+div.middle-salon1 {
+	width:auto;
+	height:140px;
+	margin-left:280px;
+	margin-right:306px;
+	padding:30px;
+}
+div.content-salon-gallary-down a:link {
+	color:#333;
+}
+div.content-salon-gallary-down a:visited {
+	color:#333;
 }
 /*-------------footer-----------------------------------------------------------------------------------------*/
 div.footer {
