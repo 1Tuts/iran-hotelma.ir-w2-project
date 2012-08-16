@@ -25,13 +25,8 @@ The website  for Iran hotel
 * [sahar khadir](https://github.com/saharkhadir) Developer / Programmer
 
 ### All rights reserved ###
-design entekhabi be address :
 
-   http://livedemo00.template-help.com/drupal_38748
-   
-entekhabe in design be dalile tarahi ziba va motefavet nesbat be design haye irani ast .
-
-our domain iteh name of iran-hotelma.ir have some problems and  we upload our project on this domain:
+our domain in the  name of iran-hotelma.ir have some problems and  we upload our project on this domain:
  
 address domain proje:
    www.provident.ir
