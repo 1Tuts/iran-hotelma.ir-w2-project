@@ -18,7 +18,7 @@ The website  for Iran hotel
 
    
 ### The Team
-* [Ali Mihandoost](https://github.com/alimd)/claas  leader
+* [Ali abdollahi](https://github.com/alimd)/ our teacher 
 * [asal haghpanah](https://github.com/ahp) / Project Manager / Developer
 * [mahnaz matini](https://github.com/mahnaz-m) Developer / Programmer
 * [elham zare](https://github.com/elizk) Developer / Programmer
