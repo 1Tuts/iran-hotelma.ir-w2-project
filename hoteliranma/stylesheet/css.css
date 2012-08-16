@@ -1372,26 +1372,15 @@ div.message {
 	/*outline:1px solid #FFF;*/
 	padding-right:40px;
 }
-{
+#contact{
 	padding-right:0px;
 	color:#FC3;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:18px;
 	font-weight:bold;
-	margin-bottom:30px;
-	-webkit-transform: rotate(-10deg);
+	margin-bottom:28px;
+	
 }
-a.contact{
-	text-decoration:none;
-	color:#FC3;
-	font-family:Tahoma, Geneva, sans-serif;
-	font-size:18px;
-	font-weight:bold;
-	}
-a.contact:hover{
-	-webkit-transform:scale(2,2)
-	text-decoration:underline;
-	}
 p {
 	color:#FFF;
 	font-size:15px;
