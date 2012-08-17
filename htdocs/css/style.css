@@ -179,79 +179,209 @@ div.aks > img {
 	float:right;
 }
 @keyframes slidingb {
- 0% {right:0}
- 10% {right:0}
- 15% {right:-940px}
- 25% {right:-940px}
- 30% {right:-1880px}
- 40% {right:-1880px}
- 45% {right:-2820px}
- 55% {right:-2820px}
- 60% {right:-3760px}
- 70% {right:-3760px}
- 80% {right:-3760px}
- 85% {right:-3780px}
- 90% {right:0}
+ 0% {
+right:0
+}
+ 10% {
+right:0
+}
+ 15% {
+right:-940px
+}
+ 25% {
+right:-940px
+}
+ 30% {
+right:-1880px
+}
+ 40% {
+right:-1880px
+}
+ 45% {
+right:-2820px
+}
+ 55% {
+right:-2820px
+}
+ 60% {
+right:-3760px
+}
+ 70% {
+right:-3760px
+}
+ 80% {
+right:-3760px
+}
+ 85% {
+right:-3780px
+}
+ 90% {
+right:0
+}
 }
 @-moz-keyframes slidingb {
- 0% {right:0}
- 10% {right:0}
- 15% {right:-940px}
- 25% {right:-940px}
- 30% {right:-1880px}
- 40% {right:-1880px}
- 45% {right:-2820px}
- 55% {right:-2820px}
- 60% {right:-3760px}
- 70% {right:-3760px}
- 80% {right:-3760px}
- 85% {right:-3780px}
- 90% {right:0}
+ 0% {
+right:0
+}
+ 10% {
+right:0
+}
+ 15% {
+right:-940px
+}
+ 25% {
+right:-940px
+}
+ 30% {
+right:-1880px
+}
+ 40% {
+right:-1880px
+}
+ 45% {
+right:-2820px
+}
+ 55% {
+right:-2820px
+}
+ 60% {
+right:-3760px
+}
+ 70% {
+right:-3760px
+}
+ 80% {
+right:-3760px
+}
+ 85% {
+right:-3780px
+}
+ 90% {
+right:0
+}
 }
 @-webkit-keyframes slidingb {
- 0% {right:0}
- 10% {right:0}
- 15% {right:-940px}
- 25% {right:-940px}
- 30% {right:-1880px}
- 40% {right:-1880px}
- 45% {right:-2820px}
- 55% {right:-2820px}
- 60% {right:-3760px}
- 70% {right:-3760px}
- 80% {right:-3760px}
- 85% {right:-3780px}
- 90% {right:0}
+ 0% {
+right:0
+}
+ 10% {
+right:0
+}
+ 15% {
+right:-940px
+}
+ 25% {
+right:-940px
+}
+ 30% {
+right:-1880px
+}
+ 40% {
+right:-1880px
+}
+ 45% {
+right:-2820px
+}
+ 55% {
+right:-2820px
+}
+ 60% {
+right:-3760px
+}
+ 70% {
+right:-3760px
+}
+ 80% {
+right:-3760px
+}
+ 85% {
+right:-3780px
+}
+ 90% {
+right:0
+}
 }
 @-o-keyframes slidingb {
- 0% {right:0}
- 10% {right:0}
- 15% {right:-940px}
- 25% {right:-940px}
- 30% {right:-1880px}
- 40% {right:-1880px}
- 45% {right:-2820px}
- 55% {right:-2820px}
- 60% {right:-3760px}
- 70% {right:-3760px}
- 80% {right:-3760px}
- 85% {right:-3780px}
- 90% {right:0}
+ 0% {
+right:0
+}
+ 10% {
+right:0
+}
+ 15% {
+right:-940px
+}
+ 25% {
+right:-940px
+}
+ 30% {
+right:-1880px
+}
+ 40% {
+right:-1880px
+}
+ 45% {
+right:-2820px
+}
+ 55% {
+right:-2820px
+}
+ 60% {
+right:-3760px
+}
+ 70% {
+right:-3760px
+}
+ 80% {
+right:-3760px
+}
+ 85% {
+right:-3780px
+}
+ 90% {
+right:0
+}
 }
  @-ms-keyframes slidingb {
- 0% {right:0}
- 10% {right:0}
- 15% {right:-940px}
- 25% {right:-940px}
- 30% {right:-1880px}
- 40% {right:-1880px}
- 45% {right:-2820px}
- 55% {right:-2820px}
- 60% {right:-3760px}
- 70% {right:-3760px}
- 80% {right:-3760px}
- 85% {right:-3780px}
- 90% {right:0}
+ 0% {
+right:0
+}
+ 10% {
+right:0
+}
+ 15% {
+right:-940px
+}
+ 25% {
+right:-940px
+}
+ 30% {
+right:-1880px
+}
+ 40% {
+right:-1880px
+}
+ 45% {
+right:-2820px
+}
+ 55% {
+right:-2820px
+}
+ 60% {
+right:-3760px
+}
+ 70% {
+right:-3760px
+}
+ 80% {
+right:-3760px
+}
+ 85% {
+right:-3780px
+}
+ 90% {
+right:0
+}
 }
 /*-------------content----------------------------------------------------------------------------------------*/
 div.content {
@@ -608,11 +738,11 @@ div.chaharroom {
 	float:right;
 }
 /*-------------content-roomgallery-------------------------------------------------------------------------------------------------*/
-div.gallery-rooms{
+div.gallery-rooms {
 	width:auto;
 	min-height:770px;
 	background-image:url(../images/backcontentmaster.jpg);
-	}
+}
 div.pic-gallery-room {
 	width:auto;
 	min-height:560px;
@@ -634,50 +764,57 @@ div.pic-gallery-room h2 {
 }
 div.pic-gallery-detail {
 	width:600px;
-	height:300px;
+	height:350px;
 	border:1px dashed #FFF;
 	position:absolute;
 	right:200px;
 	top:180px;
 }
-div.sliders {
-	width:100px;
-	position:relative;
+#images {
+	
+width: 400px;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+	margin: 20px auto;
 }
-div.train {
-	left:-500px;
-	position:absolute;
-	overflow:hidden;
+#images img {
+	width: 400px;
+	height: 350px;
+	position: absolute;
+	top: 0;
+	left: -400px;
+	z-index: 1;
+	opacity: 0;
+	transition: all linear 0.5s;
+	-o-transition: all linear 0.5s;
+	-moz-transition: all linear  0.5s;
+	-webkit-transition: all linear  0.5s;
 }
-div.train > div {
-	float:left;
-	width:150px;
-	overflow:hidden;
-	-webkit-transition:all .5s linear;
-	-moz-transition:all .5s linear;
-	-o-transition:all .5s linear;
-	-ms-transition:all .5s linear;
+#images img:target {
+	left: 0;
+	z-index: 9;
+	opacity: 1;
 }
-div.sliders:hover .train > div {
-	width:50px;
+#images img:first-child {
+	left: 0;
+	opacity: 1;
 }
-div.sliders:hover .train > div:hover {
-	width:450px;
+div#slider{
+		padding:0 30px;}
+
+#slider img{
+
+	border:2px solid #999;}
+#slider a {
+	
+
+	padding: 4px 6px;
+
 }
-div.sliders .train> div:last-child {
-	padding-right:300px;
-}
-div.sliders .train > div > img {
-	display:block;
-}
-div.sliders .train > div {
-	-webkit-transition:width 600ms;
-}
-div.sliders:hover .train > div {
-	width:50px;
-}
-div.sliders .train > div:hover {
-	width:450px;
+#slider a:hover img {
+	border:4px solid #999;
+
 }
 /*---------------content-apartment-gallery-------------------*/	
 div.gallery-apartment {
@@ -771,7 +908,7 @@ div.rules {
 	/*padding:10px 0;*/
 	margin-top:40px;
 }
-div.cover{
+div.cover {
 	width:490px;
 	height:30px;
 }
@@ -799,7 +936,6 @@ div.phones {
 	min-height:140px;
 	background-color:#777;
 	opacity:0.75;
-
 }
 div.phones span {
 	color:#222;
@@ -813,35 +949,62 @@ div.phones img {
 	-webkit-animation:phone 1.5s ease infinite;
 	-o-animation:phone 1.5s ease infinite;
 	-ms-animation:phone 1.5s ease infinite;
-	
 }
 @-moz-keyframes phone {
-	0%{opacity:1}
-	50%{opacity:1}
-	60%{opacity:0}
-	80%{opacity:0}
-	
+ 0% {
+opacity:1
+}
+ 50% {
+opacity:1
+}
+ 60% {
+opacity:0
+}
+ 80% {
+opacity:0
+}
 }
 @-ms-keyframes phone {
-	0%{opacity:1}
-	50%{opacity:1}
-	60%{opacity:0}
-	80%{opacity:0}
-	
+ 0% {
+opacity:1
+}
+ 50% {
+opacity:1
+}
+ 60% {
+opacity:0
+}
+ 80% {
+opacity:0
+}
 }
 @-webkit-keyframes phone {
-	0%{opacity:1}
-	50%{opacity:1}
-	60%{opacity:0}
-	80%{opacity:0}
-	
+ 0% {
+opacity:1
+}
+ 50% {
+opacity:1
+}
+ 60% {
+opacity:0
+}
+ 80% {
+opacity:0
+}
 }
 @-o-keyframes phone {
-	0%{opacity:1}
-	50%{opacity:1}
-	60%{opacity:0}
-	80%{opacity:0}
-	
+ 0% {
+opacity:1
+}
+ 50% {
+opacity:1
+}
+ 60% {
+opacity:0
+}
+ 80% {
+opacity:0
+}
 }
 div.content-rightr {
 	min-height:1125px;
@@ -857,7 +1020,6 @@ div.reserv-date {
 	background-color:rgb(60,60,70);
 	opacity:0.75;
 }
-
 table {
 	margin-right:15px;
 }
@@ -918,17 +1080,16 @@ div.key-send {
 }
 div.key-send table {
 	max-width:355px;
-	min-height:30px;	
+	min-height:30px;
 }
-div.key-send td{
+div.key-send td {
 	color:#000;
 }
-
 #key {
 	font-size:16px;
 	font-family:Arial, Helvetica, sans-serif;
 }
-#key:hover{
+#key:hover {
 	background-color:#333;
 	color:white;
 }
@@ -1142,7 +1303,7 @@ div.content-coffeeshop-down {
 div.content-coffeeshop-down p {
 	line-height:25px;
 }
-div.table #table1-roomr,div.table #table1-rooml{
+div.table #table1-roomr, div.table #table1-rooml {
 	color:#FFFFFF;
 	width:200px;
 	height:250px;
@@ -1150,19 +1311,16 @@ div.table #table1-roomr,div.table #table1-rooml{
 	border:1px solid #CCC !important;
 	border-color:#e3c064 !important;
 }
-div.table #table1-roomr td,div.table #table1-rooml td{
+div.table #table1-roomr td, div.table #table1-rooml td {
 	border:1px solid #CCC !important;
 	border-color:#e3c064 !important;
 }
-	
-div.table #table1-rooml{
+div.table #table1-rooml {
 	margin-right:70px;
-	
 }
 div.content-coffeeshop-down h4, div.content-coffeeshop-up h4 {
 	color:#e3c064;
 }/*--------------------ENTEHAYE COFFEE-------------*/
-
 /*--------------------content-roomservices------------------------------------------------------------------------------*/
 div.content-roomservices {
 	background-image:url(../images/backcontentmaster.jpg);
@@ -1299,14 +1457,13 @@ div.message {
 	/*outline:1px solid #FFF;*/
 	padding-right:40px;
 }
-#contact{
+#contact {
 	padding-right:0px;
 	color:#FC3;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:18px;
 	font-weight:bold;
 	margin-bottom:28px;
-	
 }
 p {
 	color:#FFF;
