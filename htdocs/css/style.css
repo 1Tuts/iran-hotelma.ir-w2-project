@@ -768,68 +768,38 @@ div.pic-gallery-room h2 {
 	color:#FFF;
 	margin-right:130px;
 	font-family:Tahoma, Geneva, sans-serif;
-}
-div.pic-gallery-detail {
-	width:600px;
-	height:350px;
-	border:1px dashed #FFF;
-	position:absolute;
-	right:60px;
-	top:180px;
-}
-@-webkit-keyframes slide1{
-	0%{ left:0;}
-	20%{ left:0;}
-	250%{ left:-600px;}
-	40%{ left:-600px;}
-	450%{ left:-1200px;}
-	60%{ left:-1200px;}
-	
-	
-	}
-	
-div.view-room-gallery{
-	width:600px;
-	height:400px;
-	outline:1px dashed #999;
-	
-	
+	padding-bottom:20px;
 }
 
-#images {
-		width:1250px;
+@-webkit-keyframes slider {
+	0%{ left:0 }
+	10%{ left:0 }
+	20%{ left:-605px }
+	40%{ left:-605px }
+	50%{ left:-1210px }
+	70%{ left:-1210px }
+	90%{ left:-1210px }
+	95%{ left:-1240px }
+	100%{ left:0 }
+}
+ 
+div#view-roomgallery{
+	padding:20px 0;
+	margin:0 auto;
+	width:600px;
+	height:400px;
+	outline:1px dashed #999;	
+	overflow:hidden;
+}
+ 
+div#pic-container-room{
+	width:1830px;
 	height:400px;
 	position:relative;
-webkit-animation:slide1 0.5 infinite;
-
-	overflow: hidden;
-	position: relative;
-	margin: 0 auto;
-}
-#images img {
-	width: 400px;
-	height: 350px;
-	position: absolute;
-	top: 0;
-	left: -400px;
-	z-index: 1;
-	opacity: 0;
-	transition: all linear 0.5s;
-	-o-transition: all linear 0.5s;
-	-moz-transition: all linear  0.5s;
-	-webkit-transition: all linear  0.5s;
-}
-#images img:target {
-	left: 0;
-	z-index: 9;
-	opacity: 1;
-}
-#images img:first-child {
-	left: 0;
-	opacity: 1;
+	-webkit-animation:slider 8s infinite;
 }
 div#slider{
-	margin:0 auto;}
+	padding:20px 120px;}
 
 #slider img{
 
