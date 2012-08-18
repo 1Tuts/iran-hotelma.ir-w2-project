@@ -668,6 +668,13 @@ h4.room-text {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:15px;
 }
+a.room-buttom span{
+	text-decoration:none;
+	color:#FFCC33;}
+a.room-buttom:hover span{
+	text-decoration:underline;
+	color:#FFCC33;	
+}
 a.room-buttom {
 	padding:50px 0;
 }
@@ -767,12 +774,32 @@ div.pic-gallery-detail {
 	height:350px;
 	border:1px dashed #FFF;
 	position:absolute;
-	right:200px;
+	right:60px;
 	top:180px;
 }
+@-webkit-keyframes slide1{
+	0%{ left:0;}
+	20%{ left:0;}
+	250%{ left:-600px;}
+	40%{ left:-600px;}
+	
+	
+	}
+	
+div.view-room-gallery{
+	width:600px;
+	height:400px;
+	outline:1px dashed #999;
+	
+	
+}
+
 #images {
-width: 400px;
-	height: 350px;
+		width:1250px;
+	height:400px;
+	position:relative;
+webkit-animation:slide1 2s infinite;
+
 	overflow: hidden;
 	position: relative;
 	margin: 20px auto;
