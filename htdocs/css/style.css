@@ -1452,10 +1452,6 @@ div.googlemap-pic {
 	background-repeat:no-repeat;
 	margin-top:60px;
 }
-div.googlemap-detail {
-	/*outline:1px solid #FFF;*/
-	box-shadow:4px 4px 8px #FFFFFF;
-}
 div.message {
 	width:390px;
 	float:right;
@@ -1467,7 +1463,7 @@ div.message {
 	padding-right:0px;
 	color:#FC3;
 	font-family:Tahoma, Geneva, sans-serif;
-	font-size:18px;
+	font-size:20px;
 	font-weight:bold;
 	margin-bottom:28px;
 }
@@ -1483,33 +1479,47 @@ input {
 	margin-bottom:15px;
 	display:block;
 	border-color:#999;
-	height:20px;
+	height:22px;
 }
+/*div.googlemap-detail{
+	outline:1px solid #FFFFFF ;
+	}*/
 textarea {
 	border-radius:7px;
 	background-color:#CCCCCC;
 	border-color:#000;
 	margin-bottom:15px;
+	width: 400px;
+	height: 170px;
 }
 span {
 	color:#C00;
 }
+
+div.email-addres{
+	width:250px;
+	height:30px;
+	margin-right:80px;
+	margin-bottom:5px;
+	background-color:#333;
+	border:1px solid #333;
+	border-radius:5px;
+}
 p.addres {
 	padding-bottom:10px;
 	text-align:center;
-	background-color:#666;
+	font-size:14px;
 }
 p.email {
 	color:#FFF;
 	text-decoration:none;
-	font-size:15px;
+	font-size:14px;
 	font-family:Tahoma, Geneva, sans-serif;
 	text-align:center;
-	background-color:#666;
 }
 p.email a {
-	color:#000;
-	font-size:18px;
+	color:#FFF;
+	font-size:17px;
 	text-decoration:none;
 }
 p.email a:hover {
@@ -1519,8 +1529,18 @@ p.email a:hover {
 p.tell {
 	padding-bottom:10px;
 	text-align:center;
-	background-color:#999;
+	color:#000;
 }
+div.tel{
+	width:370px;
+	height:32px;
+	margin-bottom:5px;
+	background-color:#fc3;
+	border:1px solid #fc3;
+	border-radius:5px;
+	margin-right:16px;
+	opacity:0.9;
+	}
 input.send {
 	font-size:15px;
 	font-family:Tahoma, Geneva, sans-serif;
@@ -1529,6 +1549,7 @@ input.send {
 }
 input:hover, textarea:hover {
 	background-color:#FFF;
+	
 }
 /*-------------------------salonha-----------------------------------------------------------------------------------*/
 div.contentsalonha {
