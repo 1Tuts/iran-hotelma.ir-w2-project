@@ -1621,12 +1621,23 @@ h4.salon-text {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:15px;
 }
+h4.salon-text a:link {
+	text-decoration:none;
+}
+h4.salon-text a:visited {
+	text-decoration:none;
+}
+h4.salon-text a:hover {
+	text-decoration:none;
+}
+h4.salon-text a:active {
+	text-decoration:none;
+}
 a.salon-buttom {
-	padding:50px 0;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:16px;
 	color:#FC0;
-	text-decoration:none;
+	text-decoration:none !important;
 }
 .gallery-image {
 	-webkit-box-shadow:5px 5px 8px #999999;
@@ -1634,17 +1645,191 @@ a.salon-buttom {
 	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
 }
 /*--------------------------------------------------salon-paziraee-gallary------------------------------------------*/
+
+div.content-salon-gallary-up {
+	width:600px;
+	height:300px;
+	overflow:hidden;
+	margin:50px 100px 50px 50px;
+	border:20px solid #333;
+	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
+}
+div.iframe1 {
+	width:2400px;
+	height:300px;
+	position:relative;
+	float:left;
+	-webkit-animation:slider-iframe1 15s infinite;
+	-moz-animation:slider-iframe1 15s infinite;
+	-ms-animation:slider-iframe1 15s infinite;
+	-o-animation:slider-iframe1 15s infinite;
+}
+div.iframe1 img {
+	float:left;
+}
+@keyframes slider-iframe1 {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-600px;
+}
+ 30% {
+left:-600px;
+}
+ 40% {
+left:-1200px;
+}
+ 50% {
+left:-1200px;
+}
+ 60% {
+left:-1800px;
+}
+ 70% {
+left:-1800px;
+}
+ 80% {
+left:-1800px;
+}
+ 90% {
+left:-1810px;
+}
+ 100% {
+left:0;
+}
+}
+ @-webkit-keyframes slider-iframe1 {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-600px;
+}
+ 30% {
+left:-600px;
+}
+ 40% {
+left:-1200px;
+}
+ 50% {
+left:-1200px;
+}
+ 60% {
+left:-1800px;
+}
+ 70% {
+left:-1800px;
+}
+ 80% {
+left:-1800px;
+}
+ 90% {
+left:-1810px;
+}
+ 100% {
+left:0;
+}
+}
+ @-moz-keyframes slider-iframe1 {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-600px;
+}
+ 40% {
+left:-600px;
+}
+ 50% {
+left:-1200px;
+}
+ 70% {
+left:-1200px;
+}
+ 90% {
+left:-1200px;
+}
+ 95% {
+left:-1210px;
+}
+ 100% {
+left:0;
+}
+}
+ @-o-keyframes slider-iframe1 {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-600px;
+}
+ 40% {
+left:-600px;
+}
+ 50% {
+left:-1200px;
+}
+ 70% {
+left:-1200px;
+}
+ 90% {
+left:-1200px;
+}
+ 95% {
+left:-1210px;
+}
+ 100% {
+left:0;
+}
+}
+ @-ms-keyframes slider-iframe1 {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-600px;
+}
+ 40% {
+left:-600px;
+}
+ 50% {
+left:-1200px;
+}
+ 70% {
+left:-1200px;
+}
+ 90% {
+left:-1200px;
+}
+ 95% {
+left:-1210px;
+}
+ 100% {
+left:0;
+}
+}
 div.content-salon-gallary {
 	background-image:url(../images/backcontentmaster.jpg);
 	background-repeat:repeat;
 	width:auto;
 	min-height:700px;
 	padding:80px;
-}
-div.content-salon-gallary-up {
-	width:auto;
-	height:400px;
-	padding:50px 100px;
 }
 div.title {
 	width:auto;
@@ -1656,14 +1841,6 @@ div.title h1 {
 	color:#FC0;
 	text-align:right;
 	text-shadow:5px 5px 5px #000000;
-}
-div.content-salon-gallary-up > iframe {
-	background-image:url(../images/darvish.jpg) !important;
-	border:10px solid #222 !important;
-	-webkit-box-shadow: 3px 3px 8px #999999;
-	-ms-box-shadow: 3px 3px 8px #999999;
-	-moz-box-shadow: 3px 3px 8px #999999;
-	-o-box-shadow: 3px 3px 8px #999999;
 }
 div.content-salon-gallary-down {
 	width:auto;
@@ -1713,17 +1890,170 @@ div.content-salon-gallary-down p {
 }
 /*------------------------------------salon-conferance-gallary------------------------------------------------*/
 div.content-salon-gallary-up1 {
-	width:auto;
-	min-height:400px;
-	padding:50px 100px;
+	width:600px;
+	height:300px;
+	overflow:hidden;
+	margin:50px 100px 50px 50px;
+	border:20px solid #333;
+	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
 }
-div.content-salon-gallary-up1 > iframe {
-	background-image:url(../images/salone--konferance.jpg)) !important;
-	border:10px solid #222 !important;
-	-webkit-box-shadow: 3px 3px 8px #999999;
-	-ms-box-shadow: 3px 3px 8px #999999;
-	-moz-box-shadow: 3px 3px 8px #999999;
-	-o-box-shadow: 3px 3px 8px #999999;
+div.iframe {
+	width:1800px;
+	height:300px;
+	position:relative;
+	float:left;
+	-webkit-animation:slider-iframe 15s infinite;
+	-moz-animation:slider-iframe 15s infinite;
+	-ms-animation:slider-iframe 15s infinite;
+	-o-animation:slider-iframe 15s infinite;
+}
+div.iframe img {
+	float:left;
+}
+@keyframes slider-iframe {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-600px;
+}
+ 40% {
+left:-600px;
+}
+ 50% {
+left:-1200px;
+}
+ 70% {
+left:-1200px;
+}
+ 90% {
+left:-1200px;
+}
+ 95% {
+left:-1210px;
+}
+ 100% {
+left:0;
+}
+}
+ @-webkit-keyframes slider-iframe {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-600px;
+}
+ 40% {
+left:-600px;
+}
+ 50% {
+left:-1200px;
+}
+ 70% {
+left:-1200px;
+}
+ 90% {
+left:-1200px;
+}
+ 95% {
+left:-1210px;
+}
+ 100% {
+left:0;
+}
+}
+ @-moz-keyframes slider-iframe {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-600px;
+}
+ 40% {
+left:-600px;
+}
+ 50% {
+left:-1200px;
+}
+ 70% {
+left:-1200px;
+}
+ 90% {
+left:-1200px;
+}
+ 95% {
+left:-1210px;
+}
+ 100% {
+left:0;
+}
+}
+ @-o-keyframes slider-iframe {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-600px;
+}
+ 40% {
+left:-600px;
+}
+ 50% {
+left:-1200px;
+}
+ 70% {
+left:-1200px;
+}
+ 90% {
+left:-1200px;
+}
+ 95% {
+left:-1210px;
+}
+ 100% {
+left:0;
+}
+}
+ @-ms-keyframes slider-iframe {
+ 0% {
+left:0;
+}
+ 10% {
+left:0;
+}
+ 20% {
+left:-600px;
+}
+ 40% {
+left:-600px;
+}
+ 50% {
+left:-1200px;
+}
+ 70% {
+left:-1200px;
+}
+ 90% {
+left:-1200px;
+}
+ 95% {
+left:-1210px;
+}
+ 100% {
+left:0;
+}
 }
 div.left-salon1 {
 	float:left;
