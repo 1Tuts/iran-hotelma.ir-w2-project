@@ -668,6 +668,13 @@ h4.room-text {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:15px;
 }
+a.room-buttom span{
+	text-decoration:none;
+	color:#FFCC33;}
+a.room-buttom:hover span{
+	text-decoration:underline;
+	color:#FFCC33;	
+}
 a.room-buttom {
 	padding:50px 0;
 }
@@ -761,55 +768,59 @@ div.pic-gallery-room h2 {
 	color:#FFF;
 	margin-right:130px;
 	font-family:Tahoma, Geneva, sans-serif;
+	padding-bottom:20px;
 }
-div.pic-gallery-detail {
+
+@-webkit-keyframes slider {
+	0%{ top:0 }
+	10%{ top:0 }
+	20%{ top:-405px }
+	30%{ top:-405px }
+	40%{ top:-810px }
+	50%{ top:-810px }
+	60%{ top:-1620px}
+	70%{ top:-1620px }
+	80%{ top:-2020px }
+	95%{ top:-2020px;}
+	100%{ top:0 }
+}
+ 
+div#view-roomgallery{
+
+	margin:0 auto;
 	width:600px;
-	height:350px;
-	border:1px dashed #FFF;
-	position:absolute;
-	right:200px;
-	top:180px;
+	height:400px;
+	outline:1px dashed #999;
+	overflow:hidden;
+
+
 }
-#images {
-	width: 400px;
-	height: 350px;
-	overflow: hidden;
-	position: relative;
-	margin: 20px auto;
+ 
+div#pic-container-room{
+	width:600px;
+	height:1700px;
+	position:relative;
+	-webkit-animation:slider 8s infinite;
+	
 }
-#images img {
-	width: 400px;
-	height: 350px;
-	position: absolute;
-	top: 0;
-	left: -400px;
-	z-index: 1;
-	opacity: 0;
-	transition: all linear 0.5s;
-	-o-transition: all linear 0.5s;
-	-moz-transition: all linear 0.5s;
-	-webkit-transition: all linear 0.5s;
-}
-#images img:target {
-	left: 0;
-	z-index: 9;
-	opacity: 1;
-}
-#images img:first-child {
-	left: 0;
-	opacity: 1;
-}
-div#slider {
-	padding:0 30px;
-}
-#slider img {
-	border:2px solid #999;
-}
+div#pic-container-room img{
+	margin:5px #999;
+	}
+div#slider{
+	padding:20px 120px;}
+
+#slider img{
+
+	border:2px solid #999;}
 #slider a {
+	
+
 	padding: 4px 6px;
+
 }
 #slider a:hover img {
 	border:4px solid #999;
+
 }
 /*---------------content-apartment-gallery-------------------*/	
 div.gallery-apartment {
@@ -1315,9 +1326,6 @@ div.table #table1-rooml {
 }
 div.content-coffeeshop-down h4, div.content-coffeeshop-up h4 {
 	color:#e3c064;
-	text-shadow:2px 2px 5px #e3c064;
-	color:#e3c064;
-	font-size:24px;
 }/*--------------------ENTEHAYE COFFEE-------------*/
 /*--------------------content-roomservices------------------------------------------------------------------------------*/
 div.content-roomservices {
@@ -1444,10 +1452,6 @@ div.googlemap-pic {
 	background-repeat:no-repeat;
 	margin-top:60px;
 }
-div.googlemap-detail {
-	/*outline:1px solid #FFF;*/
-	box-shadow:4px 4px 8px #FFFFFF;
-}
 div.message {
 	width:390px;
 	float:right;
@@ -1459,7 +1463,7 @@ div.message {
 	padding-right:0px;
 	color:#FC3;
 	font-family:Tahoma, Geneva, sans-serif;
-	font-size:18px;
+	font-size:20px;
 	font-weight:bold;
 	margin-bottom:28px;
 }
@@ -1475,33 +1479,47 @@ input {
 	margin-bottom:15px;
 	display:block;
 	border-color:#999;
-	height:20px;
+	height:22px;
 }
-textarea {
+/*div.googlemap-detail{
+	outline:1px solid #FFFFFF ;
+	}*/
+#message {
 	border-radius:7px;
 	background-color:#CCCCCC;
 	border-color:#000;
 	margin-bottom:15px;
+	width: 400px;
+	height: 170px;
 }
 span {
 	color:#C00;
 }
+
+div.email-addres{
+	width:250px;
+	height:30px;
+	margin-right:80px;
+	margin-bottom:5px;
+	background-color:#333;
+	border:1px solid #333;
+	border-radius:5px;
+}
 p.addres {
 	padding-bottom:10px;
 	text-align:center;
-	background-color:#666;
+	font-size:14px;
 }
 p.email {
 	color:#FFF;
 	text-decoration:none;
-	font-size:15px;
+	font-size:14px;
 	font-family:Tahoma, Geneva, sans-serif;
 	text-align:center;
-	background-color:#666;
 }
 p.email a {
-	color:#000;
-	font-size:18px;
+	color:#FFF;
+	font-size:17px;
 	text-decoration:none;
 }
 p.email a:hover {
@@ -1511,8 +1529,18 @@ p.email a:hover {
 p.tell {
 	padding-bottom:10px;
 	text-align:center;
-	background-color:#999;
+	color:#000;
 }
+div.tel{
+	width:370px;
+	height:32px;
+	margin-bottom:5px;
+	background-color:#fc3;
+	border:1px solid #fc3;
+	border-radius:5px;
+	margin-right:16px;
+	opacity:0.9;
+	}
 input.send {
 	font-size:15px;
 	font-family:Tahoma, Geneva, sans-serif;
@@ -1521,6 +1549,7 @@ input.send {
 }
 input:hover, textarea:hover {
 	background-color:#FFF;
+	
 }
 /*-------------------------salonha-----------------------------------------------------------------------------------*/
 div.contentsalonha {
@@ -1609,7 +1638,7 @@ div.left-salon-gallery ul li {
 div.left-salon-gallery ul {
 	padding:30px 30px;
 }
-#salon-text1 {
+#salon-text {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-weight:bold;
 	padding:15px 0;
