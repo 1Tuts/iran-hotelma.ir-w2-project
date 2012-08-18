@@ -446,13 +446,16 @@ div.contentleft {
 	width:280px;
 	height:270px;
 }
-.index-form {
+table.index-form {
 	opacity:.8;
 	margin:0 auto;
 	width:200px;
 	height:270px;
 	background-color:#333;
 }
+table.index-form td{
+	width:100px;
+	padding:0 5px;}
 td.titleform {
 	color:#FC0;
 	font-family:Tahoma, Geneva, sans-serif;
@@ -801,7 +804,7 @@ width: 400px;
 	opacity: 1;
 }
 div#slider{
-		padding:0 30px;}
+	margin:0 auto;}
 
 #slider img{
 
