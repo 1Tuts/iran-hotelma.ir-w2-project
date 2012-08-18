@@ -431,6 +431,9 @@ div.cocenter {
 	left:10px;
 	right:10px;
 }
+a.soghat img:hover{
+	
+	cursor:pointer;}
 /*--------------contentdown-------------------------------------------------------------------------------------*/
 div.contentdown {
 	height:120px;
@@ -446,23 +449,30 @@ div.contentleft {
 	width:280px;
 	height:270px;
 }
-.index-form {
+table.index-form {
 	opacity:.8;
 	margin:0 auto;
-	width:200px;
+	width:100%;
 	height:270px;
 	background-color:#333;
 }
+table.index-form td {
+	padding-right:10px;
+	
+}
 td.titleform {
+	width:120px;
+	height:15px;
+	vertical-align:bottom;
 	color:#FC0;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:9px;
-	padding:0 5px;
+	padding:5px 10px;
 }
 #line {
 	padding:10px 0;
 	display:block;
-	border-bottom:2px double #FFFF66;
+	border-bottom:2px double #999;
 }
 td.selection {
 	padding:2px 2px;
@@ -470,9 +480,7 @@ td.selection {
 }
 .formkey {
 	background-color:#575850;
-	position:relative;
-	left:60px;
-	right:60px;
+	margin:0 auto;
 	color:#000000;
 	font-size:10px;
 	font-family:Tahoma, Geneva, sans-serif;
@@ -480,6 +488,7 @@ td.selection {
 	height:30px;
 	border:1px solid #666;
 	border-radius:5px;
+	cursor:pointer;
 }
 .formkey:hover {
 	background-color:#333333;
@@ -487,7 +496,13 @@ td.selection {
 }
 .scrol {
 	background-color:#999;
+	
 }
+.scrol:hover{
+	background-color:#AFB4B1;} 
+option.values:hover{
+	color:#FFCC00;
+	background-color:#0000CC;}	
 .checkreserve {
 	background:#CC6633;
 }
@@ -516,7 +531,7 @@ h2.wellcometext {
 	font-size:16px;
 	font-weight:bold;
 	color:#FC3;
-	text-shadow:2px 2px 4px #fc3;
+	text-shadow:2px 2px 4px #666;
 }
 h2.text {
 	padding-top:40px;
@@ -538,7 +553,7 @@ div.ridown a:hover {
 }
 /*-------------content2----------------------------------------------------------------------------------------*/
 div.content2 {
-	background-image:url(../images/backcontent2%20copy.jpg);
+	background-image:url(../images/backcontent2.jpg);
 	background-repeat:repeat;
 	width:auto;
 	height:340px
@@ -553,7 +568,7 @@ h1.content2-title {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	font-weight:bold;
-	padding:10px 5px;
+	padding:15px 5px;
 	line-height:10px;
 }
 .rs img {
@@ -568,6 +583,7 @@ ul.emkanatser {
 	list-style-type:none;
 }
 .emkanat {
+	cursor:pointer;
 	-webkit-box-shadow:2px 2px 8px #999999;
 	-moz-box-shadow:2px 2px 8px #999999;
 }
@@ -594,7 +610,7 @@ h4.notetext {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:11px;
 	line-height:15px;
-	padding:5px 0;
+	padding:2px 0;
 }
 h4.notewriter {
 	color:#FFC;
@@ -651,12 +667,12 @@ div.right-room-gallery {
 	margin-left:450px;
 }
 div.left-room-gallery ul li {
-	list-style:circle #666;
+
 }
 div.left-room-gallery ul {
 	padding:30px 30px;
 }
-#room-text {
+.room-text1 {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-weight:bold;
 	padding:15px 0;
@@ -668,12 +684,13 @@ h4.room-text {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:15px;
 }
-a.room-buttom span{
+a.room-buttom span {
 	text-decoration:none;
-	color:#FFCC33;}
-a.room-buttom:hover span{
+	color:#FFCC33;
+}
+a.room-buttom:hover span {
 	text-decoration:underline;
-	color:#FFCC33;	
+	color:#FFCC33;
 }
 a.room-buttom {
 	padding:50px 0;
@@ -710,15 +727,9 @@ h4.bt a:hover {
 	-moz-box-shadow:2px 2px 8px #999999;
 	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
 }
-#g1:hover {
-	-webkit-transform:rotate(-15deg);
-}
-#g2:hover {
-	-webkit-transform:rotate(15deg);
-}
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
-	background-image:url(../images/backcontent2%20copy.jpg);
+	background-image:url(../images/backcontent2.jpg);
 	width:auto;
 	height:210px;
 	border-top:3px dashed #999999;
@@ -768,59 +779,161 @@ div.pic-gallery-room h2 {
 	color:#FFF;
 	margin-right:130px;
 	font-family:Tahoma, Geneva, sans-serif;
-	padding-bottom:20px;
+	line-height:30px;
 }
-
-@-webkit-keyframes slider {
-	0%{ top:0 }
-	10%{ top:0 }
-	20%{ top:-405px }
-	30%{ top:-405px }
-	40%{ top:-810px }
-	50%{ top:-810px }
-	60%{ top:-1620px}
-	70%{ top:-1620px }
-	80%{ top:-2020px }
-	95%{ top:-2020px;}
-	100%{ top:0 }
+a#back {
 }
- 
-div#view-roomgallery{
-
+ @-moz-keyframes slider {
+ 0% {
+top:0
+}
+ 10% {
+top:0;
+opacity:0.8;
+}
+ 20% {
+top:-405px;
+opacity:1;
+}
+ 30% {
+top:-405px;
+opacity:0.8;
+}
+ 40% {
+top:-810px
+}
+ 50% {
+top:-810px;
+opacity:0.8;
+}
+ 60% {
+top:-1620px
+}
+ 70% {
+top:-1620px;
+opacity:0.8;
+}
+ 80% {
+top:-2025px;
+}
+ 95% {
+top:-2025px;
+opacity:0.8;
+}
+ 100% {
+top:0
+}
+}
+ @-webkit-keyframes slider {
+ 0% {
+top:0
+}
+ 10% {
+top:0;
+opacity:0.8;
+}
+ 20% {
+top:-405px;
+opacity:1;
+}
+ 30% {
+top:-405px;
+opacity:0.8;
+}
+ 40% {
+top:-810px
+}
+ 50% {
+top:-810px;
+opacity:0.8;
+}
+ 60% {
+top:-1620px
+}
+ 70% {
+top:-1620px;
+opacity:0.8;
+}
+ 80% {
+top:-2025px;
+}
+ 95% {
+top:-2025px;
+opacity:0.8;
+}
+ 100% {
+top:0
+}
+}
+ @-o-keyframes slider {
+ 0% {
+top:0
+}
+ 10% {
+top:0;
+opacity:0.8;
+}
+ 20% {
+top:-405px;
+opacity:1;
+}
+ 30% {
+top:-405px;
+opacity:0.8;
+}
+ 40% {
+top:-810px
+}
+ 50% {
+top:-810px;
+opacity:0.8;
+}
+ 60% {
+top:-1620px
+}
+ 70% {
+top:-1620px;
+opacity:0.8;
+}
+ 80% {
+top:-2025px;
+}
+ 95% {
+top:-2025px;
+opacity:0.8;
+}
+ 100% {
+top:0
+}
+}
+div#view-roomgallery {
 	margin:0 auto;
 	width:600px;
 	height:400px;
 	outline:1px dashed #999;
 	overflow:hidden;
-
-
+	border:5px solid #999;
 }
- 
-div#pic-container-room{
+div#pic-container-room {
 	width:600px;
 	height:1700px;
 	position:relative;
 	-webkit-animation:slider 8s infinite;
-	
+	-moz-animation:slider 8s infinite;
+	-o-animation:slider 8s infinite;
 }
-div#pic-container-room img{
-	margin:5px #999;
-	}
-div#slider{
-	padding:20px 120px;}
 
-#slider img{
-
-	border:2px solid #999;}
+div#slider {
+	padding:20px 120px;
+}
+#slider img {
+	border:2px solid #999;
+}
 #slider a {
-	
-
 	padding: 4px 6px;
-
 }
 #slider a:hover img {
 	border:4px solid #999;
-
 }
 /*---------------content-apartment-gallery-------------------*/	
 div.gallery-apartment {
@@ -1633,7 +1746,7 @@ div.right-salon-gallery {
 	margin-left:450px;
 }
 div.left-salon-gallery ul li {
-	list-style:circle #666;
+	
 }
 div.left-salon-gallery ul {
 	padding:30px 30px;
