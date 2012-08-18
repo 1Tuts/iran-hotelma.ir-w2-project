@@ -1537,13 +1537,13 @@ p.tell {
 	color:#000;
 }
 div.tel{
-	width:370px;
+	width:250px;
 	height:32px;
 	margin-bottom:5px;
 	background-color:#fc3;
 	border:1px solid #fc3;
 	border-radius:5px;
-	margin-right:16px;
+	margin-right:80px;
 	opacity:0.9;
 	}
 input.send {
