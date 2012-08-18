@@ -1910,6 +1910,10 @@ div.middle2-salon {
 div.content-salon-gallary-down a {
 	text-decoration:none;
 }
+div.content-salon-gallary-down a:hover{
+	opacity:0.8;	
+	
+}
 div.content-salon-gallary-down img {
 	border:3px solid #222 !important;
 	-webkit-box-shadow: 2px 2px 8px #999999;
