@@ -143,7 +143,6 @@ div.logoimage {
 }
 /*-------------banner----------------------------------------------------------------------------------------*/
 div.banner {
-	background-image:url(../images/backcontentmaster.jpg);
 	min-width:950px;
 	height:300px;
 	padding-bottom:40px;
@@ -538,7 +537,7 @@ div.ridown a:hover {
 }
 /*-------------content2----------------------------------------------------------------------------------------*/
 div.content2 {
-	background-image:url(../images/backcontent2%20copy.jpg);
+	background-image:url(../images/backcontent2.jpg);
 	background-repeat:repeat;
 	width:auto;
 	height:340px
@@ -718,7 +717,7 @@ h4.bt a:hover {
 }
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
-	background-image:url(../images/backcontent2%20copy.jpg);
+	background-image:url(../images/backcontent2.jpg);
 	width:auto;
 	height:210px;
 	border-top:3px dashed #999999;
@@ -830,7 +829,7 @@ div.gallery-apartment {
 }
 div.pic-gallery-apartment {
 	width:auto;
-	min-height:560px;
+	min-height:610px;
 	position:relative;
 }
 div.pic-gallery-apartment h2 {
@@ -1033,6 +1032,7 @@ div.reserv-date table {
 	max-width:345px;
 	height:300px;
 }
+
 div.contact-info table {
 	width:345px;
 	height:300px;
@@ -1099,6 +1099,7 @@ div.key-send td {
 	background-color:#333;
 	color:white;
 }
+
 /*-------- ENTEHAYE SAFE RESERV------*/
 /*-------------content-aboutus-------------------------------------------------------------------------------------------------*/
 div.content-aboutus {
@@ -1285,7 +1286,7 @@ div.content-coffeeshop-middle {
 div.boxcafe {
 	width:auto;
 	height:350px;
-	padding-right:80px;
+	padding-right:45px;
 }
 div.boxcafe img {
 	border-radius:10%;
@@ -1321,14 +1322,16 @@ div.table #table1-roomr td, div.table #table1-rooml td {
 	border:1px solid #CCC !important;
 	border-color:#e3c064 !important;
 }
-div.table #table1-rooml {
-	margin-right:70px;
+
+div.table #table1-roomr,div.table #table1-rooml{
+		margin-right:80px;
 }
 div.content-coffeeshop-down h4, div.content-coffeeshop-up h4 {
-	text-shadow:2px 2px 5px #e3c064;
 	color:#e3c064;
 	font-size:24px;
-}/*--------------------ENTEHAYE COFFEE-------------*/
+	
+}
+/*--------------------ENTEHAYE COFFEE-------------*/
 /*--------------------content-roomservices------------------------------------------------------------------------------*/
 div.content-roomservices {
 	background-image:url(../images/backcontentmaster.jpg);
