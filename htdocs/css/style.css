@@ -1223,7 +1223,7 @@ div.contentdown-aboutus-down {
 	-ms-box-shadow:inset 0px 0px 40px 0px #FFF;
 	-o-box-shadow:inset 0px 0px 40px 0px #FFF;
 	-webkit-box-shadow:inset 0px 0px 40px 0px #FFF;
-	padding-left:200px;
+	padding-left:176px;
 }
 #six {
 	left:30px;
@@ -1325,7 +1325,9 @@ div.table #table1-rooml {
 	margin-right:70px;
 }
 div.content-coffeeshop-down h4, div.content-coffeeshop-up h4 {
+	text-shadow:2px 2px 5px #e3c064;
 	color:#e3c064;
+	font-size:24px;
 }/*--------------------ENTEHAYE COFFEE-------------*/
 /*--------------------content-roomservices------------------------------------------------------------------------------*/
 div.content-roomservices {
@@ -1650,16 +1652,17 @@ h4.salon-text {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:15px;
 }
-h4.salon-text a:link {
+a.salon-buttom:link span  {
 	text-decoration:none;
 }
-h4.salon-text a:visited {
+a.salon-buttom:visited span {
 	text-decoration:none;
 }
-h4.salon-text a:hover {
-	text-decoration:none;
+a.salon-buttom:hover span{
+	text-decoration:underline;
+	color:#FFCC33;	
 }
-h4.salon-text a:active {
+a.salon-buttom:active span {
 	text-decoration:none;
 }
 a.salon-buttom {
@@ -1667,6 +1670,10 @@ a.salon-buttom {
 	font-size:16px;
 	color:#FC0;
 	text-decoration:none !important;
+}
+a.salon-buttom span{
+	color:#FC0;
+	text-decoration:none !important;	
 }
 .gallery-image {
 	-webkit-box-shadow:5px 5px 8px #999999;
