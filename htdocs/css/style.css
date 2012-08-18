@@ -446,16 +446,13 @@ div.contentleft {
 	width:280px;
 	height:270px;
 }
-table.index-form {
+.index-form {
 	opacity:.8;
 	margin:0 auto;
 	width:200px;
 	height:270px;
 	background-color:#333;
 }
-table.index-form td{
-	width:100px;
-	padding:0 5px;}
 td.titleform {
 	color:#FC0;
 	font-family:Tahoma, Geneva, sans-serif;
@@ -774,7 +771,6 @@ div.pic-gallery-detail {
 	top:180px;
 }
 #images {
-	
 width: 400px;
 	height: 350px;
 	overflow: hidden;
@@ -1643,7 +1639,7 @@ div.content-salon-gallary {
 	background-image:url(../images/backcontentmaster.jpg);
 	background-repeat:repeat;
 	width:auto;
-	min-height:950px;
+	min-height:700px;
 	padding:80px;
 }
 div.content-salon-gallary-up {
@@ -1719,7 +1715,7 @@ div.content-salon-gallary-down p {
 /*------------------------------------salon-conferance-gallary------------------------------------------------*/
 div.content-salon-gallary-up1 {
 	width:auto;
-	height:400px;
+	min-height:400px;
 	padding:50px 100px;
 }
 div.content-salon-gallary-up1 > iframe {
