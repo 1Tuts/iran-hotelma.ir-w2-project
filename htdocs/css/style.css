@@ -782,6 +782,8 @@ div.pic-gallery-detail {
 	20%{ left:0;}
 	250%{ left:-600px;}
 	40%{ left:-600px;}
+	450%{ left:-1200px;}
+	60%{ left:-1200px;}
 	
 	
 	}
@@ -798,11 +800,11 @@ div.view-room-gallery{
 		width:1250px;
 	height:400px;
 	position:relative;
-webkit-animation:slide1 2s infinite;
+webkit-animation:slide1 0.5 infinite;
 
 	overflow: hidden;
 	position: relative;
-	margin: 20px auto;
+	margin: 0 auto;
 }
 #images img {
 	width: 400px;
