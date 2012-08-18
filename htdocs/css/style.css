@@ -775,13 +775,13 @@ div.pic-gallery-room h2 {
 	0%{ top:0 }
 	10%{ top:0 }
 	20%{ top:-405px }
-	40%{ top:-405px }
+	30%{ top:-405px }
+	40%{ top:-810px }
 	50%{ top:-810px }
-	70%{ top:-810px }
-	80%{ top:-1620px}
-	90%{ top:-1620px }
-	95%{ top:-3240px }
-	99%{ top:-3240px;}
+	60%{ top:-1620px}
+	70%{ top:-1620px }
+	80%{ top:-2020px }
+	95%{ top:-2020px;}
 	100%{ top:0 }
 }
  
@@ -804,7 +804,8 @@ div#pic-container-room{
 	
 }
 div#pic-container-room img{
-	border:10px #666666;}
+	margin:5px #999;
+	}
 div#slider{
 	padding:20px 120px;}
 
