@@ -772,32 +772,39 @@ div.pic-gallery-room h2 {
 }
 
 @-webkit-keyframes slider {
-	0%{ left:0 }
-	10%{ left:0 }
-	20%{ left:-605px }
-	40%{ left:-605px }
-	50%{ left:-1210px }
-	70%{ left:-1210px }
-	90%{ left:-1210px }
-	95%{ left:-1240px }
-	100%{ left:0 }
+	0%{ top:0 }
+	10%{ top:0 }
+	20%{ top:-405px }
+	40%{ top:-405px }
+	50%{ top:-810px }
+	70%{ top:-810px }
+	80%{ top:-1620px}
+	90%{ top:-1620px }
+	95%{ top:-3240px }
+	99%{ top:-3240px;}
+	100%{ top:0 }
 }
  
 div#view-roomgallery{
-	padding:20px 0;
+
 	margin:0 auto;
 	width:600px;
 	height:400px;
-	outline:1px dashed #999;	
+	outline:1px dashed #999;
 	overflow:hidden;
+
+
 }
  
 div#pic-container-room{
-	width:1830px;
-	height:400px;
+	width:600px;
+	height:1700px;
 	position:relative;
 	-webkit-animation:slider 8s infinite;
+	
 }
+div#pic-container-room img{
+	border:10px #666666;}
 div#slider{
 	padding:20px 120px;}
 
