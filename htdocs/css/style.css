@@ -710,12 +710,7 @@ h4.bt a:hover {
 	-moz-box-shadow:2px 2px 8px #999999;
 	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
 }
-#g1:hover {
-	-webkit-transform:rotate(-15deg);
-}
-#g2:hover {
-	-webkit-transform:rotate(15deg);
-}
+
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
 	background-image:url(../images/backcontent2%20copy.jpg);
@@ -768,24 +763,27 @@ div.pic-gallery-room h2 {
 	color:#FFF;
 	margin-right:130px;
 	font-family:Tahoma, Geneva, sans-serif;
-	padding-bottom:20px;
+	line-height:30px;
+	
 }
+a#back{}
 
 @-webkit-keyframes slider {
 	0%{ top:0 }
-	10%{ top:0 }
-	20%{ top:-405px }
-	30%{ top:-405px }
+	10%{ top:0 ; opacity:0.8;  }
+	20%{ top:-405px; opacity:1; }
+	30%{ top:-405px;opacity:0.8;  }
 	40%{ top:-810px }
-	50%{ top:-810px }
+	50%{ top:-810px;opacity:0.8;  }
 	60%{ top:-1620px}
-	70%{ top:-1620px }
-	80%{ top:-2020px }
-	95%{ top:-2020px;}
+	70%{ top:-1620px;opacity:0.8;  }
+	80%{ top:-2025px ;}
+	95%{ top:-2025px;opacity:0.8; }
 	100%{ top:0 }
 }
  
 div#view-roomgallery{
+	
 
 	margin:0 auto;
 	width:600px;
