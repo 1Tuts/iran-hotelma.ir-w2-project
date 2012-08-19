@@ -772,11 +772,26 @@ h4#back1 {
 	0%{ top:0 }
 	10%{ top:0 }
 	20%{ top:-400px }
-	40%{ top:-400px }
+	30%{ top:-400px }
+	40%{ top:-800px }
 	50%{ top:-800px }
-	70%{ top:-800px }
-	90%{ top:-800px}
-	95%{ top:-810px }
+	60%{ top:-1600px}
+	70%{ top:-1600px }
+	80%{ top:-2000px }
+	90%{ top:-2000px;}
+	100%{ top:0 }
+}
+@-ms-keyframes slider {
+	0%{ top:0 }
+	10%{ top:0 }
+	20%{ top:-400px }
+	30%{ top:-400px }
+	40%{ top:-800px }
+	50%{ top:-800px }
+	60%{ top:-1600px}
+	70%{ top:-1600px }
+	80%{ top:-2000px }
+	90%{ top:-2000px;}
 	100%{ top:0 }
 }
 @-moz-keyframes slider {
