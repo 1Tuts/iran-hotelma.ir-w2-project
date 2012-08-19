@@ -553,7 +553,7 @@ div.ridown a:hover {
 }
 /*-------------content2----------------------------------------------------------------------------------------*/
 div.content2 {
-	background-image:url(../images/backcontent2%20copy.jpg);
+	background-image:url(../images/backcontent2.jpg);
 	background-repeat:repeat;
 	width:auto;
 	height:340px
@@ -729,7 +729,7 @@ h4.bt a:hover {
 }
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
-	background-image:url(../images/backcontent2%20copy.jpg);
+	background-image:url(../images/backcontent2.jpg);
 	width:auto;
 	height:210px;
 	border-top:3px dashed #999999;
