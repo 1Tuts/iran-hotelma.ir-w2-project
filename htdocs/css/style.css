@@ -746,18 +746,18 @@ div.gallery-rooms {
 	min-height:770px;
 	background-image:url(../images/backcontentmaster.jpg);
 }
-h3.title-page{
+h2.title-page{
 	
-	font-family:Tahoma, Geneva, sans-serif;
+	
 	font-size:25px;
-
+	font-family:"Arial Black", Gadget, sans-serif
 	}
 div.pic-gallery-room {
 	width:auto;
 	min-height:560px;
 	position:relative;
 }
-div.pic-gallery-room h3{
+div.pic-gallery-room h2{
 	font-size:24px;
 	font-weight:bold;
 	color:#FC0;
