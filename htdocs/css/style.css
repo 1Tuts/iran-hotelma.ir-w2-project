@@ -672,7 +672,7 @@ div.left-room-gallery ul li {
 div.left-room-gallery ul {
 	padding:30px 30px;
 }
-#room-text {
+.room-text1 {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-weight:bold;
 	padding:15px 0;
@@ -783,7 +783,89 @@ div.pic-gallery-room h2 {
 }
 a#back {
 }
+ @-moz-keyframes slider {
+ 0% {
+top:0
+}
+ 10% {
+top:0;
+opacity:0.8;
+}
+ 20% {
+top:-405px;
+opacity:1;
+}
+ 30% {
+top:-405px;
+opacity:0.8;
+}
+ 40% {
+top:-810px
+}
+ 50% {
+top:-810px;
+opacity:0.8;
+}
+ 60% {
+top:-1620px
+}
+ 70% {
+top:-1620px;
+opacity:0.8;
+}
+ 80% {
+top:-2025px;
+}
+ 95% {
+top:-2025px;
+opacity:0.8;
+}
+ 100% {
+top:0
+}
+}
  @-webkit-keyframes slider {
+ 0% {
+top:0
+}
+ 10% {
+top:0;
+opacity:0.8;
+}
+ 20% {
+top:-405px;
+opacity:1;
+}
+ 30% {
+top:-405px;
+opacity:0.8;
+}
+ 40% {
+top:-810px
+}
+ 50% {
+top:-810px;
+opacity:0.8;
+}
+ 60% {
+top:-1620px
+}
+ 70% {
+top:-1620px;
+opacity:0.8;
+}
+ 80% {
+top:-2025px;
+}
+ 95% {
+top:-2025px;
+opacity:0.8;
+}
+ 100% {
+top:0
+}
+}
+ @-o-keyframes slider {
  0% {
 top:0
 }
@@ -830,12 +912,15 @@ div#view-roomgallery {
 	height:400px;
 	outline:1px dashed #999;
 	overflow:hidden;
+	border:5px solid #999;
 }
 div#pic-container-room {
 	width:600px;
 	height:1700px;
 	position:relative;
 	-webkit-animation:slider 8s infinite;
+	-moz-animation:slider 8s infinite;
+	-o-animation:slider 8s infinite;
 }
 div#pic-container-room img {
 	margin:5px #999;
