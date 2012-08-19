@@ -762,12 +762,13 @@ div.pic-gallery-room h2 {
 	padding-top:70px;
 	padding-bottom:20px;
 }
-#back {
+h4#back1 {
 	text-decoration:none;
 	color:#FFF;
-	margin-right:130px;
+	padding-right:50px;
 	font-family:Tahoma, Geneva, sans-serif;
-	padding-bottom:20px;
+	padding-bottom:50px;
+	
 }
 
 @-webkit-keyframes slider {
@@ -779,18 +780,20 @@ div.pic-gallery-room h2 {
 	50%{ top:-810px }
 	60%{ top:-1620px}
 	70%{ top:-1620px }
-	80%{ top:-2020px }
-	95%{ top:-2020px;}
+	80%{ top:-1620px }
+	90%{ top:-1630px;}
 	100%{ top:0 }
 }
  
 div#view-roomgallery{
+	margin-top:40px transparent;
 
 	margin:0 auto;
 	width:600px;
 	height:400px;
-	outline:1px dashed #999;
+	
 	overflow:hidden;
+	border:10px groove #666666;
 
 
 }
