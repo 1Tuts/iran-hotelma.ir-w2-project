@@ -746,12 +746,18 @@ div.gallery-rooms {
 	min-height:770px;
 	background-image:url(../images/backcontentmaster.jpg);
 }
+h3.title-page{
+	
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:25px;
+
+	}
 div.pic-gallery-room {
 	width:auto;
 	min-height:560px;
 	position:relative;
 }
-div.pic-gallery-room h2 {
+div.pic-gallery-room h3{
 	font-size:24px;
 	font-weight:bold;
 	color:#FC0;
@@ -860,6 +866,56 @@ div#slider{
 #slider a:hover img {
 	border:4px solid #999;
 
+}
+div.content-salon-gallary-down {
+	width:auto;
+	height:200px;
+}
+div.left-salon {
+	float:left;
+	width:140px;
+	height:140px;
+	padding:30px;
+}
+div.right-salon {
+	float:right;
+	width:140px;
+	height:140px;
+	padding:30px;
+}
+div.middle-salon {
+	width:auto;
+	height:140px;
+	float:left;
+	padding:30px;
+}
+div.middle2-salon {
+	margin-left:400px;
+	margin-right:200px;
+	width:auto;
+	height:140px;
+	padding:30px;
+}
+div.content-salon-gallary-down a {
+	text-decoration:none;
+}
+div.content-salon-gallary-down a:hover{
+	opacity:0.8;	
+	
+}
+div.content-salon-gallary-down img {
+	border:3px solid #222 !important;
+	-webkit-box-shadow: 2px 2px 8px #999999;
+	-ms-box-shadow: 2px 2px 8px #999999;
+	-moz-box-shadow: 2px 2px 8px #999999;
+	-o-box-shadow: 2px 2px 8px #999999;
+}
+div.content-salon-gallary-down p {
+	text-align:center;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#e3c064;
+	padding-top:20px;
 }
 /*---------------content-apartment-gallery-------------------*/	
 div.gallery-apartment {
