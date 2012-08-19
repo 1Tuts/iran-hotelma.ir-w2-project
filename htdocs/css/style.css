@@ -431,6 +431,9 @@ div.cocenter {
 	left:10px;
 	right:10px;
 }
+a.soghat img:hover{
+	
+	cursor:pointer;}
 /*--------------contentdown-------------------------------------------------------------------------------------*/
 div.contentdown {
 	height:120px;
@@ -455,9 +458,10 @@ table.index-form {
 }
 table.index-form td {
 	padding-right:10px;
+	
 }
 td.titleform {
-	width:100px;
+	width:120px;
 	height:15px;
 	vertical-align:bottom;
 	color:#FC0;
@@ -527,7 +531,7 @@ h2.wellcometext {
 	font-size:16px;
 	font-weight:bold;
 	color:#FC3;
-	text-shadow:2px 2px 4px #fc3;
+	text-shadow:2px 2px 4px #666;
 }
 h2.text {
 	padding-top:40px;
@@ -564,7 +568,7 @@ h1.content2-title {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	font-weight:bold;
-	padding:10px 5px;
+	padding:15px 5px;
 	line-height:10px;
 }
 .rs img {
