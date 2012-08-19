@@ -667,7 +667,7 @@ div.right-room-gallery {
 	margin-left:450px;
 }
 div.left-room-gallery ul li {
-	list-style:circle #666;
+
 }
 div.left-room-gallery ul {
 	padding:30px 30px;
@@ -922,9 +922,7 @@ div#pic-container-room {
 	-moz-animation:slider 8s infinite;
 	-o-animation:slider 8s infinite;
 }
-div#pic-container-room img {
-	margin:5px #999;
-}
+
 div#slider {
 	padding:20px 120px;
 }
@@ -1727,7 +1725,7 @@ div.right-salon-gallery {
 	margin-left:450px;
 }
 div.left-salon-gallery ul li {
-	list-style:circle #666;
+	
 }
 div.left-salon-gallery ul {
 	padding:30px 30px;
