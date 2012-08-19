@@ -146,6 +146,7 @@ div.banner {
 	min-width:950px;
 	height:300px;
 	padding-bottom:40px;
+	background-image:url(../images/backcontentmaster.jpg);
 }
 div.slider {
 	background-color:#999;
@@ -448,7 +449,7 @@ div.contentleft {
 .index-form {
 	opacity:.8;
 	margin:0 auto;
-	width:200px;
+	width:250px;
 	height:270px;
 	background-color:#333;
 }
@@ -774,14 +775,14 @@ h4#back1 {
 @-webkit-keyframes slider {
 	0%{ top:0 }
 	10%{ top:0 }
-	20%{ top:-405px }
-	30%{ top:-405px }
-	40%{ top:-810px }
-	50%{ top:-810px }
-	60%{ top:-1620px}
-	70%{ top:-1620px }
-	80%{ top:-1620px }
-	90%{ top:-1630px;}
+	20%{ top:-400px }
+	30%{ top:-400px }
+	40%{ top:-800px }
+	50%{ top:-800px }
+	60%{ top:-1600px}
+	70%{ top:-1600px }
+	80%{ top:-2000px }
+	90%{ top:-2000px;}
 	100%{ top:0 }
 }
  
