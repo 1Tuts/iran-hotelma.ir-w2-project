@@ -776,7 +776,7 @@ h4#back1 {
 	50%{ top:-800px }
 	70%{ top:-800px }
 	90%{ top:-800px}
-	95%{ top:-1600px }
+	95%{ top:-810px }
 	100%{ top:0 }
 }
 @-moz-keyframes slider {
