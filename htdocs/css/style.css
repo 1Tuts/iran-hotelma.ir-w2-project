@@ -1026,6 +1026,9 @@ div.rules ol li {
 	direction:rtl;
 	margin-right:8px;
 }
+h4#title-form-re{
+	list-style-type:none;
+	padding:20px;}
 div.rules h4 {
 	color:#e3c022;
 	float:right;
