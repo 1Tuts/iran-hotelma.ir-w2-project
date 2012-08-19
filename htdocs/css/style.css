@@ -446,23 +446,29 @@ div.contentleft {
 	width:280px;
 	height:270px;
 }
-.index-form {
+table.index-form {
 	opacity:.8;
 	margin:0 auto;
-	width:200px;
+	width:100%;
 	height:270px;
 	background-color:#333;
 }
+table.index-form td {
+	padding-right:10px;
+}
 td.titleform {
+	width:100px;
+	height:15px;
+	vertical-align:bottom;
 	color:#FC0;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:9px;
-	padding:0 5px;
+	padding:5px 10px;
 }
 #line {
 	padding:10px 0;
 	display:block;
-	border-bottom:2px double #FFFF66;
+	border-bottom:2px double #999;
 }
 td.selection {
 	padding:2px 2px;
@@ -470,9 +476,7 @@ td.selection {
 }
 .formkey {
 	background-color:#575850;
-	position:relative;
-	left:60px;
-	right:60px;
+	margin:0 auto;
 	color:#000000;
 	font-size:10px;
 	font-family:Tahoma, Geneva, sans-serif;
@@ -480,6 +484,7 @@ td.selection {
 	height:30px;
 	border:1px solid #666;
 	border-radius:5px;
+	cursor:pointer;
 }
 .formkey:hover {
 	background-color:#333333;
@@ -487,7 +492,13 @@ td.selection {
 }
 .scrol {
 	background-color:#999;
+	
 }
+.scrol:hover{
+	background-color:#AFB4B1;} 
+option.values:hover{
+	color:#FFCC00;
+	background-color:#0000CC;}	
 .checkreserve {
 	background:#CC6633;
 }
@@ -568,6 +579,7 @@ ul.emkanatser {
 	list-style-type:none;
 }
 .emkanat {
+	cursor:pointer;
 	-webkit-box-shadow:2px 2px 8px #999999;
 	-moz-box-shadow:2px 2px 8px #999999;
 }
@@ -668,12 +680,13 @@ h4.room-text {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:15px;
 }
-a.room-buttom span{
+a.room-buttom span {
 	text-decoration:none;
-	color:#FFCC33;}
-a.room-buttom:hover span{
+	color:#FFCC33;
+}
+a.room-buttom:hover span {
 	text-decoration:underline;
-	color:#FFCC33;	
+	color:#FFCC33;
 }
 a.room-buttom {
 	padding:50px 0;
@@ -710,7 +723,6 @@ h4.bt a:hover {
 	-moz-box-shadow:2px 2px 8px #999999;
 	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
 }
-
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
 	background-image:url(../images/backcontent2%20copy.jpg);
@@ -764,61 +776,77 @@ div.pic-gallery-room h2 {
 	margin-right:130px;
 	font-family:Tahoma, Geneva, sans-serif;
 	line-height:30px;
-	
 }
-a#back{}
-
-@-webkit-keyframes slider {
-	0%{ top:0 }
-	10%{ top:0 ; opacity:0.8;  }
-	20%{ top:-405px; opacity:1; }
-	30%{ top:-405px;opacity:0.8;  }
-	40%{ top:-810px }
-	50%{ top:-810px;opacity:0.8;  }
-	60%{ top:-1620px}
-	70%{ top:-1620px;opacity:0.8;  }
-	80%{ top:-2025px ;}
-	95%{ top:-2025px;opacity:0.8; }
-	100%{ top:0 }
+a#back {
 }
- 
-div#view-roomgallery{
-	
-
+ @-webkit-keyframes slider {
+ 0% {
+top:0
+}
+ 10% {
+top:0;
+opacity:0.8;
+}
+ 20% {
+top:-405px;
+opacity:1;
+}
+ 30% {
+top:-405px;
+opacity:0.8;
+}
+ 40% {
+top:-810px
+}
+ 50% {
+top:-810px;
+opacity:0.8;
+}
+ 60% {
+top:-1620px
+}
+ 70% {
+top:-1620px;
+opacity:0.8;
+}
+ 80% {
+top:-2025px;
+}
+ 95% {
+top:-2025px;
+opacity:0.8;
+}
+ 100% {
+top:0
+}
+}
+div#view-roomgallery {
 	margin:0 auto;
 	width:600px;
 	height:400px;
 	outline:1px dashed #999;
 	overflow:hidden;
-
-
 }
- 
-div#pic-container-room{
+div#pic-container-room {
 	width:600px;
 	height:1700px;
 	position:relative;
 	-webkit-animation:slider 8s infinite;
-	
 }
-div#pic-container-room img{
+div#pic-container-room img {
 	margin:5px #999;
-	}
-div#slider{
-	padding:20px 120px;}
-
-#slider img{
-
-	border:2px solid #999;}
+}
+div#slider {
+	padding:20px 120px;
+}
+#slider img {
+	border:2px solid #999;
+}
 #slider a {
-	
-
 	padding: 4px 6px;
-
 }
 #slider a:hover img {
 	border:4px solid #999;
-
 }
 /*---------------content-apartment-gallery-------------------*/	
 div.gallery-apartment {
