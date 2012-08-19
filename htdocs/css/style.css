@@ -651,9 +651,7 @@ div.right-room-gallery {
 	height:380px;
 	margin-left:450px;
 }
-div.left-room-gallery ul li {
-	list-style:circle #666;
-}
+
 div.left-room-gallery ul {
 	padding:30px 30px;
 }
@@ -829,7 +827,7 @@ h4#back1 {
 }
  
 div#view-roomgallery{
-	margin-top:40px transparent;
+	margin-top:40px;
 
 	margin:0 auto;
 	width:600px;
