@@ -771,7 +771,19 @@ h4#back1 {
 	padding-bottom:50px;
 	
 }
-
+@keyframes slider{
+		0%{ top:0 }
+	10%{ top:0 }
+	20%{ top:-400px }
+	30%{ top:-400px }
+	40%{ top:-800px }
+	50%{ top:-800px }
+	60%{ top:-1600px}
+	70%{ top:-1600px }
+	80%{ top:-2000px }
+	90%{ top:-2000px;}
+	100%{ top:0 }
+	}
 @-webkit-keyframes slider {
 	0%{ top:0 }
 	10%{ top:0 }
@@ -844,6 +856,9 @@ div#pic-container-room{
 	height:1700px;
 	position:relative;
 	-webkit-animation:slider 8s infinite;
+	-moz-animation:slider 8s infinite;
+	-ms-animation:slider 8s infinite;
+	-o-animation:slider 8s infinite;
 	
 }
 
