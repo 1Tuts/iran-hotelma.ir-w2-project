@@ -146,6 +146,7 @@ div.banner {
 	min-width:950px;
 	height:300px;
 	padding-bottom:40px;
+	background-image:url(../images/backcontentmaster.jpg);
 }
 div.slider {
 	background-color:#999;
@@ -445,26 +446,31 @@ div.contentleft {
 	width:280px;
 	height:270px;
 }
-.index-form {
+table.index-form {
+	padding:0 10px;
+	outline:1px dashed #CCCCCC;
 	opacity:.8;
 	margin:0 auto;
-	width:200px;
+	width:270px;
 	height:270px;
 	background-color:#333;
+	
 }
+
 td.titleform {
 	color:#FC0;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:9px;
-	padding:0 5px;
+	padding:0 10px;
 }
-#line {
-	padding:10px 0;
-	display:block;
-	border-bottom:2px double #FFFF66;
+td#line {
+	
+	padding:10px 10px;
+	display:inline-block;
+	border-bottom:1px dashed #CCCCCC;
 }
 td.selection {
-	padding:2px 2px;
+	padding:2px 10px;
 	text-align:right;
 }
 .formkey {
@@ -479,6 +485,7 @@ td.selection {
 	height:30px;
 	border:1px solid #666;
 	border-radius:5px;
+	cursor:pointer;
 }
 .formkey:hover {
 	background-color:#333333;
@@ -486,6 +493,7 @@ td.selection {
 }
 .scrol {
 	background-color:#999;
+
 }
 .checkreserve {
 	background:#CC6633;
@@ -493,54 +501,41 @@ td.selection {
 ul.formreserve li {
 	list-style-type:none;
 }
+/*----------------------contentright------------------*/
 div.contentright {
 	width:auto;
 	height:inherit;
 	margin-left:300px;
 }
-div.ledown {
-	width:auto;
-	height:290px;
-	float:left;
-}
-div.ridown {
-	width:auto;
-	height:290px;
-}
-.well {
-	padding:20px 20px;
-}
-h2.wellcometext {
+/*
+ul.wellcome-index{
+	background-color:#333333;
+	opacity:0.7;
+	display:inline-block;
+	padding:20px 10px;
+}*/
+h2#wellcome{
 	font-family:Tahoma, Geneva, sans-serif;
-	font-size:16px;
+	color:#Fc3;
 	font-weight:bold;
-	color:#FC3;
-	text-shadow:2px 2px 4px #fc3;
-}
-h2.text {
-	padding-top:40px;
+	font-size:18px;
+	text-align:right;
+	line-height:15px;
+	padding:20px 30px;}
+p#wellcome-text{
 	font-family:Tahoma, Geneva, sans-serif;
-	font-size:14px;
-	line-height:20px;
-	color:#fff;
-}
-ul.well li {
-	list-style-type:none;
-}
-a.zang img {
-	padding:10px;
-	width:200px;
-	height:150px;
-}
-div.ridown a:hover {
-	opacity:0.8;
-}
+	color:#FFF;
+	font-size:16px;
+	text-align:right;
+	line-height:25px;
+	padding:20px 30px;
+	width:530px;}
 /*-------------content2----------------------------------------------------------------------------------------*/
 div.content2 {
 	background-image:url(../images/backcontent2.jpg);
 	background-repeat:repeat;
 	width:auto;
-	height:340px
+	min-height:380px
 }
 div.contentleft2 {
 	width:330px;
@@ -552,11 +547,11 @@ h1.content2-title {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	font-weight:bold;
-	padding:10px 5px;
+	padding:10px 0px;
 	line-height:10px;
 }
 .rs img {
-	padding:10px;
+	
 	opacity:.5;
 }
 .rs img:hover {
@@ -566,9 +561,17 @@ ul.emkanatser {
 	padding:20px 20px;
 	list-style-type:none;
 }
+ul.emkanatser li{
+	line-height:15px;
+}
+li.liner{
+	padding:10px 0;}
+	
 .emkanat {
+	padding:10px;
 	-webkit-box-shadow:2px 2px 8px #999999;
 	-moz-box-shadow:2px 2px 8px #999999;
+	
 }
 div.contentright2 {
 	width:330px;
@@ -580,6 +583,7 @@ div.contentcenter2 {
 	height:inherit;
 	margin:0 330px;
 }
+
 h1.notename {
 	color:#FFF;
 	font-family:Tahoma, Geneva, sans-serif;
@@ -589,14 +593,15 @@ h1.notename {
 }
 h4.notetext {
 	opacity:.8;
-	color:#999;
+	color:#CCC;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:11px;
 	line-height:15px;
 	padding:5px 0;
 }
 h4.notewriter {
-	color:#FFC;
+	color:#FFF;
+	opacity:1;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:10px;
 }
@@ -614,6 +619,8 @@ h4.notewriter {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:10px;
 }
+li#room-ser-index{
+	padding-top:5px;}
 /*-------------content-rooms---------------------------------------------------------------------------------------*/	
 div.contentrooms {
 	background-image:url(../images/backcontentmaster.jpg);
@@ -649,9 +656,7 @@ div.right-room-gallery {
 	height:380px;
 	margin-left:450px;
 }
-div.left-room-gallery ul li {
-	list-style:circle #666;
-}
+
 div.left-room-gallery ul {
 	padding:30px 30px;
 }
@@ -709,12 +714,7 @@ h4.bt a:hover {
 	-moz-box-shadow:2px 2px 8px #999999;
 	border-image:url(../images/Untitled-4.gif) 20 20 20 20 stretch stretch;
 }
-#g1:hover {
-	-webkit-transform:rotate(-15deg);
-}
-#g2:hover {
-	-webkit-transform:rotate(15deg);
-}
+
 /*-------------content-rooms-down---------------------------------------------------------------------------------------*/	
 div.contentroomd {
 	background-image:url(../images/backcontent2.jpg);
@@ -749,12 +749,18 @@ div.gallery-rooms {
 	min-height:770px;
 	background-image:url(../images/backcontentmaster.jpg);
 }
+h2.title-page{
+	
+	
+	font-size:25px;
+	font-family:"Arial Black", Gadget, sans-serif
+	}
 div.pic-gallery-room {
 	width:auto;
 	min-height:560px;
 	position:relative;
 }
-div.pic-gallery-room h2 {
+div.pic-gallery-room h2{
 	font-size:24px;
 	font-weight:bold;
 	color:#FC0;
@@ -762,35 +768,90 @@ div.pic-gallery-room h2 {
 	padding-top:70px;
 	padding-bottom:20px;
 }
-#back {
+h4#back1 {
 	text-decoration:none;
 	color:#FFF;
-	margin-right:130px;
+	padding-right:50px;
 	font-family:Tahoma, Geneva, sans-serif;
-	padding-bottom:20px;
+	padding-bottom:50px;
+	
 }
-
+@keyframes slider{
+		0%{ top:0 }
+	10%{ top:0 }
+	20%{ top:-400px }
+	30%{ top:-400px }
+	40%{ top:-800px }
+	50%{ top:-800px }
+	60%{ top:-1600px}
+	70%{ top:-1600px }
+	80%{ top:-2000px }
+	90%{ top:-2000px;}
+	100%{ top:0 }
+	}
 @-webkit-keyframes slider {
 	0%{ top:0 }
 	10%{ top:0 }
-	20%{ top:-405px }
-	30%{ top:-405px }
-	40%{ top:-810px }
-	50%{ top:-810px }
-	60%{ top:-1620px}
-	70%{ top:-1620px }
-	80%{ top:-2020px }
-	95%{ top:-2020px;}
+	20%{ top:-400px }
+	30%{ top:-400px }
+	40%{ top:-800px }
+	50%{ top:-800px }
+	60%{ top:-1600px}
+	70%{ top:-1600px }
+	80%{ top:-2000px }
+	90%{ top:-2000px;}
+	100%{ top:0 }
+}
+@-ms-keyframes slider {
+	0%{ top:0 }
+	10%{ top:0 }
+	20%{ top:-400px }
+	30%{ top:-400px }
+	40%{ top:-800px }
+	50%{ top:-800px }
+	60%{ top:-1600px}
+	70%{ top:-1600px }
+	80%{ top:-2000px }
+	90%{ top:-2000px;}
+	100%{ top:0 }
+}
+@-moz-keyframes slider {
+	0%{ top:0 }
+	10%{ top:0 }
+	20%{ top:-400px }
+	30%{ top:-400px }
+	40%{ top:-800px }
+	50%{ top:-800px }
+	60%{ top:-1600px}
+	70%{ top:-1600px }
+	80%{ top:-2000px }
+	90%{ top:-2000px;}
+	100%{ top:0 }
+}
+
+@-o-keyframes slider {
+	0%{ top:0 }
+	10%{ top:0 }
+	20%{ top:-400px }
+	30%{ top:-400px }
+	40%{ top:-800px }
+	50%{ top:-800px }
+	60%{ top:-1600px}
+	70%{ top:-1600px }
+	80%{ top:-2000px }
+	90%{ top:-2000px;}
 	100%{ top:0 }
 }
  
 div#view-roomgallery{
+	margin-top:40px;
 
 	margin:0 auto;
 	width:600px;
 	height:400px;
-	outline:1px dashed #999;
+	
 	overflow:hidden;
+	border:10px groove #666666;
 
 
 }
@@ -799,12 +860,13 @@ div#pic-container-room{
 	width:600px;
 	height:1700px;
 	position:relative;
-	-webkit-animation:slider 8s infinite;
+	-webkit-animation:slider 10s infinite;
+	-moz-animation:slider 18s infinite;
+	-ms-animation:slider 10s infinite;
+	-o-animation:slider 10s infinite;
 	
 }
-div#pic-container-room img{
-	margin:5px #999;
-	}
+
 div#slider{
 	padding:20px 120px;}
 
@@ -820,6 +882,56 @@ div#slider{
 #slider a:hover img {
 	border:4px solid #999;
 
+}
+div.content-salon-gallary-down {
+	width:auto;
+	height:200px;
+}
+div.left-salon {
+	float:left;
+	width:140px;
+	height:140px;
+	padding:30px;
+}
+div.right-salon {
+	float:right;
+	width:140px;
+	height:140px;
+	padding:30px;
+}
+div.middle-salon {
+	width:auto;
+	height:140px;
+	float:left;
+	padding:30px;
+}
+div.middle2-salon {
+	margin-left:400px;
+	margin-right:200px;
+	width:auto;
+	height:140px;
+	padding:30px;
+}
+div.content-salon-gallary-down a {
+	text-decoration:none;
+}
+div.content-salon-gallary-down a:hover{
+	opacity:0.8;	
+	
+}
+div.content-salon-gallary-down img {
+	border:3px solid #222 !important;
+	-webkit-box-shadow: 2px 2px 8px #999999;
+	-ms-box-shadow: 2px 2px 8px #999999;
+	-moz-box-shadow: 2px 2px 8px #999999;
+	-o-box-shadow: 2px 2px 8px #999999;
+}
+div.content-salon-gallary-down p {
+	text-align:center;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#e3c064;
+	padding-top:20px;
 }
 /*---------------content-apartment-gallery-------------------*/	
 div.gallery-apartment {
@@ -930,6 +1042,9 @@ div.rules ol li {
 	direction:rtl;
 	margin-right:8px;
 }
+h4#title-form-re{
+	list-style-type:none;
+	padding:20px;}
 div.rules h4 {
 	color:#e3c022;
 	float:right;
@@ -1022,7 +1137,7 @@ div.reserv-date {
 	min-height:345px;
 	border:1px dotted white;
 	border-radius:10%;
-	background-color:rgb(60,60,70);
+	background-color:#333;
 	opacity:0.75;
 }
 table {
@@ -1047,7 +1162,7 @@ div.contact-info {
 	margin-top:20px;
 	border:1px dotted white;
 	border-radius:10%;
-	background-color:rgb(60,60,70);
+	background-color:#333;
 	opacity:0.75;
 }
 div.contact-info input, div.add-service input, div.key-send input {
@@ -1065,12 +1180,12 @@ div.add-service {
 	margin-top:20px;
 	border:1px dotted white;
 	border-radius:8%;
-	background-color:rgb(60,60,70);
+	background-color:#333;
 	opacity:0.75;
 }
 div.add-service table {
 	width:345px;
-	min-height:120px;
+	min-height:120px;	
 }
 option {
 	width:15px;
@@ -1097,7 +1212,8 @@ div.key-send td {
 }
 #key:hover {
 	background-color:#333;
-	color:white;
+	color:#FFCC33;
+	cursor:pointer;
 }
 
 /*-------- ENTEHAYE SAFE RESERV------*/
@@ -1205,13 +1321,13 @@ div.contentdown-aboutus-middle {
 div.contentdown-aboutus-middle h1 {
 	color:#000;
 	text-shadow:2px 2px 5px #e3c064;
-	color:#e3c064;
+	color:#fc3;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:24px;
 }
 div.contentdown-aboutus-middle p {
 	color:#CCC;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Tahoma, Geneva, sans-serif;
 	font-size:18px;
 	line-height:25px;
 }
@@ -1321,14 +1437,20 @@ div.table #table1-roomr, div.table #table1-rooml {
 div.table #table1-roomr td, div.table #table1-rooml td {
 	border:1px solid #CCC !important;
 	border-color:#e3c064 !important;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-align:right;
+	vertical-align:middle;
 }
 
 div.table #table1-roomr,div.table #table1-rooml{
 		margin-right:80px;
 }
 div.content-coffeeshop-down h4, div.content-coffeeshop-up h4 {
-	color:#e3c064;
-	font-size:24px;
+	color:#fc3;
+	font-size:20px;
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
 	
 }
 /*--------------------ENTEHAYE COFFEE-------------*/
@@ -1345,15 +1467,18 @@ div.content-roomservices-up {
 	min-height:200px;
 	padding:10px 20px;
 }
+
 div.content-roomservices-up img {
 	float:left;
 }
 div.content-roomservices-up h1, div.content-roomservices-down h1 {
 	color:#000;
 	text-shadow:2px 2px 5px #e3c064;
-	color:#e3c064;
-	font-size:24px;
-	padding-bottom:10px;
+	color:#fc3;
+	font-size:20px;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-bottom:20px;
+	
 }
 div.content-roomservices-up ul {
 	list-style-type:square;
@@ -1361,6 +1486,8 @@ div.content-roomservices-up ul {
 }
 div.content-roomservices-up ul li {
 	color:#FFFFFF;
+	line-height:20px;
+	font-family:Tahoma, Geneva, sans-serif;
 }
 div.content-roomservices-middle {
 	width:auto;
@@ -1425,6 +1552,11 @@ table.table2-room tr, table.table1-room tr {
 table.table2-room td, table.table1-room td {
 	border:1px solid #CCC !important;
 	border-color:#e3c064 !important;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-align:right;
+	vertical-align:middle;
+	
 }
 div.content-roomservices-up a:link {
 	color:#009;
@@ -1637,9 +1769,7 @@ div.right-salon-gallery {
 	height:380px;
 	margin-left:450px;
 }
-div.left-salon-gallery ul li {
-	list-style:circle #666;
-}
+
 div.left-salon-gallery ul {
 	padding:30px 30px;
 }
@@ -2127,7 +2257,9 @@ div.content-salon-gallary-down a:visited {
 }
 /*-------------footer-----------------------------------------------------------------------------------------*/
 div.footer {
-	width:auto;
+	
+	
+		width:auto;
 	height:65px;
 	background-color:#333;
 }
