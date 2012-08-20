@@ -855,10 +855,10 @@ div#pic-container-room{
 	width:600px;
 	height:1700px;
 	position:relative;
-	-webkit-animation:slider 8s infinite;
-	-moz-animation:slider 8s infinite;
-	-ms-animation:slider 8s infinite;
-	-o-animation:slider 8s infinite;
+	-webkit-animation:slider 10s infinite;
+	-moz-animation:slider 18s infinite;
+	-ms-animation:slider 10s infinite;
+	-o-animation:slider 10s infinite;
 	
 }
 
