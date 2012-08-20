@@ -494,6 +494,7 @@ td.selection {
 ul.formreserve li {
 	list-style-type:none;
 }
+/*----------------------contentright------------------*/
 div.contentright {
 	width:auto;
 	height:inherit;
@@ -541,7 +542,7 @@ div.content2 {
 	background-image:url(../images/backcontent2.jpg);
 	background-repeat:repeat;
 	width:auto;
-	height:340px
+	min-height:380px
 }
 div.contentleft2 {
 	width:330px;
@@ -567,6 +568,8 @@ ul.emkanatser {
 	padding:20px 20px;
 	list-style-type:none;
 }
+li.liner{
+	padding:10px 0;}
 .emkanat {
 	-webkit-box-shadow:2px 2px 8px #999999;
 	-moz-box-shadow:2px 2px 8px #999999;
@@ -591,14 +594,15 @@ h1.notename {
 }
 h4.notetext {
 	opacity:.8;
-	color:#999;
+	color:#CCC;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:11px;
 	line-height:15px;
 	padding:5px 0;
 }
 h4.notewriter {
-	color:#FFC;
+	color:#FFF;
+	opacity:1;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:10px;
 }
@@ -616,6 +620,8 @@ h4.notewriter {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:10px;
 }
+li#room-ser-index{
+	padding-top:5px;}
 /*-------------content-rooms---------------------------------------------------------------------------------------*/	
 div.contentrooms {
 	background-image:url(../images/backcontentmaster.jpg);
@@ -2235,7 +2241,9 @@ div.content-salon-gallary-down a:visited {
 }
 /*-------------footer-----------------------------------------------------------------------------------------*/
 div.footer {
-	width:auto;
+	
+	
+		width:auto;
 	height:65px;
 	background-color:#333;
 }
