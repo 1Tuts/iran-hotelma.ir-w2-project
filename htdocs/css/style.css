@@ -680,7 +680,7 @@ a.room-buttom:hover span{
 	color:#FFCC33;	
 }
 a.room-buttom {
-	padding:50px 0;
+	text-decoration:none;
 }
 h4.bt a {
 	padding:0 50px;
