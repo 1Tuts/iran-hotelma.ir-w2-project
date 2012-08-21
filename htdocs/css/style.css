@@ -461,15 +461,16 @@ td.titleform {
 	color:#FC0;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:9px;
-	padding:0 5px;
+	padding:0 10px;
 }
-#line {
-	padding:10px 0;
+td#line {
+	
+	padding:10px 10px;
 	display:inline-block;
 	border-bottom:1px dashed #CCCCCC;
 }
 td.selection {
-	padding:2px 2px;
+	padding:2px 10px;
 	text-align:right;
 }
 .formkey {
@@ -492,6 +493,7 @@ td.selection {
 }
 .scrol {
 	background-color:#999;
+
 }
 .checkreserve {
 	background:#CC6633;
@@ -561,6 +563,7 @@ ul.emkanatser {
 }
 li.liner{
 	padding:10px 0;}
+	
 .emkanat {
 	-webkit-box-shadow:2px 2px 8px #999999;
 	-moz-box-shadow:2px 2px 8px #999999;
