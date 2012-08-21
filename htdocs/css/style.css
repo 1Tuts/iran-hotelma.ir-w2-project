@@ -1437,6 +1437,10 @@ div.table #table1-roomr, div.table #table1-rooml {
 div.table #table1-roomr td, div.table #table1-rooml td {
 	border:1px solid #CCC !important;
 	border-color:#e3c064 !important;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-align:right;
+	vertical-align:middle;
 }
 
 div.table #table1-roomr,div.table #table1-rooml{
@@ -1444,7 +1448,8 @@ div.table #table1-roomr,div.table #table1-rooml{
 }
 div.content-coffeeshop-down h4, div.content-coffeeshop-up h4 {
 	color:#e3c064;
-	font-size:24px;
+	font-size:18px;
+	font-family:Tahoma, Geneva, sans-serif;
 	
 }
 /*--------------------ENTEHAYE COFFEE-------------*/
