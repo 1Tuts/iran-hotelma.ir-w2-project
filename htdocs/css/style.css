@@ -547,11 +547,11 @@ h1.content2-title {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
 	font-weight:bold;
-	padding:10px 5px;
+	padding:10px 0px;
 	line-height:10px;
 }
 .rs img {
-	padding:10px;
+	
 	opacity:.5;
 }
 .rs img:hover {
@@ -561,10 +561,14 @@ ul.emkanatser {
 	padding:20px 20px;
 	list-style-type:none;
 }
+ul.emkanatser li{
+	line-height:15px;
+}
 li.liner{
 	padding:10px 0;}
 	
 .emkanat {
+	padding:10px;
 	-webkit-box-shadow:2px 2px 8px #999999;
 	-moz-box-shadow:2px 2px 8px #999999;
 	
@@ -579,6 +583,7 @@ div.contentcenter2 {
 	height:inherit;
 	margin:0 330px;
 }
+
 h1.notename {
 	color:#FFF;
 	font-family:Tahoma, Geneva, sans-serif;
