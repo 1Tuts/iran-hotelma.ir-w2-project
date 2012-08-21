@@ -1137,7 +1137,7 @@ div.reserv-date {
 	min-height:345px;
 	border:1px dotted white;
 	border-radius:10%;
-	background-color:rgb(60,60,70);
+	background-color:#333;
 	opacity:0.75;
 }
 table {
@@ -1162,7 +1162,7 @@ div.contact-info {
 	margin-top:20px;
 	border:1px dotted white;
 	border-radius:10%;
-	background-color:rgb(60,60,70);
+	background-color:#333;
 	opacity:0.75;
 }
 div.contact-info input, div.add-service input, div.key-send input {
@@ -1180,12 +1180,12 @@ div.add-service {
 	margin-top:20px;
 	border:1px dotted white;
 	border-radius:8%;
-	background-color:rgb(60,60,70);
+	background-color:#333;
 	opacity:0.75;
 }
 div.add-service table {
 	width:345px;
-	min-height:120px;
+	min-height:120px;	
 }
 option {
 	width:15px;
@@ -1212,7 +1212,8 @@ div.key-send td {
 }
 #key:hover {
 	background-color:#333;
-	color:white;
+	color:#FFCC33;
+	cursor:pointer;
 }
 
 /*-------- ENTEHAYE SAFE RESERV------*/
