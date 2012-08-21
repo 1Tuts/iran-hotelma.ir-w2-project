@@ -1326,7 +1326,7 @@ div.contentdown-aboutus-middle h1 {
 }
 div.contentdown-aboutus-middle p {
 	color:#CCC;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Tahoma, Geneva, sans-serif;
 	font-size:18px;
 	line-height:25px;
 }
@@ -1460,6 +1460,7 @@ div.content-roomservices-up {
 	min-height:200px;
 	padding:10px 20px;
 }
+
 div.content-roomservices-up img {
 	float:left;
 }
@@ -1467,8 +1468,10 @@ div.content-roomservices-up h1, div.content-roomservices-down h1 {
 	color:#000;
 	text-shadow:2px 2px 5px #e3c064;
 	color:#e3c064;
-	font-size:24px;
-	padding-bottom:10px;
+	font-size:20px;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-bottom:20px;
+	
 }
 div.content-roomservices-up ul {
 	list-style-type:square;
@@ -1476,6 +1479,8 @@ div.content-roomservices-up ul {
 }
 div.content-roomservices-up ul li {
 	color:#FFFFFF;
+	line-height:20px;
+	font-family:Tahoma, Geneva, sans-serif;
 }
 div.content-roomservices-middle {
 	width:auto;
@@ -1540,6 +1545,11 @@ table.table2-room tr, table.table1-room tr {
 table.table2-room td, table.table1-room td {
 	border:1px solid #CCC !important;
 	border-color:#e3c064 !important;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-align:right;
+	vertical-align:central;
+	
 }
 div.content-roomservices-up a:link {
 	color:#009;
