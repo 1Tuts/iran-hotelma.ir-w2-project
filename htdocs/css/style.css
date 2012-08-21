@@ -516,7 +516,7 @@ ul.wellcome-index{
 }*/
 h2#wellcome{
 	font-family:Tahoma, Geneva, sans-serif;
-	color:#FFCC00;
+	color:#Fc3;
 	font-weight:bold;
 	font-size:18px;
 	text-align:right;
@@ -1321,7 +1321,7 @@ div.contentdown-aboutus-middle {
 div.contentdown-aboutus-middle h1 {
 	color:#000;
 	text-shadow:2px 2px 5px #e3c064;
-	color:#e3c064;
+	color:#fc3;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:24px;
 }
@@ -1447,8 +1447,9 @@ div.table #table1-roomr,div.table #table1-rooml{
 		margin-right:80px;
 }
 div.content-coffeeshop-down h4, div.content-coffeeshop-up h4 {
-	color:#e3c064;
-	font-size:18px;
+	color:#fc3;
+	font-size:20px;
+	font-weight:bold;
 	font-family:Tahoma, Geneva, sans-serif;
 	
 }
@@ -1473,7 +1474,7 @@ div.content-roomservices-up img {
 div.content-roomservices-up h1, div.content-roomservices-down h1 {
 	color:#000;
 	text-shadow:2px 2px 5px #e3c064;
-	color:#e3c064;
+	color:#fc3;
 	font-size:20px;
 	font-family:Tahoma, Geneva, sans-serif;
 	padding-bottom:20px;
@@ -1554,7 +1555,7 @@ table.table2-room td, table.table1-room td {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:14px;
 	text-align:right;
-	vertical-align:central;
+	vertical-align:middle;
 	
 }
 div.content-roomservices-up a:link {
